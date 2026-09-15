@@ -8,13 +8,13 @@ Python uses only its standard library. PARI/GP performs model reduction, bounded
 
 ## Results
 
-The following exact witnesses improve the lower bounds in our saved ICARM snapshot:
+The table compares rank lower bounds from our saved ICARM snapshot (**Source**) with those certified by the included exact witnesses (**Proved here**).
 
-| Curve | Lower bound in the source snapshot | Lower bound proved here | Improvement | Included evidence |
-|---|---:|---:|---:|---|
-| [ICARM #199](https://elliptic-rank.icarm.cloud/curve/199) | 13 | **15** | +2 | [Points](examples/icarm-199/points.json), [certificate](examples/icarm-199/certificate.json) |
-| [ICARM #206](https://elliptic-rank.icarm.cloud/curve/206) | 12 | **14** | +2 | [Points](examples/icarm-206/points.json), [certificate](examples/icarm-206/certificate.json) |
-| [ICARM #212](https://elliptic-rank.icarm.cloud/curve/212) | 11 | **13** | +2 | [Points](examples/icarm-212/points.json), [certificate](examples/icarm-212/certificate.json) |
+| Curve | Source | Proved here | Gain | Evidence |
+|---|:---:|:---:|:---:|---|
+| [ICARM&nbsp;#199](https://elliptic-rank.icarm.cloud/curve/199) | 13 | **15** | +2 | [Points](examples/icarm-199/points.json), [certificate](examples/icarm-199/certificate.json) |
+| [ICARM&nbsp;#206](https://elliptic-rank.icarm.cloud/curve/206) | 12 | **14** | +2 | [Points](examples/icarm-206/points.json), [certificate](examples/icarm-206/certificate.json) |
+| [ICARM&nbsp;#212](https://elliptic-rank.icarm.cloud/curve/212) | 11 | **13** | +2 | [Points](examples/icarm-212/points.json), [certificate](examples/icarm-212/certificate.json) |
 
 These are lower bounds for existing curves, not claims of their exact ranks or new world records. The comparison is with the recorded snapshot; the live leaderboard can change. Priority relative to all other publications has not been established.
 
