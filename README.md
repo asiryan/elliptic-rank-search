@@ -8,7 +8,7 @@ Python uses only its standard library. PARI/GP performs model reduction, bounded
 
 ## Results
 
-The table compares rank lower bounds from our saved ICARM snapshot (**Source**) with those certified by the included exact witnesses (**Proved here**).
+The table compares rank lower bounds from our saved ICARM snapshot (**Source**) with those certified by the included exact witnesses (**Proved**).
 
 | Curve | Source | Proved | Gain | Evidence |
 |---|:---:|:---:|:---:|---|
