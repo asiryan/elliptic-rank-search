@@ -1,0 +1,90 @@
+{
+  "format": "local-2-kummer-rank-certificate-v1",
+  "input_sha256": "edac5510838ff2b4da2bd3dc24186a59869918ea1059861542e1879d878a83bb",
+  "points_checked": 14,
+  "matrix_rank": 14,
+  "torsion_2_dimension_upper_bound": 0,
+  "rank_lower_bound": 14,
+  "all_points_independent_modulo_torsion": true,
+  "torsion_witness": {
+    "prime": 41,
+    "roots": [],
+    "dimension_upper_bound": 0
+  },
+  "independent_rows": [
+    {
+      "prime": 11,
+      "root": 5,
+      "bits": "01001101001010"
+    },
+    {
+      "prime": 13,
+      "root": 8,
+      "bits": "10100010010001"
+    },
+    {
+      "prime": 17,
+      "root": 11,
+      "bits": "10011111101110"
+    },
+    {
+      "prime": 23,
+      "root": 11,
+      "bits": "00101111000100"
+    },
+    {
+      "prime": 29,
+      "root": 14,
+      "bits": "11000101100111"
+    },
+    {
+      "prime": 29,
+      "root": 19,
+      "bits": "10110000011011"
+    },
+    {
+      "prime": 37,
+      "root": 35,
+      "bits": "01000000000010"
+    },
+    {
+      "prime": 53,
+      "root": 44,
+      "bits": "10010010101010"
+    },
+    {
+      "prime": 61,
+      "root": 14,
+      "bits": "11110001110001"
+    },
+    {
+      "prime": 73,
+      "root": 9,
+      "bits": "01010010010100"
+    },
+    {
+      "prime": 79,
+      "root": 75,
+      "bits": "01110111110010"
+    },
+    {
+      "prime": 89,
+      "root": 52,
+      "bits": "11011110001010"
+    },
+    {
+      "prime": 89,
+      "root": 56,
+      "bits": "01110011001000"
+    },
+    {
+      "prime": 101,
+      "root": 97,
+      "bits": "00001100001001"
+    }
+  ],
+  "good_primes_examined": 20,
+  "largest_prime_examined": 101,
+  "requested_prime_bound": 2000,
+  "conditional_assumptions": []
+}

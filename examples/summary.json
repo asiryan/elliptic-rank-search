@@ -1,0 +1,27 @@
+{
+  "date": "2026-09-15",
+  "scope": "Existing curves; stronger lower bounds than the downloaded ICARM snapshot. Novelty relative to other publications not checked.",
+  "curves": [
+    {
+      "icarm_id": 199,
+      "url": "https://elliptic-rank.icarm.cloud/curve/199",
+      "published_lower_bound_in_snapshot": 13,
+      "rank_lower_bound": 15,
+      "source_snapshot_sha256": "4390bf32d8a446ef7da7d698ed4639eb0cd5e20663e9714b0766f21de6dd81b0"
+    },
+    {
+      "icarm_id": 206,
+      "url": "https://elliptic-rank.icarm.cloud/curve/206",
+      "published_lower_bound_in_snapshot": 12,
+      "rank_lower_bound": 14,
+      "source_snapshot_sha256": "4390bf32d8a446ef7da7d698ed4639eb0cd5e20663e9714b0766f21de6dd81b0"
+    },
+    {
+      "icarm_id": 212,
+      "url": "https://elliptic-rank.icarm.cloud/curve/212",
+      "published_lower_bound_in_snapshot": 11,
+      "rank_lower_bound": 13,
+      "source_snapshot_sha256": "4390bf32d8a446ef7da7d698ed4639eb0cd5e20663e9714b0766f21de6dd81b0"
+    }
+  ]
+}
