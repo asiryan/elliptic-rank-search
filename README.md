@@ -170,7 +170,7 @@ $$
 
 At an odd good prime $p$ and a root $\alpha$ of $g$ modulo $p$, evaluate the quadratic character of $X-\alpha$; at the corresponding 2-torsion reduction, use $g'(\alpha)$. These characters give homomorphisms to $\mathbb F_2$ that vanish on doubles. Stacking their values produces a binary matrix. This is the classical local-character method described by [Cremona, §2](https://johncremona.github.io/papers/filter.pdf).
 
-If its rank is $s$ and $t$ bounds $\dim_{\mathbb F_2}E(\mathbb Q)[2]$, then $\operatorname{rank}E(\mathbb Q)\ge s-t$. Root counts at good primes supply $t$; a rootless reduction gives $t=0$. With rational torsion, witnessed finite-order columns are removed before selecting independent free columns.
+If its rank is $s$ and $t$ bounds $\dim_{\mathbb F_2}E(\mathbb Q)[2]$, then $\mathrm{rank}\,E(\mathbb Q)\ge s-t$. Root counts at good primes supply $t$; a rootless reduction gives $t=0$. With rational torsion, witnessed finite-order columns are removed before selecting independent free columns.
 
 The saved certificate records primes, roots, bit rows, torsion evidence, and an input fingerprint. Python recomputes them using integers, fractions, and binary elimination. A singleton fallback checks the first twelve multiples, using Mazur's torsion theorem. Replay needs no GP process, numerical heights, analytic rank, or conditional hypothesis.
 
