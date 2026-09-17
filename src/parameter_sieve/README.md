@@ -3,8 +3,8 @@
 An optional standalone .NET 8 tool for the Alpoege/ICARM #302 family. It selects rational parameters and computes finite-field scores. Python generates the section inputs and certifies ranks separately.
 
 ```sh
-dotnet build tools/parameter_sieve/ParameterSieve.csproj -c Release
-dotnet tools/parameter_sieve/bin/Release/net8.0/ParameterSieve.dll grid --height 8 --keep 8 --refine-keep 4 --final-keep 2 --prime-bound 16382 --workers 2 --output runs/grid
+dotnet build src/parameter_sieve/ParameterSieve.csproj -c Release
+dotnet src/parameter_sieve/bin/Release/net8.0/ParameterSieve.dll grid --height 8 --keep 8 --refine-keep 4 --final-keep 2 --prime-bound 16382 --workers 2 --output runs/grid
 ```
 
 `grid` enumerates primitive pairs. `sample` accepts `--samples`, `--height`, `--seed`, and `--selection cumulative|bands|crt|dense`; the archived configurations supply all settings. `rescore --input parameters.json --start 0 --prime-bound 97 --workers 2 --output runs/rescored.json` expects an array of `{ "u": 1, "v": 4 }` objects, with positive denominators.

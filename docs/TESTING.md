@@ -33,7 +33,7 @@ The standalone GP projection demonstration is `gp -fq gp/pointed_quartic.gp`. In
 ## Native parameter selection
 
 ```sh
-dotnet build tools/parameter_sieve/ParameterSieve.csproj -c Release
+dotnet build src/parameter_sieve/ParameterSieve.csproj -c Release
 python -m unittest discover -s tests -p test_parameter_sieve.py -v
 ```
 

@@ -14,10 +14,10 @@ sys.path.insert(0, str(ROOT / 'src'))
 sys.path.insert(0, str(ROOT))
 from research.alpoege_family.family.specialize import family, invariants
 
-DLL = ROOT / 'tools/parameter_sieve/bin/Release/net8.0/ParameterSieve.dll'
+DLL = ROOT / 'src/parameter_sieve/bin/Release/net8.0/ParameterSieve.dll'
 
 
-@unittest.skipUnless(DLL.exists() and shutil.which('dotnet'), 'Build tools/parameter_sieve with .NET 8 first')
+@unittest.skipUnless(DLL.exists() and shutil.which('dotnet'), 'Build src/parameter_sieve with .NET 8 first')
 class ParameterSieveTests(unittest.TestCase):
     def invoke(self, *args):
         subprocess.run(['dotnet', str(DLL), *map(str, args)], check=True, capture_output=True, text=True, timeout=120)

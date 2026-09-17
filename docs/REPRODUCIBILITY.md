@@ -50,8 +50,8 @@ The frozen catalogue supports historical comparisons; present leaderboard positi
 The optional .NET 8 tool is separate from the Python search engine and has no external package or sibling-project dependencies:
 
 ```sh
-dotnet build tools/parameter_sieve/ParameterSieve.csproj -c Release
-ers-research campaign --config research/alpoege_family/experiments/grid-smoke.json --sieve tools/parameter_sieve/bin/Release/net8.0/ParameterSieve.dll --output runs/sieve-check
+dotnet build src/parameter_sieve/ParameterSieve.csproj -c Release
+ers-research campaign --config research/alpoege_family/experiments/grid-smoke.json --sieve src/parameter_sieve/bin/Release/net8.0/ParameterSieve.dll --output runs/sieve-check
 ```
 
 Replace the configuration with `grid-2048.json` or `sample-two-million.json` for the archived broad campaigns. The latter requests six million draws with replacement up to parameter height two million; it does not enumerate every parameter. The grid config enumerates primitive pairs `|u| <= 2048`, `1 <= v <= 2048` and separately scores the known record control. See the [experiment index](../research/alpoege_family/experiments/README.md).

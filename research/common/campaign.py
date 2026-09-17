@@ -21,7 +21,7 @@ def run_campaign(config, sieve, output):
     if kind not in ('grid', 'sample'):
         raise ValueError('Campaign kind must be grid or sample')
     if not sieve.is_file():
-        raise ValueError('Build tools/parameter_sieve first and supply its DLL or executable')
+        raise ValueError('Build src/parameter_sieve first and supply its DLL or executable')
     output.mkdir(parents=True, exist_ok=True)
     native = output / 'parameters'
     command = ['dotnet', str(sieve)] if sieve.suffix.lower() == '.dll' else [str(sieve)]
