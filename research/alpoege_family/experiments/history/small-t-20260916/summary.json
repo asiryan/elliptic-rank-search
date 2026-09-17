@@ -1,0 +1,70 @@
+{
+  "family": "ICARM302",
+  "date": "2026-09-16",
+  "max_parameter_height": 32,
+  "prepared_parameters": 1295,
+  "point_searched_parameters": 247,
+  "best_parameter": "-25",
+  "best_lower_bound": 22,
+  "searched_lower_bound_distribution": {
+    "12": 2,
+    "14": 5,
+    "15": 13,
+    "16": 30,
+    "17": 64,
+    "18": 60,
+    "19": 48,
+    "20": 21,
+    "21": 3,
+    "22": 1
+  },
+  "best_by_parameter_height": [
+    {
+      "height_limit": 1,
+      "best_found_lower_bound": 15,
+      "parameter": "1"
+    },
+    {
+      "height_limit": 2,
+      "best_found_lower_bound": 16,
+      "parameter": "1/2"
+    },
+    {
+      "height_limit": 4,
+      "best_found_lower_bound": 19,
+      "parameter": "4/3"
+    },
+    {
+      "height_limit": 8,
+      "best_found_lower_bound": 19,
+      "parameter": "4/3"
+    },
+    {
+      "height_limit": 12,
+      "best_found_lower_bound": 20,
+      "parameter": "9/5"
+    },
+    {
+      "height_limit": 16,
+      "best_found_lower_bound": 20,
+      "parameter": "9/5"
+    },
+    {
+      "height_limit": 24,
+      "best_found_lower_bound": 21,
+      "parameter": "19/4"
+    },
+    {
+      "height_limit": 32,
+      "best_found_lower_bound": 22,
+      "parameter": "-25"
+    }
+  ],
+  "catalogue_curves_compared": 732,
+  "catalogue_exact_invariant_matches": [],
+  "global_novelty_established": false,
+  "engine_modified": false,
+  "public_point_data_used": false,
+  "limitation": "All ranks are certified lower bounds. Only H<=12 had every parameter point-searched; H<=32 was screened and 64 additional parameters searched. No maximum true rank over either region is proved.",
+  "verified_saved_results": 255
+}

@@ -1,0 +1,30 @@
+{
+  "kind": "continuation",
+  "cases": [
+    "icarm-749",
+    "icarm-748",
+    "icarm-750",
+    "icarm-747",
+    "icarm-746",
+    "icarm-740",
+    "icarm-745",
+    "icarm-741",
+    "icarm-739",
+    "icarm-744",
+    "icarm-738",
+    "icarm-743",
+    "icarm-742",
+    "icarm-733",
+    "icarm-735",
+    "icarm-736",
+    "icarm-734",
+    "icarm-737"
+  ],
+  "seconds": 300,
+  "workers": 8,
+  "anchors": 2048,
+  "mode": "adaptive",
+  "initial_data": "certified published witnesses",
+  "historical_improvements": 0,
+  "historical_total_search_seconds": 5401.4367336
+}

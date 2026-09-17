@@ -1,0 +1,25 @@
+{
+  "id": "icarm-741",
+  "icarm_id": 741,
+  "study": "alpoege_family",
+  "kind": "new_curve",
+  "path": "alpoege_family/cases/icarm-741",
+  "rank_lower_bound": 23,
+  "url": "https://elliptic-rank.icarm.cloud/curve/741",
+  "parameter": "-61/126",
+  "rank_is_a_lower_bound": true,
+  "historical_source": {
+    "path": "runs/larger-t-20260916/curves/-61_126/final-focus-adaptive/result.json",
+    "sha256": "806ff7d75cd6a6a32c6e8a4c6383fb90bb8c3618ea1dde0b84a7ecc9fa481b4b"
+  },
+  "public_catalogue_snapshot_sha256": "2734f65aaac10674a445f2050b491c2b715c2122be22370697cfbfae105d0c6a",
+  "family_credit": "Family identified by wgxli in the commentary to ICARM #302; see study sources",
+  "discovery_source": "runs/first-place-20260916/assessment.json",
+  "files_sha256": {
+    "certificate.json": "6963e0058682a79b1924a4169ea938461eebd5613c85311c1da101a6f6e2a8a0",
+    "equation.json": "199bc9e774ebcf5d45c2cab56438703ad283df12a638c667b8be179572b046ec",
+    "invariants.json": "bfaf4568d8ddaf9e03a851d31862796ae7ca0d2703c9d17b105b28fc6af9b02c",
+    "points.json": "98a2ff12991e70fc00d01d2f487337c96fb2deae7746d08d0fe579d025b81178",
+    "reproduction.json": "bf24d6a7e45a1bea6eac272ed00636644942dcf2ea2efa145fd3b58026a93022"
+  }
+}

@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "elliptic-rank-search"
+version = "0.2.0"
+description = "Rational-point search, exact rank certificates, and reproducible elliptic-curve studies"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {file = "LICENSE"}
+dependencies = []
+
+[project.scripts]
+ers = "elliptic_rank_search.cli.main:main"
+ers-research = "research.common.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src", "."]
+include = ["elliptic_rank_search*", "research*"]
+namespaces = false
+
+[tool.setuptools.package-dir]
+elliptic_rank_search = "src/elliptic_rank_search"
+research = "research"
+
+[tool.setuptools.package-data]
+research = ["**/*.json", "**/*.md", "**/*.gp", "**/*.csv", "**/*.tsv"]

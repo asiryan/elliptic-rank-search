@@ -1,0 +1,72 @@
+{
+  "results": [
+    {
+      "parameter": "-61/126",
+      "id": "-61_126",
+      "before": 23,
+      "after": 23,
+      "target": 25,
+      "seconds": 90.39559700000973,
+      "result": "C:\\Users\\Profit77\\Documents\\Git\\elliptic-rank-search\\runs\\larger-t-20260916\\curves\\-61_126\\final-focus-adaptive\\result.json",
+      "mode": "adaptive",
+      "stage": "final-focus"
+    },
+    {
+      "parameter": "57/85",
+      "id": "57_85",
+      "before": 23,
+      "after": 23,
+      "target": 25,
+      "seconds": 90.4512975999969,
+      "result": "C:\\Users\\Profit77\\Documents\\Git\\elliptic-rank-search\\runs\\larger-t-20260916\\curves\\57_85\\final-focus-adaptive\\result.json",
+      "mode": "adaptive",
+      "stage": "final-focus"
+    },
+    {
+      "parameter": "-43/75",
+      "id": "-43_75",
+      "before": 23,
+      "after": 23,
+      "target": 24,
+      "seconds": 90.48028160000104,
+      "result": "C:\\Users\\Profit77\\Documents\\Git\\elliptic-rank-search\\runs\\larger-t-20260916\\curves\\-43_75\\final-focus-adaptive\\result.json",
+      "mode": "adaptive",
+      "stage": "final-focus"
+    },
+    {
+      "parameter": "-303/802",
+      "id": "-303_802",
+      "before": 25,
+      "after": 25,
+      "target": 27,
+      "seconds": 90.50751290000335,
+      "result": "C:\\Users\\Profit77\\Documents\\Git\\elliptic-rank-search\\runs\\larger-t-20260916\\curves\\-303_802\\final-focus-adaptive\\result.json",
+      "mode": "adaptive",
+      "stage": "final-focus"
+    },
+    {
+      "parameter": "49/128",
+      "id": "49_128",
+      "before": 23,
+      "after": 23,
+      "target": 25,
+      "seconds": 90.52745470000082,
+      "result": "C:\\Users\\Profit77\\Documents\\Git\\elliptic-rank-search\\runs\\larger-t-20260916\\curves\\49_128\\final-focus-adaptive\\result.json",
+      "mode": "adaptive",
+      "stage": "final-focus"
+    },
+    {
+      "parameter": "-47/80",
+      "id": "-47_80",
+      "before": 23,
+      "after": 23,
+      "target": 25,
+      "seconds": 90.57378039999458,
+      "result": "C:\\Users\\Profit77\\Documents\\Git\\elliptic-rank-search\\runs\\larger-t-20260916\\curves\\-47_80\\final-focus-adaptive\\result.json",
+      "mode": "adaptive",
+      "stage": "final-focus"
+    }
+  ],
+  "errors": [],
+  "seconds": 90.5853449999995
+}

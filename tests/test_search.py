@@ -1,6 +1,8 @@
 """Regressions for equation-only input, exact maps, isolation and the full pipeline."""
 import json
 from pathlib import Path
+import sys
+sys.path.insert(0, str(Path(__file__).resolve().parents[1] / 'src'))
 import subprocess
 import sys
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
@@ -10,7 +12,7 @@ from unittest.mock import patch
 
 HERE=Path(__file__).resolve().parents[1]
 ROOT=HERE
-import bootstrap as b
+from elliptic_rank_search.search import bootstrap as b
 
 
 class EquationSearchTests(unittest.TestCase):
@@ -82,7 +84,7 @@ class EquationSearchTests(unittest.TestCase):
         self.assertNotEqual(denied.returncode,0);self.assertIn('Equation-only data boundary',denied.stderr)
 
     def test_local_expansion_engine_finds_and_verifies_an_extra_point(self):
-        from seeded import search,independent_result
+        from elliptic_rank_search.search.seeded import search,independent_result
         source=self.folder/'seed.json'
         b.save(source,{'ainvs':['0','0','0','-25','4'],'points':[['0','2']]})
         result=search(source,self.folder/'expand',10,1,16,2)
@@ -91,8 +93,8 @@ class EquationSearchTests(unittest.TestCase):
         self.assertTrue(verified['verification']['all_points_independent_modulo_torsion'])
 
     def test_projection_inverse_and_companion_group_relation(self):
-        from geometry import to_quartic,from_quartic
-        from point_arithmetic import add,multiply,negate
+        from elliptic_rank_search.arithmetic.geometry import to_quartic,from_quartic
+        from elliptic_rank_search.arithmetic.point_arithmetic import add,multiply,negate
         a=list(map(b.Q,[0,0,0,-25,4]));p=(b.Q(0),b.Q(2));q=(b.Q(5),b.Q(2))
         checked=0
         for i in range(-3,4):
@@ -106,22 +108,22 @@ class EquationSearchTests(unittest.TestCase):
         self.assertGreater(checked,30)
 
     def test_denominator_square_search_reaches_nonintegral_points(self):
-        from geometry import small_points
-        from point_arithmetic import multiply,negate
+        from elliptic_rank_search.arithmetic.geometry import small_points
+        from elliptic_rank_search.arithmetic.point_arithmetic import multiply,negate
         a=list(map(b.Q,[0,0,0,-25,4]));twice=multiply(a,(b.Q(0),b.Q(2)),2)
         observed={p for p,_ in small_points(a,700,4)}
         self.assertIn(min(twice,negate(a,twice)),observed)
         self.assertTrue(all(b.on_curve(a,p) for p in observed))
 
     def test_fixed_single_anchor_finds_new_direction(self):
-        from seeded import search,independent_result
+        from elliptic_rank_search.search.seeded import search,independent_result
         source=self.folder/'single.json';b.save(source,{'ainvs':['0','0','0','-25','4'],'points':[['0','2']]})
         result=search(source,self.folder/'fixed',5,1,16,2,anchor_mode='fixed')
         self.assertGreaterEqual(result['rank_lower_bound'],2)
         self.assertTrue(independent_result(result,result['rank_lower_bound'])['verification']['all_points_independent_modulo_torsion'])
 
     def test_frozen_pool_survives_growth_and_resume_without_new_anchors(self):
-        import seeded
+        from elliptic_rank_search.search import seeded
         source=self.folder/'frozen-seed.json'
         b.save(source,{'ainvs':['0','0','0','-25','4'],'points':[['0','2']]})
         calls=[]
@@ -133,10 +135,10 @@ class EquationSearchTests(unittest.TestCase):
             calls.append((n,d))
             return {'complete':[seeded.job_key(m,n,d) for m in models],
                     'observations':observations,'slices':[],'timed_out':False,'seconds':0}
-        with patch('seeded.generate',wraps=seeded.generate) as generate, \
-             patch('seeded.prepare_models',wraps=seeded.prepare_models) as prepare, \
-             patch('seeded.boxes',return_value=[(256,1),(256,4)]), \
-             patch('seeded.batch_search',side_effect=controlled_search):
+        with patch('elliptic_rank_search.search.seeded.generate',wraps=seeded.generate) as generate, \
+             patch('elliptic_rank_search.search.seeded.prepare_models',wraps=seeded.prepare_models) as prepare, \
+             patch('elliptic_rank_search.search.seeded.boxes',return_value=[(256,1),(256,4)]), \
+             patch('elliptic_rank_search.search.seeded.batch_search',side_effect=controlled_search):
             result=seeded.search(source,self.folder/'frozen',5,1,16,3,anchor_mode='frozen')
             self.assertEqual(result['rank_lower_bound'],2)
             self.assertGreaterEqual(len(calls),2)
@@ -153,17 +155,17 @@ class EquationSearchTests(unittest.TestCase):
         self.assertTrue(seeded.independent_result(result,2)['verification']['all_points_independent_modulo_torsion'])
 
     def test_cached_models_and_interrupted_slices_preserve_points(self):
-        import models
-        from seeded import batch_search
+        from elliptic_rank_search.search import models
+        from elliptic_rank_search.search.seeded import batch_search
         data={'ainvs':['0','0','0','-25','4'],'points':[['0','2']]}
         pool={**data,'approximate_heights':[0]};cache={}
         prepared=models.prepare_models(pool,3,cache)
-        with patch('models.gp',side_effect=AssertionError('Repeated model reduction')):
+        with patch('elliptic_rank_search.search.models.gp',side_effect=AssertionError('Repeated model reduction')):
             self.assertEqual(models.prepare_models(pool,3,cache),prepared)
         whole=batch_search(data,prepared,256,16,3)
         script=models.search_script(data,prepared,256,16)
         stalled=script.replace('lo=hi+1);','lo=hi+1;if(lo>3,while(1,)));')
-        with patch('seeded.search_script',return_value=stalled):
+        with patch('elliptic_rank_search.search.seeded.search_script',return_value=stalled):
             partial=batch_search(data,prepared,256,16,.15)
         self.assertTrue(partial['timed_out']);self.assertEqual(partial['complete'],[])
         self.assertTrue(partial['slices'])
@@ -177,8 +179,8 @@ class EquationSearchTests(unittest.TestCase):
         self.assertEqual(models.missing_intervals([[512,1,8],[128,9,16]],256,16),[(9,16)])
 
     def test_tangent_lattice_finds_a_noncentral_rational_point(self):
-        from lattice import tangent_candidates,gauss_reduce
-        from point_arithmetic import multiply,negate
+        from elliptic_rank_search.arithmetic.lattice import tangent_candidates,gauss_reduce
+        from elliptic_rank_search.arithmetic.point_arithmetic import multiply,negate
         a=list(map(b.Q,[0,0,0,-25,4]))
         expected=multiply(a,(b.Q(0),b.Q(2)),2)
         points,stats=tangent_candidates(a,624,4)
@@ -190,10 +192,10 @@ class EquationSearchTests(unittest.TestCase):
         self.assertEqual(abs(r[0]*s[1]-r[1]*s[0]),abs(u[0]*v[1]-u[1]*v[0]))
 
     def test_preparation_timeout_keeps_the_certified_seed(self):
-        from seeded import search
+        from elliptic_rank_search.search.seeded import search
         source=self.folder/'preparation-seed.json'
         b.save(source,{'ainvs':['0','0','0','-25','4'],'points':[['0','2']]})
-        with patch('seeded.prepare_models',return_value=[]):
+        with patch('elliptic_rank_search.search.seeded.prepare_models',return_value=[]):
             result=search(source,self.folder/'preparation-timeout',.3,1,16,2,anchor_mode='fixed')
         self.assertEqual(result['rank_lower_bound'],1)
         state=json.loads((self.folder/'preparation-timeout/checkpoint.json').read_text())
@@ -201,11 +203,11 @@ class EquationSearchTests(unittest.TestCase):
         self.assertIsNone(state['models'])
 
     def test_parity_anchors_find_a_new_direction_and_translate_projections(self):
-        from models import parity_vectors
-        from anchor_diversity import diverse_vectors
-        from seeded import search,independent_result
-        from geometry import to_quartic,from_quartic
-        from point_arithmetic import add,multiply,negate
+        from elliptic_rank_search.search.models import parity_vectors
+        from elliptic_rank_search.search.anchor_diversity import diverse_vectors
+        from elliptic_rank_search.search.seeded import search,independent_result
+        from elliptic_rank_search.arithmetic.geometry import to_quartic,from_quartic
+        from elliptic_rank_search.arithmetic.point_arithmetic import add,multiply,negate
         gram=[[int(i==j)*(i+1) for j in range(4)] for i in range(4)]
         original,_=diverse_vectors(gram,128,12);balanced,_=parity_vectors(gram,128,12)
         self.assertEqual({v for _,v in original},{v for _,v in balanced})

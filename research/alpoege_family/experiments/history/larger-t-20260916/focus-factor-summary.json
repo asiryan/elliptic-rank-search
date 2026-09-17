@@ -1,0 +1,155 @@
+{
+  "attempted": 21,
+  "budget_seconds": 8,
+  "results": {
+    "-185_121": {
+      "status": "incomplete",
+      "budget_seconds": 8
+    },
+    "-74_159": {
+      "conductor": "65516351224218902858287772272767138986561869537624470099457629786549230744819470280198172222690",
+      "bad_primes": [
+        "2",
+        "3",
+        "5",
+        "23",
+        "37",
+        "526763",
+        "100469170589",
+        "542173675833063217",
+        "89436002783848857159544776951902999665401153903222841067"
+      ],
+      "primality_proved": true,
+      "status": "complete",
+      "method": "bounded_full_factorization"
+    },
+    "169_135": {
+      "status": "incomplete",
+      "budget_seconds": 8
+    },
+    "-58_237": {
+      "status": "incomplete",
+      "budget_seconds": 8
+    },
+    "81_16": {
+      "status": "incomplete",
+      "budget_seconds": 8
+    },
+    "9_119": {
+      "status": "incomplete",
+      "budget_seconds": 8
+    },
+    "-1_219": {
+      "conductor": "40313245685521945624780557949736247289187391687976321436647791049983528330836878205716145087982",
+      "bad_primes": [
+        "2",
+        "3",
+        "29",
+        "47",
+        "15247139385387724579",
+        "11148444872848289275123322245562354542463782027604054355645198524417609"
+      ],
+      "primality_proved": true,
+      "status": "complete",
+      "method": "bounded_full_factorization"
+    },
+    "73_128": {
+      "status": "incomplete",
+      "budget_seconds": 8
+    },
+    "-145_38": {
+      "status": "incomplete",
+      "budget_seconds": 8
+    },
+    "131_161": {
+      "status": "incomplete",
+      "budget_seconds": 8
+    },
+    "107_204": {
+      "status": "incomplete",
+      "budget_seconds": 8
+    },
+    "71_26": {
+      "status": "incomplete",
+      "budget_seconds": 8
+    },
+    "-78_227": {
+      "conductor": "194676714690804698783223037465137639012493304619756495889808952773484173243589453539797285627008234",
+      "bad_primes": [
+        "2",
+        "3",
+        "13",
+        "17",
+        "23",
+        "31",
+        "43",
+        "59",
+        "1210947752442581",
+        "67024731361547915325823081484315326893368627295857709591986916480912857719"
+      ],
+      "primality_proved": true,
+      "status": "complete",
+      "method": "bounded_full_factorization"
+    },
+    "-232_193": {
+      "conductor": "133465464586336672885259176227135992242893345021676551293002817643358123445376532243408709101126484011146",
+      "bad_primes": [
+        "2",
+        "3",
+        "7",
+        "11",
+        "37",
+        "43",
+        "26987",
+        "440711932166265377819",
+        "15266775849241802270511087245691916350884309752878315615910971273440877821"
+      ],
+      "primality_proved": true,
+      "status": "complete",
+      "method": "bounded_full_factorization"
+    },
+    "-152_127": {
+      "status": "incomplete",
+      "budget_seconds": 8
+    },
+    "-122_237": {
+      "status": "incomplete",
+      "budget_seconds": 8
+    },
+    "-253_2": {
+      "conductor": "204494467619421215484136402545215374508547693016655823641662363019229764537037518022051685960629066175447871586",
+      "bad_primes": [
+        "2",
+        "3",
+        "11",
+        "59",
+        "67",
+        "89",
+        "27917",
+        "5612309",
+        "1153292639863003",
+        "4558535616848537",
+        "10691671656227068547380854999005224943041216571233261467146611"
+      ],
+      "primality_proved": true,
+      "status": "complete",
+      "method": "bounded_full_factorization"
+    },
+    "145_172": {
+      "status": "incomplete",
+      "budget_seconds": 8
+    },
+    "127_212": {
+      "status": "incomplete",
+      "budget_seconds": 8
+    },
+    "173_123": {
+      "status": "incomplete",
+      "budget_seconds": 8
+    },
+    "-303_802": {
+      "status": "incomplete",
+      "budget_seconds": 8
+    }
+  }
+}

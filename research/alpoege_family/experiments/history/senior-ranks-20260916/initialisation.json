@@ -1,0 +1,16 @@
+{
+  "rows": 5573,
+  "prior_assessment": "C:\\Users\\Profit77\\Documents\\Git\\elliptic-rank-search\\runs\\first-place-20260916\\final-assessment.json",
+  "prior_sha256": "9d4b29a9b0736152f67233f5988b30f1cb97f6b4ca344befead61c2b12d3b7c3",
+  "archive_witness": "C:\\Users\\Profit77\\Documents\\Git\\elliptic-rank-search\\artifacts\\obsolete\\results\\current-best-curve.json",
+  "archive_witness_sha256": "adf69b30296c8dcbc672754e55874bc7e6cbd942aa31d6768ab4271decc300f7",
+  "archive_verification": {
+    "points_checked": 24,
+    "matrix_rank": 24,
+    "torsion_2_dimension_upper_bound": 0,
+    "rank_lower_bound": 24,
+    "all_points_independent_modulo_torsion": true,
+    "conditional_assumptions": []
+  },
+  "public_points_used": false
+}

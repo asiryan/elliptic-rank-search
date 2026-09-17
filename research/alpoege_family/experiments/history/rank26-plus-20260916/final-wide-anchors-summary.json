@@ -1,0 +1,39 @@
+{
+  "results": [
+    {
+      "parameter": "517/1382",
+      "id": "517_1382",
+      "before": 24,
+      "after": 24,
+      "target": 32,
+      "seconds": 180.3047235999984,
+      "result": "C:\\Users\\Profit77\\Documents\\Git\\elliptic-rank-search\\runs\\rank26-plus-20260916\\curves\\517_1382\\final-wide-anchors-adaptive\\result.json",
+      "mode": "adaptive",
+      "stage": "final-wide-anchors"
+    },
+    {
+      "parameter": "936/811",
+      "id": "936_811",
+      "before": 25,
+      "after": 25,
+      "target": 32,
+      "seconds": 180.30812799998967,
+      "result": "C:\\Users\\Profit77\\Documents\\Git\\elliptic-rank-search\\runs\\rank26-plus-20260916\\curves\\936_811\\final-wide-anchors-adaptive\\result.json",
+      "mode": "adaptive",
+      "stage": "final-wide-anchors"
+    },
+    {
+      "parameter": "-344/541",
+      "id": "-344_541",
+      "before": 24,
+      "after": 24,
+      "target": 32,
+      "seconds": 180.46510500001023,
+      "result": "C:\\Users\\Profit77\\Documents\\Git\\elliptic-rank-search\\runs\\rank26-plus-20260916\\curves\\-344_541\\final-wide-anchors-adaptive\\result.json",
+      "mode": "adaptive",
+      "stage": "final-wide-anchors"
+    }
+  ],
+  "errors": [],
+  "seconds": 180.4715276999923
+}

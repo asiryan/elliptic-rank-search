@@ -1,0 +1,50 @@
+{
+  "results": [
+    {
+      "parameter": "-185/121",
+      "id": "-185_121",
+      "before": 24,
+      "after": 24,
+      "target": 26,
+      "seconds": 60.458746100004646,
+      "result": "C:\\Users\\Profit77\\Documents\\Git\\elliptic-rank-search\\runs\\larger-t-20260916\\curves\\-185_121\\focus1-adaptive\\result.json",
+      "mode": "adaptive",
+      "stage": "focus1"
+    },
+    {
+      "parameter": "-58/237",
+      "id": "-58_237",
+      "before": 22,
+      "after": 22,
+      "target": 25,
+      "seconds": 60.46097960000043,
+      "result": "C:\\Users\\Profit77\\Documents\\Git\\elliptic-rank-search\\runs\\larger-t-20260916\\curves\\-58_237\\focus1-adaptive\\result.json",
+      "mode": "adaptive",
+      "stage": "focus1"
+    },
+    {
+      "parameter": "169/135",
+      "id": "169_135",
+      "before": 24,
+      "after": 24,
+      "target": 27,
+      "seconds": 60.50857749998977,
+      "result": "C:\\Users\\Profit77\\Documents\\Git\\elliptic-rank-search\\runs\\larger-t-20260916\\curves\\169_135\\focus1-adaptive\\result.json",
+      "mode": "adaptive",
+      "stage": "focus1"
+    },
+    {
+      "parameter": "37/157",
+      "id": "37_157",
+      "before": 22,
+      "after": 22,
+      "target": 25,
+      "seconds": 60.63552290000371,
+      "result": "C:\\Users\\Profit77\\Documents\\Git\\elliptic-rank-search\\runs\\larger-t-20260916\\curves\\37_157\\focus1-adaptive\\result.json",
+      "mode": "adaptive",
+      "stage": "focus1"
+    }
+  ],
+  "errors": [],
+  "seconds": 60.64646079999511
+}

@@ -1,0 +1,122 @@
+{
+  "results": [
+    {
+      "parameter": "-499517/723273",
+      "id": "-499517_723273",
+      "before": 17,
+      "after": 17,
+      "target": 32,
+      "seconds": 300.5693198999943,
+      "search_seconds": 300.0281746999972,
+      "workers": 8,
+      "anchors": 2048,
+      "result": "C:\\Users\\Profit77\\Documents\\Git\\elliptic-rank-search\\runs\\high-height-20260916\\curves\\-499517_723273\\calibrated-adaptive\\result.json",
+      "mode": "adaptive",
+      "stage": "calibrated",
+      "audit": {
+        "path": "curves\\-499517_723273\\calibrated-adaptive\\result.json",
+        "parameter": "-499517/723273",
+        "verification": {
+          "points_checked": 17,
+          "matrix_rank": 17,
+          "torsion_2_dimension_upper_bound": 0,
+          "rank_lower_bound": 17,
+          "all_points_independent_modulo_torsion": true,
+          "conditional_assumptions": []
+        },
+        "source_and_origin_hashes_verified": true,
+        "data_reads_verified": true,
+        "seed_or_discovered_points_only": true
+      }
+    },
+    {
+      "parameter": "-145973/661007",
+      "id": "-145973_661007",
+      "before": 17,
+      "after": 17,
+      "target": 32,
+      "seconds": 300.5684351000091,
+      "search_seconds": 300.0279090999975,
+      "workers": 8,
+      "anchors": 2048,
+      "result": "C:\\Users\\Profit77\\Documents\\Git\\elliptic-rank-search\\runs\\high-height-20260916\\curves\\-145973_661007\\calibrated-adaptive\\result.json",
+      "mode": "adaptive",
+      "stage": "calibrated",
+      "audit": {
+        "path": "curves\\-145973_661007\\calibrated-adaptive\\result.json",
+        "parameter": "-145973/661007",
+        "verification": {
+          "points_checked": 17,
+          "matrix_rank": 17,
+          "torsion_2_dimension_upper_bound": 0,
+          "rank_lower_bound": 17,
+          "all_points_independent_modulo_torsion": true,
+          "conditional_assumptions": []
+        },
+        "source_and_origin_hashes_verified": true,
+        "data_reads_verified": true,
+        "seed_or_discovered_points_only": true
+      }
+    },
+    {
+      "parameter": "564787/938759",
+      "id": "564787_938759",
+      "before": 17,
+      "after": 17,
+      "target": 32,
+      "seconds": 300.41677179999533,
+      "search_seconds": 300.0282181000075,
+      "workers": 8,
+      "anchors": 2048,
+      "result": "C:\\Users\\Profit77\\Documents\\Git\\elliptic-rank-search\\runs\\high-height-20260916\\curves\\564787_938759\\calibrated-adaptive\\result.json",
+      "mode": "adaptive",
+      "stage": "calibrated",
+      "audit": {
+        "path": "curves\\564787_938759\\calibrated-adaptive\\result.json",
+        "parameter": "564787/938759",
+        "verification": {
+          "points_checked": 17,
+          "matrix_rank": 17,
+          "torsion_2_dimension_upper_bound": 0,
+          "rank_lower_bound": 17,
+          "all_points_independent_modulo_torsion": true,
+          "conditional_assumptions": []
+        },
+        "source_and_origin_hashes_verified": true,
+        "data_reads_verified": true,
+        "seed_or_discovered_points_only": true
+      }
+    },
+    {
+      "parameter": "48417/188047",
+      "id": "48417_188047",
+      "before": 17,
+      "after": 17,
+      "target": 32,
+      "seconds": 300.64984850000474,
+      "search_seconds": 300.2054649000056,
+      "workers": 8,
+      "anchors": 2048,
+      "result": "C:\\Users\\Profit77\\Documents\\Git\\elliptic-rank-search\\runs\\high-height-20260916\\curves\\48417_188047\\calibrated-adaptive\\result.json",
+      "mode": "adaptive",
+      "stage": "calibrated",
+      "audit": {
+        "path": "curves\\48417_188047\\calibrated-adaptive\\result.json",
+        "parameter": "48417/188047",
+        "verification": {
+          "points_checked": 17,
+          "matrix_rank": 17,
+          "torsion_2_dimension_upper_bound": 0,
+          "rank_lower_bound": 17,
+          "all_points_independent_modulo_torsion": true,
+          "conditional_assumptions": []
+        },
+        "source_and_origin_hashes_verified": true,
+        "data_reads_verified": true,
+        "seed_or_discovered_points_only": true
+      }
+    }
+  ],
+  "errors": [],
+  "seconds": 601.235070499999
+}

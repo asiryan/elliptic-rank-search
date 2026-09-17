@@ -1,0 +1,12 @@
+{
+  "kind": "grid",
+  "height": 2048,
+  "keep": 16384,
+  "refine_keep": 1024,
+  "final_keep": 384,
+  "prime_bound": 65521,
+  "workers": 4,
+  "scope": "Parameter sieve; scores are not rank bounds",
+  "historical_source": "runs/rank26-plus-20260916/grid2048-wide/run.json",
+  "expected_primitive_count": 5102343
+}

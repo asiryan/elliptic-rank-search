@@ -1,0 +1,17 @@
+{
+  "target": 21,
+  "success_means": "A freshly certified bound at least equal to the target; basis coordinates may differ",
+  "stages": [
+    {
+      "seconds": 300,
+      "workers": 8,
+      "anchors": 2048,
+      "mode": "adaptive"
+    }
+  ],
+  "input": {
+    "kind": "family_sections",
+    "u": -19,
+    "v": 74
+  }
+}

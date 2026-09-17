@@ -4,17 +4,18 @@ from fractions import Fraction as Q
 import json
 from pathlib import Path
 import sys
+sys.path.insert(0, str(Path(__file__).resolve().parents[1] / 'src'))
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 import subprocess
 import tempfile
 import unittest
 from unittest.mock import patch
 
-from bootstrap import ROOT,save
-from point_arithmetic import add,multiply
-from point_models import divide_basis
-from torsion_certificate import select_basis,verify_certificate
-import unified
+from elliptic_rank_search.search.bootstrap import ROOT,save
+from elliptic_rank_search.arithmetic.point_arithmetic import add,multiply
+from elliptic_rank_search.search.point_models import divide_basis
+from elliptic_rank_search.certificates.torsion_certificate import select_basis,verify_certificate
+from elliptic_rank_search.search import unified
 
 
 def exact_certificate(path):
@@ -54,14 +55,14 @@ class UnifiedFeedbackTests(unittest.TestCase):
                     'observations':observations,'slices':[(m['key'],n,1,d) for m in models],
                     'timed_out':False,'seconds':0}
         stack=ExitStack()
-        for name,value in [('unified.certify',exact_certificate),
-                           ('seeded.generate',exact_fixture_pool),
-                           ('unified.prepare_models',fixture_models),
-                           ('seeded.batch_search',search),
-                           ('seeded.boxes',lambda:iter([(4,1),(4,2),(4,4)])),
-                           ('unified.divide_basis',lambda data,*args:(data,{'steps':[]})),
-                           ('unified.prepare_covers',lambda *args,**kw:[]),
-                           ('unified.expand_models',lambda *args,**kw:[])]:
+        for name,value in [('elliptic_rank_search.search.unified.certify',exact_certificate),
+                           ('elliptic_rank_search.search.seeded.generate',exact_fixture_pool),
+                           ('elliptic_rank_search.search.unified.prepare_models',fixture_models),
+                           ('elliptic_rank_search.search.seeded.batch_search',search),
+                           ('elliptic_rank_search.search.seeded.boxes',lambda:iter([(4,1),(4,2),(4,4)])),
+                           ('elliptic_rank_search.search.unified.divide_basis',lambda data,*args:(data,{'steps':[]})),
+                           ('elliptic_rank_search.search.unified.prepare_covers',lambda *args,**kw:[]),
+                           ('elliptic_rank_search.search.unified.expand_models',lambda *args,**kw:[])]:
             stack.enter_context(patch(name,value))
         return stack
 
@@ -113,7 +114,7 @@ class UnifiedFeedbackTests(unittest.TestCase):
         data={'ainvs':['0','0','0','-36','0'],'points':[['12','36']]};calls=[]
         with tempfile.TemporaryDirectory(prefix='unified-fallback-',dir=ROOT/'artifacts/equation-search') as raw:
             root=Path(raw);save(root/'input.json',data)
-            with self.fixture([],calls),patch('seeded.generate',side_effect=subprocess.TimeoutExpired('fixture',.01)):
+            with self.fixture([],calls),patch('elliptic_rank_search.search.seeded.generate',side_effect=subprocess.TimeoutExpired('fixture',.01)):
                 result=unified.search(root/'input.json',root/'search',seconds=1,workers=1,anchors=2,target=2,batch_size=1)
             state=json.loads((root/'search'/'checkpoint.json').read_text())
         self.assertEqual(result['rank_lower_bound'],1)
@@ -126,7 +127,7 @@ class UnifiedFeedbackTests(unittest.TestCase):
         data={'ainvs':list(map(str,a)),'points':[list(map(str,triple))]}
         with tempfile.TemporaryDirectory(prefix='unified-division-',dir=ROOT/'artifacts/equation-search') as raw:
             root=Path(raw);save(root/'input.json',data)
-            with self.fixture([],calls),patch('unified.divide_basis',divide_basis):
+            with self.fixture([],calls),patch('elliptic_rank_search.search.unified.divide_basis',divide_basis):
                 result=unified.search(root/'input.json',root/'search',seconds=1,workers=1,anchors=2,target=2,batch_size=1)
             state=json.loads((root/'search'/'checkpoint.json').read_text())
         self.assertEqual(result['rank_lower_bound'],1)
@@ -142,7 +143,7 @@ class UnifiedFeedbackTests(unittest.TestCase):
             with self.fixture([],calls):
                 # A timed-out model preparation exposes only its first complete
                 # model. Interrupt at the next work boundary to inspect resume.
-                with patch('unified.prepare_models',partial),patch('seeded.batch_search',side_effect=KeyboardInterrupt):
+                with patch('elliptic_rank_search.search.unified.prepare_models',partial),patch('elliptic_rank_search.search.seeded.batch_search',side_effect=KeyboardInterrupt):
                     unified.search(source,output,seconds=1,workers=1,anchors=2,target=3,batch_size=1)
                 before=json.loads((output/'checkpoint.json').read_text())
                 self.assertIsNone(before['basis_prepared'])
@@ -168,9 +169,9 @@ class UnifiedFeedbackTests(unittest.TestCase):
                     'timed_out':False,'seconds':0}
         with tempfile.TemporaryDirectory(prefix='unified-frontier-',dir=ROOT/'artifacts/equation-search') as raw:
             root=Path(raw);save(root/'input.json',data)
-            with self.fixture([],[]),patch('seeded.batch_search',search),\
-                 patch('seeded.boxes',lambda:iter([(2**20,1),(2**28,1),(2**32,1)])),\
-                 patch('unified.expand_models',expand):
+            with self.fixture([],[]),patch('elliptic_rank_search.search.seeded.batch_search',search),\
+                 patch('elliptic_rank_search.search.seeded.boxes',lambda:iter([(2**20,1),(2**28,1),(2**32,1)])),\
+                 patch('elliptic_rank_search.search.unified.expand_models',expand):
                 result=unified.search(root/'input.json',root/'search',seconds=1,workers=1,anchors=2,target=2,batch_size=1)
             state=json.loads((root/'search'/'checkpoint.json').read_text())
         self.assertEqual(result['rank_lower_bound'],2)
@@ -186,7 +187,7 @@ class UnifiedFeedbackTests(unittest.TestCase):
             return models[:1] if minimal else models
         with tempfile.TemporaryDirectory(prefix='unified-preparation-',dir=ROOT/'artifacts/equation-search') as raw:
             root=Path(raw);save(root/'input.json',data)
-            with self.fixture([],calls),patch('unified.prepare_models',prepare):
+            with self.fixture([],calls),patch('elliptic_rank_search.search.unified.prepare_models',prepare):
                 unified.search(root/'input.json',root/'search',seconds=1,workers=1,anchors=2,target=3,batch_size=1)
             state=json.loads((root/'search'/'checkpoint.json').read_text())
         self.assertIsNotNone(state['basis_prepared'])
@@ -207,9 +208,9 @@ class UnifiedFeedbackTests(unittest.TestCase):
                     'timed_out':blocked,'seconds':0}
         with tempfile.TemporaryDirectory(prefix='unified-isolation-',dir=ROOT/'artifacts/equation-search') as raw:
             root=Path(raw);save(root/'input.json',data)
-            with self.fixture([],[]),patch('unified.prepare_models',prepare),\
-                 patch('seeded.order_models',lambda models:models),\
-                 patch('seeded.batch_search',search):
+            with self.fixture([],[]),patch('elliptic_rank_search.search.unified.prepare_models',prepare),\
+                 patch('elliptic_rank_search.search.seeded.order_models',lambda models:models),\
+                 patch('elliptic_rank_search.search.seeded.batch_search',search):
                 result=unified.search(root/'input.json',root/'search',seconds=1,workers=1,anchors=2,target=2,batch_size=4)
             state=json.loads((root/'search'/'checkpoint.json').read_text())
         self.assertEqual(result['rank_lower_bound'],2)

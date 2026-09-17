@@ -7,3 +7,8 @@ runs/
 *.tmp
 *.log
 .DS_Store
+build/
+dist/
+*.egg-info/
+bin/
+obj/

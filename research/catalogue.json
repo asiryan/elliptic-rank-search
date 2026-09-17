@@ -1,0 +1,235 @@
+{
+  "schema_version": 1,
+  "published_contributions": 21,
+  "controls": 2,
+  "source_profile": "https://elliptic-rank.icarm.cloud/user/89",
+  "cases": [
+    {
+      "id": "icarm-199",
+      "icarm_id": 199,
+      "study": "known_curve_improvements",
+      "kind": "improved_existing_curve",
+      "path": "known_curve_improvements/cases/icarm-199",
+      "rank_lower_bound": 15,
+      "url": "https://elliptic-rank.icarm.cloud/curve/199"
+    },
+    {
+      "id": "icarm-206",
+      "icarm_id": 206,
+      "study": "known_curve_improvements",
+      "kind": "improved_existing_curve",
+      "path": "known_curve_improvements/cases/icarm-206",
+      "rank_lower_bound": 14,
+      "url": "https://elliptic-rank.icarm.cloud/curve/206"
+    },
+    {
+      "id": "icarm-212",
+      "icarm_id": 212,
+      "study": "known_curve_improvements",
+      "kind": "improved_existing_curve",
+      "path": "known_curve_improvements/cases/icarm-212",
+      "rank_lower_bound": 13,
+      "url": "https://elliptic-rank.icarm.cloud/curve/212"
+    },
+    {
+      "id": "icarm-302",
+      "icarm_id": 302,
+      "study": "alpoege_family",
+      "kind": "control",
+      "path": "alpoege_family/controls/icarm-302",
+      "rank_lower_bound": 31,
+      "url": "https://elliptic-rank.icarm.cloud/curve/302",
+      "parameter": "164518/924945"
+    },
+    {
+      "id": "icarm-727",
+      "icarm_id": 727,
+      "study": "alpoege_family",
+      "kind": "control",
+      "path": "alpoege_family/controls/icarm-727",
+      "rank_lower_bound": 26,
+      "url": "https://elliptic-rank.icarm.cloud/curve/727",
+      "parameter": "-311/519"
+    },
+    {
+      "id": "icarm-733",
+      "icarm_id": 733,
+      "study": "alpoege_family",
+      "kind": "new_curve",
+      "path": "alpoege_family/cases/icarm-733",
+      "rank_lower_bound": 20,
+      "url": "https://elliptic-rank.icarm.cloud/curve/733",
+      "parameter": "-7/12"
+    },
+    {
+      "id": "icarm-734",
+      "icarm_id": 734,
+      "study": "alpoege_family",
+      "kind": "new_curve",
+      "path": "alpoege_family/cases/icarm-734",
+      "rank_lower_bound": 18,
+      "url": "https://elliptic-rank.icarm.cloud/curve/734",
+      "parameter": "1/4"
+    },
+    {
+      "id": "icarm-735",
+      "icarm_id": 735,
+      "study": "alpoege_family",
+      "kind": "new_curve",
+      "path": "alpoege_family/cases/icarm-735",
+      "rank_lower_bound": 20,
+      "url": "https://elliptic-rank.icarm.cloud/curve/735",
+      "parameter": "-12/31"
+    },
+    {
+      "id": "icarm-736",
+      "icarm_id": 736,
+      "study": "alpoege_family",
+      "kind": "new_curve",
+      "path": "alpoege_family/cases/icarm-736",
+      "rank_lower_bound": 19,
+      "url": "https://elliptic-rank.icarm.cloud/curve/736",
+      "parameter": "4/3"
+    },
+    {
+      "id": "icarm-737",
+      "icarm_id": 737,
+      "study": "alpoege_family",
+      "kind": "new_curve",
+      "path": "alpoege_family/cases/icarm-737",
+      "rank_lower_bound": 18,
+      "url": "https://elliptic-rank.icarm.cloud/curve/737",
+      "parameter": "4/17"
+    },
+    {
+      "id": "icarm-738",
+      "icarm_id": 738,
+      "study": "alpoege_family",
+      "kind": "new_curve",
+      "path": "alpoege_family/cases/icarm-738",
+      "rank_lower_bound": 21,
+      "url": "https://elliptic-rank.icarm.cloud/curve/738",
+      "parameter": "-13/47"
+    },
+    {
+      "id": "icarm-739",
+      "icarm_id": 739,
+      "study": "alpoege_family",
+      "kind": "new_curve",
+      "path": "alpoege_family/cases/icarm-739",
+      "rank_lower_bound": 22,
+      "url": "https://elliptic-rank.icarm.cloud/curve/739",
+      "parameter": "-27/47"
+    },
+    {
+      "id": "icarm-740",
+      "icarm_id": 740,
+      "study": "alpoege_family",
+      "kind": "new_curve",
+      "path": "alpoege_family/cases/icarm-740",
+      "rank_lower_bound": 23,
+      "url": "https://elliptic-rank.icarm.cloud/curve/740",
+      "parameter": "-47/23"
+    },
+    {
+      "id": "icarm-741",
+      "icarm_id": 741,
+      "study": "alpoege_family",
+      "kind": "new_curve",
+      "path": "alpoege_family/cases/icarm-741",
+      "rank_lower_bound": 23,
+      "url": "https://elliptic-rank.icarm.cloud/curve/741",
+      "parameter": "-61/126"
+    },
+    {
+      "id": "icarm-742",
+      "icarm_id": 742,
+      "study": "alpoege_family",
+      "kind": "new_curve",
+      "path": "alpoege_family/cases/icarm-742",
+      "rank_lower_bound": 21,
+      "url": "https://elliptic-rank.icarm.cloud/curve/742",
+      "parameter": "17/106"
+    },
+    {
+      "id": "icarm-743",
+      "icarm_id": 743,
+      "study": "alpoege_family",
+      "kind": "new_curve",
+      "path": "alpoege_family/cases/icarm-743",
+      "rank_lower_bound": 21,
+      "url": "https://elliptic-rank.icarm.cloud/curve/743",
+      "parameter": "-19/74"
+    },
+    {
+      "id": "icarm-744",
+      "icarm_id": 744,
+      "study": "alpoege_family",
+      "kind": "new_curve",
+      "path": "alpoege_family/cases/icarm-744",
+      "rank_lower_bound": 22,
+      "url": "https://elliptic-rank.icarm.cloud/curve/744",
+      "parameter": "-41/94"
+    },
+    {
+      "id": "icarm-745",
+      "icarm_id": 745,
+      "study": "alpoege_family",
+      "kind": "new_curve",
+      "path": "alpoege_family/cases/icarm-745",
+      "rank_lower_bound": 23,
+      "url": "https://elliptic-rank.icarm.cloud/curve/745",
+      "parameter": "57/85"
+    },
+    {
+      "id": "icarm-746",
+      "icarm_id": 746,
+      "study": "alpoege_family",
+      "kind": "new_curve",
+      "path": "alpoege_family/cases/icarm-746",
+      "rank_lower_bound": 23,
+      "url": "https://elliptic-rank.icarm.cloud/curve/746",
+      "parameter": "-47/80"
+    },
+    {
+      "id": "icarm-747",
+      "icarm_id": 747,
+      "study": "alpoege_family",
+      "kind": "new_curve",
+      "path": "alpoege_family/cases/icarm-747",
+      "rank_lower_bound": 23,
+      "url": "https://elliptic-rank.icarm.cloud/curve/747",
+      "parameter": "-43/75"
+    },
+    {
+      "id": "icarm-748",
+      "icarm_id": 748,
+      "study": "alpoege_family",
+      "kind": "new_curve",
+      "path": "alpoege_family/cases/icarm-748",
+      "rank_lower_bound": 25,
+      "url": "https://elliptic-rank.icarm.cloud/curve/748",
+      "parameter": "-265/221"
+    },
+    {
+      "id": "icarm-749",
+      "icarm_id": 749,
+      "study": "alpoege_family",
+      "kind": "new_curve",
+      "path": "alpoege_family/cases/icarm-749",
+      "rank_lower_bound": 25,
+      "url": "https://elliptic-rank.icarm.cloud/curve/749",
+      "parameter": "-332/267"
+    },
+    {
+      "id": "icarm-750",
+      "icarm_id": 750,
+      "study": "alpoege_family",
+      "kind": "new_curve",
+      "path": "alpoege_family/cases/icarm-750",
+      "rank_lower_bound": 24,
+      "url": "https://elliptic-rank.icarm.cloud/curve/750",
+      "parameter": "-83/111"
+    }
+  ]
+}

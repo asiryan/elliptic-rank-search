@@ -4,12 +4,13 @@ from fractions import Fraction as Q
 import json
 from pathlib import Path
 import sys
+sys.path.insert(0, str(Path(__file__).resolve().parents[1] / 'src'))
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 import unittest
 
-from point_arithmetic import add,multiply
-import certificate as old
-from torsion_certificate import select_basis,verify_certificate,torsion_points,singleton_certificate,translate_pool
+from elliptic_rank_search.arithmetic.point_arithmetic import add,multiply
+from elliptic_rank_search.certificates import certificate as old
+from elliptic_rank_search.certificates.torsion_certificate import select_basis,verify_certificate,torsion_points,singleton_certificate,translate_pool
 
 
 class TorsionTests(unittest.TestCase):
@@ -71,8 +72,8 @@ class TorsionTests(unittest.TestCase):
             self.assertEqual(tuple(map(Q,point)),expected)
 
     def test_reduced_only_model_keeps_the_exact_inverse(self):
-        from models import prepare_models
-        from seeded import batch_search
+        from elliptic_rank_search.search.models import prepare_models
+        from elliptic_rank_search.search.seeded import batch_search
         doubled=multiply(list(map(Q,self.a)),self.p,2)
         pool={'ainvs':self.a,'points':[list(map(str,doubled))],'approximate_heights':[1.0]}
         models=prepare_models(pool,1,{},minimal=False)
@@ -83,7 +84,7 @@ class TorsionTests(unittest.TestCase):
         self.assertTrue(result['observations'])
 
     def test_point_division_preserves_span_with_an_exact_witness(self):
-        from point_models import divide_basis
+        from elliptic_rank_search.search.point_models import divide_basis
         a=['0','0','0','-25','4'];p=(Q(0),Q(2));triple=multiply(list(map(Q,a)),p,3)
         data={'ainvs':a,'points':[list(map(str,triple))]}
         refined,stats=divide_basis(data,.3)
@@ -95,26 +96,26 @@ class TorsionTests(unittest.TestCase):
 
     def test_interrupted_division_keeps_only_complete_exact_witnesses(self):
         from unittest.mock import patch
-        from point_models import divide_basis
+        from elliptic_rank_search.search.point_models import divide_basis
         a=['0','0','0','-25','4'];triple=multiply(list(map(Q,a)),(Q(0),Q(2)),3)
         data={'ainvs':a,'points':[list(map(str,triple))]}
         stdout='DIVIDED [1,-3,["0","-2"],[],1]\nDIVIDED [1,2,'
-        with patch('point_models.gp',return_value=(stdout,{'timed_out':True})):
+        with patch('elliptic_rank_search.search.point_models.gp',return_value=(stdout,{'timed_out':True})):
             result,stats=divide_basis(data)
         self.assertEqual(result['points'],[['0','-2']]);self.assertEqual(len(stats['steps']),1)
-        with patch('point_models.gp',return_value=(stdout+'\n',{'timed_out':False})):
+        with patch('elliptic_rank_search.search.point_models.gp',return_value=(stdout+'\n',{'timed_out':False})):
             with self.assertRaises(json.JSONDecodeError):divide_basis(data)
 
     def test_two_isogeny_map_in_general_weierstrass_coordinates(self):
-        from point_models import cover_point
+        from elliptic_rank_search.search.point_models import cover_point
         self.assertEqual(cover_point(self.a,0,3,4,24),self.p)
         self.assertEqual(cover_point(['2','-1','2','-38','-1'],0,3,4,24),(Q(12),Q(23)))
         self.assertEqual(cover_point(self.a,0,1,5,7),(Q(25,4),Q(35,8)))
         with self.assertRaises(ValueError):cover_point(self.a,0,3,4,25)
 
     def test_cover_reductions_and_search_produce_exact_curve_points(self):
-        from point_models import prepare_covers
-        from seeded import batch_search
+        from elliptic_rank_search.search.point_models import prepare_covers
+        from elliptic_rank_search.search.seeded import batch_search
         data={'ainvs':self.a,'points':[list(map(str,self.p))]};cache={}
         models=prepare_covers(data,.3,cache,8)
         self.assertTrue(models);self.assertTrue(any(m['known_class'] for m in models))
@@ -126,8 +127,8 @@ class TorsionTests(unittest.TestCase):
 
     def test_geometric_search_and_resume_keep_the_divided_basis(self):
         import tempfile
-        from bootstrap import save
-        from seeded import search,independent_result
+        from elliptic_rank_search.search.bootstrap import save
+        from elliptic_rank_search.search.seeded import search,independent_result
         root=Path(__file__).resolve().parents[1]/'artifacts/equation-search-tests'
         root.mkdir(parents=True,exist_ok=True)
         with tempfile.TemporaryDirectory(dir=root) as temporary:
@@ -142,7 +143,7 @@ class TorsionTests(unittest.TestCase):
             self.assertEqual(result['points'],resumed['points'])
 
     def test_gp_exponent_normalization_is_limited_to_lattice(self):
-        from seeded import normalize_lattice_output
+        from elliptic_rank_search.search.seeded import normalize_lattice_output
         raw='LATTICE [[[1,0],[0,1]],[[1.0,-2.34 E-95],[-2.34 E-95,4.0]]]\nBASIS ["1", "2"]\nPOOL_END\n'
         result=normalize_lattice_output(raw)
         parsed=json.loads(result.splitlines()[0][8:])
@@ -151,14 +152,14 @@ class TorsionTests(unittest.TestCase):
 
     def test_large_gp_input_cannot_block_before_the_timeout(self):
         import time
-        from bootstrap import gp
+        from elliptic_rank_search.search.bootstrap import gp
         started=time.perf_counter()
         _,stats=gp('while(1,1);\n'+'\n'*200000,.1)
         self.assertTrue(stats['timed_out'])
         self.assertLess(time.perf_counter()-started,2)
 
     def test_dual_isogeny_composition_is_exact_doubling(self):
-        from point_models import isogeny_data,isogeny_point
+        from elliptic_rank_search.search.point_models import isogeny_data,isogeny_point
         for a,p in ((self.a,self.p),(['2','-1','2','-38','-1'],(Q(12),Q(23))),
                     (['0','0','0','-576','0'],(Q(48),Q(288)))):
             aa=list(map(Q,a))
@@ -175,9 +176,9 @@ class TorsionTests(unittest.TestCase):
         with self.assertRaises(ValueError):isogeny_point(self.a,0,(1,1))
 
     def test_transported_quartic_and_cover_maps_reach_original_equation(self):
-        from point_models import isogenous_sources,divide_basis,prepare_covers
-        from models import prepare_models
-        from seeded import batch_search
+        from elliptic_rank_search.search.point_models import isogenous_sources,divide_basis,prepare_covers
+        from elliptic_rank_search.search.models import prepare_models
+        from elliptic_rank_search.search.seeded import batch_search
         a=['2','-1','2','-38','-1'];data={'ainvs':a,'points':[['12','23']]}
         sources=isogenous_sources(data,.2,{})
         self.assertEqual(len(sources),3)
@@ -195,21 +196,21 @@ class TorsionTests(unittest.TestCase):
 
     def test_interrupted_model_output_ignores_only_unfinished_record(self):
         from unittest.mock import patch
-        from models import prepare_models
+        from elliptic_rank_search.search.models import prepare_models
         pool={'ainvs':self.a,'points':[list(map(str,self.p))],'approximate_heights':[0]}
-        with patch('models.gp',return_value=('CACHED [1,["12',{'timed_out':True})):
+        with patch('elliptic_rank_search.search.models.gp',return_value=('CACHED [1,["12',{'timed_out':True})):
             self.assertEqual(prepare_models(pool,.1,{}),[])
-        with patch('models.gp',return_value=('CACHED [1,["12\n',{'timed_out':False})):
+        with patch('elliptic_rank_search.search.models.gp',return_value=('CACHED [1,["12\n',{'timed_out':False})):
             with self.assertRaises(json.JSONDecodeError):prepare_models(pool,.1,{})
 
     def test_optional_isogeny_pool_timeout_does_not_abort_original_search(self):
         import tempfile,subprocess
         from unittest.mock import patch
-        from seeded import transported_models
+        from elliptic_rank_search.search.seeded import transported_models
         root=Path(__file__).resolve().parents[1]/'artifacts/equation-search-tests'
         data={'ainvs':self.a,'points':[list(map(str,self.p))]}
         with tempfile.TemporaryDirectory(dir=root) as temp:
-            with patch('seeded.generate',side_effect=subprocess.TimeoutExpired('gp',.1)):
+            with patch('elliptic_rank_search.search.seeded.generate',side_effect=subprocess.TimeoutExpired('gp',.1)):
                 models,records=transported_models(data,Path(temp),8,.4,{})
             self.assertEqual(models,[])
             self.assertTrue(records)

@@ -2,13 +2,14 @@
 from fractions import Fraction as Q
 from pathlib import Path
 import sys
+sys.path.insert(0, str(Path(__file__).resolve().parents[1] / 'src'))
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 import unittest
 from unittest.mock import patch
 
-from models import prepare_models
-from local_models import expand_models, _script
-from bootstrap import gp
+from elliptic_rank_search.search.models import prepare_models
+from elliptic_rank_search.search.local_models import expand_models, _script
+from elliptic_rank_search.search.bootstrap import gp
 
 
 def add(a,b):
@@ -83,7 +84,7 @@ class LocalModelTests(unittest.TestCase):
         first=expand_models([base],1,cache,count=4,roots=1,beam=4,depth=4,prime_bound=19)
         self.assertTrue(first)
         current=dict(base,pool_index=17,parity='101',anchor_height=Q(7,3))
-        with patch('local_models.gp',side_effect=AssertionError('Cache hit must not run GP')):
+        with patch('elliptic_rank_search.search.local_models.gp',side_effect=AssertionError('Cache hit must not run GP')):
             second=expand_models([current],.1,cache,count=4,roots=1,beam=4,depth=4,prime_bound=19)
         self.assertEqual([m['key'] for m in first],[m['key'] for m in second])
         self.assertTrue(all(m['pool_index']==17 and m['parity']=='101' and m['anchor_height']==Q(7,3) for m in second))
@@ -93,15 +94,15 @@ class LocalModelTests(unittest.TestCase):
         base=prepare_models(pool,1,{})[0];cache={}
         full,stats=gp(_script(base,4,4,4,19),1)
         partial=next(line for line in full.splitlines() if line.startswith('NEIGHBOURS '))+'\n'
-        with patch('local_models.gp',return_value=(partial,{'timed_out':True,'seconds':.1})):
+        with patch('elliptic_rank_search.search.local_models.gp',return_value=(partial,{'timed_out':True,'seconds':.1})):
             first=expand_models([base],.2,cache,count=4,roots=1,beam=4,depth=4,prime_bound=19)
         entry=next(iter(cache['local_models'].values()))
         self.assertFalse(entry['complete']);self.assertEqual(entry['completed_levels'],1)
         self.assertTrue(first)
-        with patch('local_models.gp',side_effect=AssertionError('Same budget reuses partial work')):
+        with patch('elliptic_rank_search.search.local_models.gp',side_effect=AssertionError('Same budget reuses partial work')):
             same=expand_models([base],.2,cache,count=4,roots=1,beam=4,depth=4,prime_bound=19)
         self.assertEqual(first,same)
-        with patch('local_models.gp',return_value=(full,stats)) as process:
+        with patch('elliptic_rank_search.search.local_models.gp',return_value=(full,stats)) as process:
             expanded=expand_models([base],.5,cache,count=4,roots=1,beam=4,depth=4,prime_bound=19)
         process.assert_called_once();entry=next(iter(cache['local_models'].values()))
         self.assertTrue(entry['complete']);self.assertGreater(entry['completed_levels'],1)
@@ -110,8 +111,8 @@ class LocalModelTests(unittest.TestCase):
     def test_intermediate_charts_find_an_independent_direction_from_one_seed(self):
         # Frozen ICARM #724 equation and first point only. Neither a target rank
         # nor another published point enters the construction or point search.
-        from seeded import batch_search, clean
-        from torsion_certificate import select_basis, verify_certificate
+        from elliptic_rank_search.search.seeded import batch_search, clean
+        from elliptic_rank_search.certificates.torsion_certificate import select_basis, verify_certificate
         data={'ainvs':['1','0','0',
             '-500155818938812672789174015511502418542914025471083342999327356190',
             '135726649501359436415916160439700483690089900096812327554427167585750287637491352376425892437884100'],

@@ -1,0 +1,28 @@
+{
+  "total_rows": 5845,
+  "new_parameters": 272,
+  "errors": [],
+  "seconds": 2.140529600001173,
+  "sieve_checks": [
+    {
+      "u": -58,
+      "v": 237,
+      "native_score": 23.71521535087825,
+      "pari_score": 23.71521535087826
+    },
+    {
+      "u": -397,
+      "v": 493,
+      "native_score": 21.612277283284637,
+      "pari_score": 21.612277283284747
+    },
+    {
+      "u": 473,
+      "v": 394,
+      "native_score": 20.44282052735935,
+      "pari_score": 20.442820527359395
+    }
+  ],
+  "section_source": "C:\\Users\\Profit77\\Documents\\Git\\elliptic-rank-search\\artifacts\\obsolete\\tools\\RankHunt\\Data\\icarm302-sections.json",
+  "section_sha256": "2c6a51b978ff22e8d0a31ce30e5e9f7f571f83804edab8d6ff2e45d4e8b96b90"
+}

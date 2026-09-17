@@ -1,0 +1,354 @@
+{
+  "results": [
+    {
+      "parameter": "2/7",
+      "id": "2_7",
+      "before": 18,
+      "after": 18,
+      "target": 28,
+      "seconds": 62.87874089999241,
+      "search_seconds": 59.97214710000844,
+      "workers": 8,
+      "anchors": 2048,
+      "result": "C:\\Users\\Profit77\\Documents\\Git\\elliptic-rank-search\\runs\\small-t-audit-20260917\\curves\\2_7\\short-runs-revisited-adaptive\\result.json",
+      "mode": "adaptive",
+      "stage": "short-runs-revisited",
+      "audit": {
+        "path": "curves\\2_7\\short-runs-revisited-adaptive\\result.json",
+        "parameter": "2/7",
+        "verification": {
+          "points_checked": 18,
+          "matrix_rank": 18,
+          "torsion_2_dimension_upper_bound": 0,
+          "rank_lower_bound": 18,
+          "all_points_independent_modulo_torsion": true,
+          "conditional_assumptions": []
+        },
+        "source_and_origin_hashes_verified": true,
+        "data_reads_verified": true,
+        "seed_or_discovered_points_only": true
+      }
+    },
+    {
+      "parameter": "1/2",
+      "id": "1_2",
+      "before": 16,
+      "after": 16,
+      "target": 28,
+      "seconds": 62.916972800012445,
+      "search_seconds": 60.02133329999924,
+      "workers": 8,
+      "anchors": 2048,
+      "result": "C:\\Users\\Profit77\\Documents\\Git\\elliptic-rank-search\\runs\\small-t-audit-20260917\\curves\\1_2\\short-runs-revisited-adaptive\\result.json",
+      "mode": "adaptive",
+      "stage": "short-runs-revisited",
+      "audit": {
+        "path": "curves\\1_2\\short-runs-revisited-adaptive\\result.json",
+        "parameter": "1/2",
+        "verification": {
+          "points_checked": 16,
+          "matrix_rank": 16,
+          "torsion_2_dimension_upper_bound": 0,
+          "rank_lower_bound": 16,
+          "all_points_independent_modulo_torsion": true,
+          "conditional_assumptions": []
+        },
+        "source_and_origin_hashes_verified": true,
+        "data_reads_verified": true,
+        "seed_or_discovered_points_only": true
+      }
+    },
+    {
+      "parameter": "3",
+      "id": "3_1",
+      "before": 17,
+      "after": 17,
+      "target": 28,
+      "seconds": 62.23825520000537,
+      "search_seconds": 59.96082480000041,
+      "workers": 8,
+      "anchors": 2048,
+      "result": "C:\\Users\\Profit77\\Documents\\Git\\elliptic-rank-search\\runs\\small-t-audit-20260917\\curves\\3_1\\short-runs-revisited-adaptive\\result.json",
+      "mode": "adaptive",
+      "stage": "short-runs-revisited",
+      "audit": {
+        "path": "curves\\3_1\\short-runs-revisited-adaptive\\result.json",
+        "parameter": "3",
+        "verification": {
+          "points_checked": 17,
+          "matrix_rank": 17,
+          "torsion_2_dimension_upper_bound": 0,
+          "rank_lower_bound": 17,
+          "all_points_independent_modulo_torsion": true,
+          "conditional_assumptions": []
+        },
+        "source_and_origin_hashes_verified": true,
+        "data_reads_verified": true,
+        "seed_or_discovered_points_only": true
+      }
+    },
+    {
+      "parameter": "2/3",
+      "id": "2_3",
+      "before": 17,
+      "after": 17,
+      "target": 28,
+      "seconds": 62.2883096000005,
+      "search_seconds": 60.04410780000035,
+      "workers": 8,
+      "anchors": 2048,
+      "result": "C:\\Users\\Profit77\\Documents\\Git\\elliptic-rank-search\\runs\\small-t-audit-20260917\\curves\\2_3\\short-runs-revisited-adaptive\\result.json",
+      "mode": "adaptive",
+      "stage": "short-runs-revisited",
+      "audit": {
+        "path": "curves\\2_3\\short-runs-revisited-adaptive\\result.json",
+        "parameter": "2/3",
+        "verification": {
+          "points_checked": 17,
+          "matrix_rank": 17,
+          "torsion_2_dimension_upper_bound": 0,
+          "rank_lower_bound": 17,
+          "all_points_independent_modulo_torsion": true,
+          "conditional_assumptions": []
+        },
+        "source_and_origin_hashes_verified": true,
+        "data_reads_verified": true,
+        "seed_or_discovered_points_only": true
+      }
+    },
+    {
+      "parameter": "-1/4",
+      "id": "-1_4",
+      "before": 15,
+      "after": 15,
+      "target": 28,
+      "seconds": 63.115732100006426,
+      "search_seconds": 60.04740110000421,
+      "workers": 8,
+      "anchors": 2048,
+      "result": "C:\\Users\\Profit77\\Documents\\Git\\elliptic-rank-search\\runs\\small-t-audit-20260917\\curves\\-1_4\\short-runs-revisited-adaptive\\result.json",
+      "mode": "adaptive",
+      "stage": "short-runs-revisited",
+      "audit": {
+        "path": "curves\\-1_4\\short-runs-revisited-adaptive\\result.json",
+        "parameter": "-1/4",
+        "verification": {
+          "points_checked": 15,
+          "matrix_rank": 15,
+          "torsion_2_dimension_upper_bound": 0,
+          "rank_lower_bound": 15,
+          "all_points_independent_modulo_torsion": true,
+          "conditional_assumptions": []
+        },
+        "source_and_origin_hashes_verified": true,
+        "data_reads_verified": true,
+        "seed_or_discovered_points_only": true
+      }
+    },
+    {
+      "parameter": "-11/6",
+      "id": "-11_6",
+      "before": 19,
+      "after": 19,
+      "target": 28,
+      "seconds": 63.1407324999891,
+      "search_seconds": 60.107356399996206,
+      "workers": 8,
+      "anchors": 2048,
+      "result": "C:\\Users\\Profit77\\Documents\\Git\\elliptic-rank-search\\runs\\small-t-audit-20260917\\curves\\-11_6\\short-runs-revisited-adaptive\\result.json",
+      "mode": "adaptive",
+      "stage": "short-runs-revisited",
+      "audit": {
+        "path": "curves\\-11_6\\short-runs-revisited-adaptive\\result.json",
+        "parameter": "-11/6",
+        "verification": {
+          "points_checked": 19,
+          "matrix_rank": 19,
+          "torsion_2_dimension_upper_bound": 0,
+          "rank_lower_bound": 19,
+          "all_points_independent_modulo_torsion": true,
+          "conditional_assumptions": []
+        },
+        "source_and_origin_hashes_verified": true,
+        "data_reads_verified": true,
+        "seed_or_discovered_points_only": true
+      }
+    },
+    {
+      "parameter": "-11/7",
+      "id": "-11_7",
+      "before": 19,
+      "after": 19,
+      "target": 28,
+      "seconds": 63.02379530000326,
+      "search_seconds": 60.024580099998275,
+      "workers": 8,
+      "anchors": 2048,
+      "result": "C:\\Users\\Profit77\\Documents\\Git\\elliptic-rank-search\\runs\\small-t-audit-20260917\\curves\\-11_7\\short-runs-revisited-adaptive\\result.json",
+      "mode": "adaptive",
+      "stage": "short-runs-revisited",
+      "audit": {
+        "path": "curves\\-11_7\\short-runs-revisited-adaptive\\result.json",
+        "parameter": "-11/7",
+        "verification": {
+          "points_checked": 19,
+          "matrix_rank": 19,
+          "torsion_2_dimension_upper_bound": 0,
+          "rank_lower_bound": 19,
+          "all_points_independent_modulo_torsion": true,
+          "conditional_assumptions": []
+        },
+        "source_and_origin_hashes_verified": true,
+        "data_reads_verified": true,
+        "seed_or_discovered_points_only": true
+      }
+    },
+    {
+      "parameter": "8/5",
+      "id": "8_5",
+      "before": 19,
+      "after": 19,
+      "target": 28,
+      "seconds": 63.095899200008716,
+      "search_seconds": 60.12078829998791,
+      "workers": 8,
+      "anchors": 2048,
+      "result": "C:\\Users\\Profit77\\Documents\\Git\\elliptic-rank-search\\runs\\small-t-audit-20260917\\curves\\8_5\\short-runs-revisited-adaptive\\result.json",
+      "mode": "adaptive",
+      "stage": "short-runs-revisited",
+      "audit": {
+        "path": "curves\\8_5\\short-runs-revisited-adaptive\\result.json",
+        "parameter": "8/5",
+        "verification": {
+          "points_checked": 19,
+          "matrix_rank": 19,
+          "torsion_2_dimension_upper_bound": 0,
+          "rank_lower_bound": 19,
+          "all_points_independent_modulo_torsion": true,
+          "conditional_assumptions": []
+        },
+        "source_and_origin_hashes_verified": true,
+        "data_reads_verified": true,
+        "seed_or_discovered_points_only": true
+      }
+    },
+    {
+      "parameter": "-4/5",
+      "id": "-4_5",
+      "before": 17,
+      "after": 17,
+      "target": 28,
+      "seconds": 61.16259049999644,
+      "search_seconds": 59.9929945999902,
+      "workers": 8,
+      "anchors": 2048,
+      "result": "C:\\Users\\Profit77\\Documents\\Git\\elliptic-rank-search\\runs\\small-t-audit-20260917\\curves\\-4_5\\short-runs-revisited-adaptive\\result.json",
+      "mode": "adaptive",
+      "stage": "short-runs-revisited",
+      "audit": {
+        "path": "curves\\-4_5\\short-runs-revisited-adaptive\\result.json",
+        "parameter": "-4/5",
+        "verification": {
+          "points_checked": 17,
+          "matrix_rank": 17,
+          "torsion_2_dimension_upper_bound": 0,
+          "rank_lower_bound": 17,
+          "all_points_independent_modulo_torsion": true,
+          "conditional_assumptions": []
+        },
+        "source_and_origin_hashes_verified": true,
+        "data_reads_verified": true,
+        "seed_or_discovered_points_only": true
+      }
+    },
+    {
+      "parameter": "-2/9",
+      "id": "-2_9",
+      "before": 17,
+      "after": 17,
+      "target": 28,
+      "seconds": 61.76250599999912,
+      "search_seconds": 60.068814199999906,
+      "workers": 8,
+      "anchors": 2048,
+      "result": "C:\\Users\\Profit77\\Documents\\Git\\elliptic-rank-search\\runs\\small-t-audit-20260917\\curves\\-2_9\\short-runs-revisited-adaptive\\result.json",
+      "mode": "adaptive",
+      "stage": "short-runs-revisited",
+      "audit": {
+        "path": "curves\\-2_9\\short-runs-revisited-adaptive\\result.json",
+        "parameter": "-2/9",
+        "verification": {
+          "points_checked": 17,
+          "matrix_rank": 17,
+          "torsion_2_dimension_upper_bound": 0,
+          "rank_lower_bound": 17,
+          "all_points_independent_modulo_torsion": true,
+          "conditional_assumptions": []
+        },
+        "source_and_origin_hashes_verified": true,
+        "data_reads_verified": true,
+        "seed_or_discovered_points_only": true
+      }
+    },
+    {
+      "parameter": "1/10",
+      "id": "1_10",
+      "before": 17,
+      "after": 17,
+      "target": 28,
+      "seconds": 61.8403505999886,
+      "search_seconds": 60.06309840000176,
+      "workers": 8,
+      "anchors": 2048,
+      "result": "C:\\Users\\Profit77\\Documents\\Git\\elliptic-rank-search\\runs\\small-t-audit-20260917\\curves\\1_10\\short-runs-revisited-adaptive\\result.json",
+      "mode": "adaptive",
+      "stage": "short-runs-revisited",
+      "audit": {
+        "path": "curves\\1_10\\short-runs-revisited-adaptive\\result.json",
+        "parameter": "1/10",
+        "verification": {
+          "points_checked": 17,
+          "matrix_rank": 17,
+          "torsion_2_dimension_upper_bound": 0,
+          "rank_lower_bound": 17,
+          "all_points_independent_modulo_torsion": true,
+          "conditional_assumptions": []
+        },
+        "source_and_origin_hashes_verified": true,
+        "data_reads_verified": true,
+        "seed_or_discovered_points_only": true
+      }
+    },
+    {
+      "parameter": "6",
+      "id": "6_1",
+      "before": 18,
+      "after": 18,
+      "target": 28,
+      "seconds": 61.792857899999944,
+      "search_seconds": 60.03265599999577,
+      "workers": 8,
+      "anchors": 2048,
+      "result": "C:\\Users\\Profit77\\Documents\\Git\\elliptic-rank-search\\runs\\small-t-audit-20260917\\curves\\6_1\\short-runs-revisited-adaptive\\result.json",
+      "mode": "adaptive",
+      "stage": "short-runs-revisited",
+      "audit": {
+        "path": "curves\\6_1\\short-runs-revisited-adaptive\\result.json",
+        "parameter": "6",
+        "verification": {
+          "points_checked": 18,
+          "matrix_rank": 18,
+          "torsion_2_dimension_upper_bound": 0,
+          "rank_lower_bound": 18,
+          "all_points_independent_modulo_torsion": true,
+          "conditional_assumptions": []
+        },
+        "source_and_origin_hashes_verified": true,
+        "data_reads_verified": true,
+        "seed_or_discovered_points_only": true
+      }
+    }
+  ],
+  "errors": [],
+  "seconds": 375.0426521000045
+}

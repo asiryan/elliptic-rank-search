@@ -1,0 +1,248 @@
+{
+  "results": [
+    {
+      "parameter": "-7/12",
+      "id": "-7_12",
+      "initial_lower_bound": 20,
+      "lower_bound": 20,
+      "target_rank": 21,
+      "process_seconds": 30.173902599999565,
+      "stage": "round1",
+      "mode": "adaptive",
+      "result_path": "C:\\Users\\Profit77\\Documents\\Git\\elliptic-rank-search\\runs\\top-ten-20260916\\curves\\-7_12\\adaptive\\result.json"
+    },
+    {
+      "parameter": "-25",
+      "id": "-25_1",
+      "initial_lower_bound": 22,
+      "lower_bound": 22,
+      "target_rank": 23,
+      "process_seconds": 30.236568799999077,
+      "stage": "round1",
+      "mode": "adaptive",
+      "result_path": "C:\\Users\\Profit77\\Documents\\Git\\elliptic-rank-search\\runs\\top-ten-20260916\\curves\\-25_1\\adaptive\\result.json"
+    },
+    {
+      "parameter": "-9/11",
+      "id": "-9_11",
+      "initial_lower_bound": 20,
+      "lower_bound": 20,
+      "target_rank": 21,
+      "process_seconds": 30.187737600004766,
+      "stage": "round1",
+      "mode": "adaptive",
+      "result_path": "C:\\Users\\Profit77\\Documents\\Git\\elliptic-rank-search\\runs\\top-ten-20260916\\curves\\-9_11\\adaptive\\result.json"
+    },
+    {
+      "parameter": "-19/27",
+      "id": "-19_27",
+      "initial_lower_bound": 21,
+      "lower_bound": 21,
+      "target_rank": 22,
+      "process_seconds": 30.185248699999647,
+      "stage": "round1",
+      "mode": "adaptive",
+      "result_path": "C:\\Users\\Profit77\\Documents\\Git\\elliptic-rank-search\\runs\\top-ten-20260916\\curves\\-19_27\\adaptive\\result.json"
+    },
+    {
+      "parameter": "9/5",
+      "id": "9_5",
+      "initial_lower_bound": 20,
+      "lower_bound": 20,
+      "target_rank": 21,
+      "process_seconds": 30.20145720000437,
+      "stage": "round1",
+      "mode": "adaptive",
+      "result_path": "C:\\Users\\Profit77\\Documents\\Git\\elliptic-rank-search\\runs\\top-ten-20260916\\curves\\9_5\\adaptive\\result.json"
+    },
+    {
+      "parameter": "-1/29",
+      "id": "-1_29",
+      "initial_lower_bound": 20,
+      "lower_bound": 20,
+      "target_rank": 21,
+      "process_seconds": 30.243310000005295,
+      "stage": "round1",
+      "mode": "adaptive",
+      "result_path": "C:\\Users\\Profit77\\Documents\\Git\\elliptic-rank-search\\runs\\top-ten-20260916\\curves\\-1_29\\adaptive\\result.json"
+    },
+    {
+      "parameter": "9/4",
+      "id": "9_4",
+      "initial_lower_bound": 20,
+      "lower_bound": 20,
+      "target_rank": 21,
+      "process_seconds": 30.19147439999506,
+      "stage": "round1",
+      "mode": "adaptive",
+      "result_path": "C:\\Users\\Profit77\\Documents\\Git\\elliptic-rank-search\\runs\\top-ten-20260916\\curves\\9_4\\adaptive\\result.json"
+    },
+    {
+      "parameter": "-19/3",
+      "id": "-19_3",
+      "initial_lower_bound": 20,
+      "lower_bound": 20,
+      "target_rank": 21,
+      "process_seconds": 30.238357200010796,
+      "stage": "round1",
+      "mode": "adaptive",
+      "result_path": "C:\\Users\\Profit77\\Documents\\Git\\elliptic-rank-search\\runs\\top-ten-20260916\\curves\\-19_3\\adaptive\\result.json"
+    },
+    {
+      "parameter": "-10/31",
+      "id": "-10_31",
+      "initial_lower_bound": 20,
+      "lower_bound": 20,
+      "target_rank": 21,
+      "process_seconds": 30.249761600003694,
+      "stage": "round1",
+      "mode": "adaptive",
+      "result_path": "C:\\Users\\Profit77\\Documents\\Git\\elliptic-rank-search\\runs\\top-ten-20260916\\curves\\-10_31\\adaptive\\result.json"
+    },
+    {
+      "parameter": "-15/29",
+      "id": "-15_29",
+      "initial_lower_bound": 20,
+      "lower_bound": 20,
+      "target_rank": 21,
+      "process_seconds": 30.21716810000362,
+      "stage": "round1",
+      "mode": "adaptive",
+      "result_path": "C:\\Users\\Profit77\\Documents\\Git\\elliptic-rank-search\\runs\\top-ten-20260916\\curves\\-15_29\\adaptive\\result.json"
+    },
+    {
+      "parameter": "10/3",
+      "id": "10_3",
+      "initial_lower_bound": 20,
+      "lower_bound": 20,
+      "target_rank": 21,
+      "process_seconds": 30.189332900001318,
+      "stage": "round1",
+      "mode": "adaptive",
+      "result_path": "C:\\Users\\Profit77\\Documents\\Git\\elliptic-rank-search\\runs\\top-ten-20260916\\curves\\10_3\\adaptive\\result.json"
+    },
+    {
+      "parameter": "1/4",
+      "id": "1_4",
+      "initial_lower_bound": 18,
+      "lower_bound": 18,
+      "target_rank": 19,
+      "process_seconds": 30.24966879999556,
+      "stage": "round1",
+      "mode": "adaptive",
+      "result_path": "C:\\Users\\Profit77\\Documents\\Git\\elliptic-rank-search\\runs\\top-ten-20260916\\curves\\1_4\\adaptive\\result.json"
+    },
+    {
+      "parameter": "7/22",
+      "id": "7_22",
+      "initial_lower_bound": 20,
+      "lower_bound": 20,
+      "target_rank": 21,
+      "process_seconds": 30.225569000001997,
+      "stage": "round1",
+      "mode": "adaptive",
+      "result_path": "C:\\Users\\Profit77\\Documents\\Git\\elliptic-rank-search\\runs\\top-ten-20260916\\curves\\7_22\\adaptive\\result.json"
+    },
+    {
+      "parameter": "9/10",
+      "id": "9_10",
+      "initial_lower_bound": 20,
+      "lower_bound": 20,
+      "target_rank": 21,
+      "process_seconds": 30.246824499990907,
+      "stage": "round1",
+      "mode": "adaptive",
+      "result_path": "C:\\Users\\Profit77\\Documents\\Git\\elliptic-rank-search\\runs\\top-ten-20260916\\curves\\9_10\\adaptive\\result.json"
+    },
+    {
+      "parameter": "10/9",
+      "id": "10_9",
+      "initial_lower_bound": 20,
+      "lower_bound": 20,
+      "target_rank": 21,
+      "process_seconds": 30.244094399997266,
+      "stage": "round1",
+      "mode": "adaptive",
+      "result_path": "C:\\Users\\Profit77\\Documents\\Git\\elliptic-rank-search\\runs\\top-ten-20260916\\curves\\10_9\\adaptive\\result.json"
+    },
+    {
+      "parameter": "-7/5",
+      "id": "-7_5",
+      "initial_lower_bound": 19,
+      "lower_bound": 19,
+      "target_rank": 20,
+      "process_seconds": 30.224010699996143,
+      "stage": "round1",
+      "mode": "adaptive",
+      "result_path": "C:\\Users\\Profit77\\Documents\\Git\\elliptic-rank-search\\runs\\top-ten-20260916\\curves\\-7_5\\adaptive\\result.json"
+    },
+    {
+      "parameter": "-12/31",
+      "id": "-12_31",
+      "initial_lower_bound": 20,
+      "lower_bound": 20,
+      "target_rank": 21,
+      "process_seconds": 30.20391519999248,
+      "stage": "round1",
+      "mode": "adaptive",
+      "result_path": "C:\\Users\\Profit77\\Documents\\Git\\elliptic-rank-search\\runs\\top-ten-20260916\\curves\\-12_31\\adaptive\\result.json"
+    },
+    {
+      "parameter": "5/12",
+      "id": "5_12",
+      "initial_lower_bound": 19,
+      "lower_bound": 19,
+      "target_rank": 20,
+      "process_seconds": 30.217132299992954,
+      "stage": "round1",
+      "mode": "adaptive",
+      "result_path": "C:\\Users\\Profit77\\Documents\\Git\\elliptic-rank-search\\runs\\top-ten-20260916\\curves\\5_12\\adaptive\\result.json"
+    },
+    {
+      "parameter": "-16/11",
+      "id": "-16_11",
+      "initial_lower_bound": 20,
+      "lower_bound": 20,
+      "target_rank": 21,
+      "process_seconds": 30.223753599988413,
+      "stage": "round1",
+      "mode": "adaptive",
+      "result_path": "C:\\Users\\Profit77\\Documents\\Git\\elliptic-rank-search\\runs\\top-ten-20260916\\curves\\-16_11\\adaptive\\result.json"
+    },
+    {
+      "parameter": "-2/11",
+      "id": "-2_11",
+      "initial_lower_bound": 18,
+      "lower_bound": 18,
+      "target_rank": 19,
+      "process_seconds": 30.237413099996047,
+      "stage": "round1",
+      "mode": "adaptive",
+      "result_path": "C:\\Users\\Profit77\\Documents\\Git\\elliptic-rank-search\\runs\\top-ten-20260916\\curves\\-2_11\\adaptive\\result.json"
+    },
+    {
+      "parameter": "-1/7",
+      "id": "-1_7",
+      "initial_lower_bound": 17,
+      "lower_bound": 17,
+      "target_rank": 18,
+      "process_seconds": 30.179235100004007,
+      "stage": "round1",
+      "mode": "adaptive",
+      "result_path": "C:\\Users\\Profit77\\Documents\\Git\\elliptic-rank-search\\runs\\top-ten-20260916\\curves\\-1_7\\adaptive\\result.json"
+    },
+    {
+      "parameter": "-3/2",
+      "id": "-3_2",
+      "initial_lower_bound": 18,
+      "lower_bound": 18,
+      "target_rank": 19,
+      "process_seconds": 30.211062900008983,
+      "stage": "round1",
+      "mode": "adaptive",
+      "result_path": "C:\\Users\\Profit77\\Documents\\Git\\elliptic-rank-search\\runs\\top-ten-20260916\\curves\\-3_2\\adaptive\\result.json"
+    }
+  ],
+  "errors": [],
+  "wall_seconds": 332.54278269999486
+}

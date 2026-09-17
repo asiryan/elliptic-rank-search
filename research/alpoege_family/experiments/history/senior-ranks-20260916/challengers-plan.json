@@ -1,0 +1,17 @@
+{
+  "ids": [
+    "-311_519",
+    "-332_267",
+    "-83_111"
+  ],
+  "targets": {
+    "-311_519": 27,
+    "-332_267": 26,
+    "-83_111": 25
+  },
+  "seconds": 240.0,
+  "mode": "adaptive",
+  "anchors": 256,
+  "parallel_curves": 3,
+  "workers_per_curve": 2
+}

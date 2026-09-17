@@ -1,0 +1,465 @@
+{
+  "count": 5039,
+  "new_qualifiers": [
+    {
+      "parameter": "4/17",
+      "lower_bound": 18,
+      "placement": {
+        "naive": 82,
+        "disc": 80,
+        "faltings": 82,
+        "conductor": 10
+      }
+    },
+    {
+      "parameter": "-47/23",
+      "lower_bound": 23,
+      "placement": {
+        "naive": 5,
+        "disc": 5,
+        "faltings": 5
+      }
+    },
+    {
+      "parameter": "-27/47",
+      "lower_bound": 22,
+      "placement": {
+        "naive": 13,
+        "disc": 13,
+        "faltings": 13,
+        "conductor": 8
+      }
+    },
+    {
+      "parameter": "-13/47",
+      "lower_bound": 21,
+      "placement": {
+        "naive": 5,
+        "disc": 5,
+        "faltings": 5,
+        "conductor": 5
+      }
+    }
+  ],
+  "near_records": [
+    {
+      "parameter": "1/4",
+      "lower_bound": 18,
+      "record_target": 19,
+      "record_gap": 1,
+      "entry_target": 18,
+      "placement": {
+        "naive": 23,
+        "disc": 22,
+        "faltings": 23,
+        "conductor": 8
+      },
+      "score_1021": 12.623296031311655
+    },
+    {
+      "parameter": "4/17",
+      "lower_bound": 18,
+      "record_target": 19,
+      "record_gap": 1,
+      "entry_target": 18,
+      "placement": {
+        "naive": 82,
+        "disc": 80,
+        "faltings": 82,
+        "conductor": 10
+      },
+      "score_1021": 11.566714864503627
+    },
+    {
+      "parameter": "-47/23",
+      "lower_bound": 23,
+      "record_target": 25,
+      "record_gap": 2,
+      "entry_target": 23,
+      "placement": {
+        "naive": 5,
+        "disc": 5,
+        "faltings": 5
+      },
+      "score_1021": 12.378631805759579
+    },
+    {
+      "parameter": "-27/47",
+      "lower_bound": 22,
+      "record_target": 24,
+      "record_gap": 2,
+      "entry_target": 22,
+      "placement": {
+        "naive": 13,
+        "disc": 13,
+        "faltings": 13,
+        "conductor": 8
+      },
+      "score_1021": 12.141004941952371
+    },
+    {
+      "parameter": "-13/47",
+      "lower_bound": 21,
+      "record_target": 23,
+      "record_gap": 2,
+      "entry_target": 21,
+      "placement": {
+        "naive": 5,
+        "disc": 5,
+        "faltings": 5,
+        "conductor": 5
+      },
+      "score_1021": 12.41283464805422
+    },
+    {
+      "parameter": "-7/12",
+      "lower_bound": 20,
+      "record_target": 22,
+      "record_gap": 2,
+      "entry_target": 20,
+      "placement": {
+        "naive": 8,
+        "disc": 9,
+        "faltings": 9,
+        "conductor": 10
+      },
+      "score_1021": 12.415859029396286
+    },
+    {
+      "parameter": "-12/31",
+      "lower_bound": 20,
+      "record_target": 22,
+      "record_gap": 2,
+      "entry_target": 20,
+      "placement": {
+        "naive": 28,
+        "disc": 29,
+        "faltings": 29,
+        "conductor": 6
+      },
+      "score_1021": 11.86888994798914
+    },
+    {
+      "parameter": "4/3",
+      "lower_bound": 19,
+      "record_target": 21,
+      "record_gap": 2,
+      "entry_target": 19,
+      "placement": {
+        "naive": 34,
+        "disc": 31,
+        "faltings": 33,
+        "conductor": 10
+      },
+      "score_1021": 11.49652786113643
+    },
+    {
+      "parameter": "-25",
+      "lower_bound": 22,
+      "record_target": 24,
+      "record_gap": 2,
+      "entry_target": 23,
+      "placement": {
+        "naive": 14,
+        "disc": 12,
+        "faltings": 13,
+        "conductor": 14
+      },
+      "score_1021": 11.898276428606705
+    },
+    {
+      "parameter": "-19/27",
+      "lower_bound": 21,
+      "record_target": 23,
+      "record_gap": 2,
+      "entry_target": 22,
+      "placement": {
+        "naive": 13,
+        "disc": 17,
+        "faltings": 16,
+        "conductor": 29
+      },
+      "score_1021": 11.729408492925234
+    },
+    {
+      "parameter": "-9/11",
+      "lower_bound": 20,
+      "record_target": 22,
+      "record_gap": 2,
+      "entry_target": 21,
+      "placement": {
+        "naive": 13,
+        "disc": 15,
+        "faltings": 14
+      },
+      "score_1021": 12.205290437521878
+    },
+    {
+      "parameter": "10/9",
+      "lower_bound": 20,
+      "record_target": 22,
+      "record_gap": 2,
+      "entry_target": 21,
+      "placement": {
+        "naive": 28,
+        "disc": 25,
+        "faltings": 27,
+        "conductor": 17
+      },
+      "score_1021": 10.799497524077504
+    },
+    {
+      "parameter": "6/19",
+      "lower_bound": 19,
+      "record_target": 21,
+      "record_gap": 2,
+      "entry_target": 20,
+      "placement": {
+        "naive": 59,
+        "disc": 59,
+        "faltings": 59,
+        "conductor": 14
+      },
+      "score_1021": 10.441742953874762
+    },
+    {
+      "parameter": "7/46",
+      "lower_bound": 19,
+      "record_target": 21,
+      "record_gap": 2,
+      "entry_target": 20,
+      "placement": {
+        "naive": 97,
+        "disc": 86,
+        "faltings": 93,
+        "conductor": 16
+      },
+      "score_1021": 10.394478996420816
+    },
+    {
+      "parameter": "6",
+      "lower_bound": 18,
+      "record_target": 20,
+      "record_gap": 2,
+      "entry_target": 19,
+      "placement": {
+        "naive": 77,
+        "disc": 76,
+        "faltings": 76,
+        "conductor": 13
+      },
+      "score_1021": 11.353622701905012
+    },
+    {
+      "parameter": "4/15",
+      "lower_bound": 18,
+      "record_target": 20,
+      "record_gap": 2,
+      "entry_target": 19,
+      "placement": {
+        "naive": 54,
+        "disc": 54,
+        "faltings": 53,
+        "conductor": 13
+      },
+      "score_1021": 11.293361397408516
+    },
+    {
+      "parameter": "1/10",
+      "lower_bound": 17,
+      "record_target": 19,
+      "record_gap": 2,
+      "entry_target": 18,
+      "placement": {
+        "naive": 81,
+        "disc": 68,
+        "faltings": 76,
+        "conductor": 18
+      },
+      "score_1021": 11.2074449870075
+    },
+    {
+      "parameter": "2/3",
+      "lower_bound": 17,
+      "record_target": 19,
+      "record_gap": 2,
+      "entry_target": 18,
+      "placement": {
+        "naive": 40,
+        "disc": 38,
+        "faltings": 38,
+        "conductor": 16
+      },
+      "score_1021": 10.96201667477233
+    },
+    {
+      "parameter": "-1/7",
+      "lower_bound": 17,
+      "record_target": 19,
+      "record_gap": 2,
+      "entry_target": 18,
+      "placement": {
+        "naive": 31,
+        "disc": 32,
+        "faltings": 30,
+        "conductor": 15
+      },
+      "score_1021": 10.939711015717487
+    },
+    {
+      "parameter": "-2/9",
+      "lower_bound": 17,
+      "record_target": 19,
+      "record_gap": 2,
+      "entry_target": 18,
+      "placement": {
+        "naive": 57,
+        "disc": 62,
+        "faltings": 58,
+        "conductor": 24
+      },
+      "score_1021": 10.924643108333163
+    },
+    {
+      "parameter": "3",
+      "lower_bound": 17,
+      "record_target": 19,
+      "record_gap": 2,
+      "entry_target": 18,
+      "placement": {
+        "naive": 74,
+        "disc": 74,
+        "faltings": 73,
+        "conductor": 26
+      },
+      "score_1021": 10.745260571025899
+    },
+    {
+      "parameter": "-4/5",
+      "lower_bound": 17,
+      "record_target": 19,
+      "record_gap": 2,
+      "entry_target": 18,
+      "placement": {
+        "naive": 65,
+        "disc": 75,
+        "faltings": 71,
+        "conductor": 18
+      },
+      "score_1021": 10.591938619644882
+    },
+    {
+      "parameter": "-2/15",
+      "lower_bound": 17,
+      "record_target": 19,
+      "record_gap": 2,
+      "entry_target": 18,
+      "placement": {
+        "naive": 52,
+        "disc": 52,
+        "faltings": 53,
+        "conductor": 27
+      },
+      "score_1021": 10.379813784254411
+    },
+    {
+      "parameter": "-4/9",
+      "lower_bound": 17,
+      "record_target": 19,
+      "record_gap": 2,
+      "entry_target": 18,
+      "placement": {
+        "naive": 81,
+        "disc": 80,
+        "faltings": 82,
+        "conductor": 29
+      },
+      "score_1021": 9.98711190584774
+    },
+    {
+      "parameter": "1/24",
+      "lower_bound": 17,
+      "record_target": 19,
+      "record_gap": 2,
+      "entry_target": 18,
+      "placement": {
+        "naive": 95,
+        "disc": 91,
+        "faltings": 95,
+        "conductor": 22
+      },
+      "score_1021": 9.921649056158918
+    },
+    {
+      "parameter": "-8/13",
+      "lower_bound": 17,
+      "record_target": 19,
+      "record_gap": 2,
+      "entry_target": 18,
+      "placement": {
+        "naive": 106,
+        "disc": 111,
+        "faltings": 110,
+        "conductor": 29
+      },
+      "score_1021": 9.141696355450858
+    },
+    {
+      "parameter": "-1/12",
+      "lower_bound": 17,
+      "record_target": 19,
+      "record_gap": 2,
+      "entry_target": 18,
+      "placement": {
+        "naive": 50,
+        "disc": 50,
+        "faltings": 50,
+        "conductor": 28
+      },
+      "score_1021": 8.973804672223707
+    },
+    {
+      "parameter": "1/2",
+      "lower_bound": 16,
+      "record_target": 18,
+      "record_gap": 2,
+      "entry_target": 17,
+      "placement": {
+        "naive": 67,
+        "disc": 67,
+        "faltings": 68,
+        "conductor": 12
+      },
+      "score_1021": 11.315502204771088
+    },
+    {
+      "parameter": "1/16",
+      "lower_bound": 16,
+      "record_target": 18,
+      "record_gap": 2,
+      "entry_target": 17,
+      "placement": {
+        "naive": 140,
+        "disc": 133,
+        "faltings": 137,
+        "conductor": 30
+      },
+      "score_1021": 10.12090961898391
+    },
+    {
+      "parameter": "-4/13",
+      "lower_bound": 16,
+      "record_target": 18,
+      "record_gap": 2,
+      "entry_target": 17,
+      "placement": {
+        "naive": 129,
+        "disc": 128,
+        "faltings": 126,
+        "conductor": 29
+      },
+      "score_1021": 10.056832134088895
+    }
+  ],
+  "complete_conductors": 2865
+}

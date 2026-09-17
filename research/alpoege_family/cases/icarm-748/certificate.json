@@ -1,0 +1,145 @@
+{
+  "format": "local-2-kummer-rank-certificate-v1",
+  "input_sha256": "309e967b54a802d1cd6778e0650e33dac4b3150624b726fcfac9ed0831cfcfae",
+  "points_checked": 25,
+  "matrix_rank": 25,
+  "torsion_2_dimension_upper_bound": 0,
+  "rank_lower_bound": 25,
+  "all_points_independent_modulo_torsion": true,
+  "torsion_witness": {
+    "prime": 7,
+    "roots": [],
+    "dimension_upper_bound": 0
+  },
+  "independent_rows": [
+    {
+      "prime": 19,
+      "root": 2,
+      "bits": "0011011101100000100101100"
+    },
+    {
+      "prime": 19,
+      "root": 3,
+      "bits": "0001100010000111011010111"
+    },
+    {
+      "prime": 29,
+      "root": 0,
+      "bits": "0100100011011110011010000"
+    },
+    {
+      "prime": 31,
+      "root": 11,
+      "bits": "0010110110100100010110100"
+    },
+    {
+      "prime": 41,
+      "root": 3,
+      "bits": "0111100111001101001111111"
+    },
+    {
+      "prime": 43,
+      "root": 2,
+      "bits": "0000100011100110101001110"
+    },
+    {
+      "prime": 53,
+      "root": 26,
+      "bits": "0100001101101101000010100"
+    },
+    {
+      "prime": 59,
+      "root": 12,
+      "bits": "0101101110000011101001101"
+    },
+    {
+      "prime": 59,
+      "root": 46,
+      "bits": "1000110001110011111010110"
+    },
+    {
+      "prime": 61,
+      "root": 0,
+      "bits": "0010110101100010010010011"
+    },
+    {
+      "prime": 71,
+      "root": 24,
+      "bits": "0000111111110000001010100"
+    },
+    {
+      "prime": 73,
+      "root": 30,
+      "bits": "1010001000000111110100101"
+    },
+    {
+      "prime": 83,
+      "root": 2,
+      "bits": "0100000011100001100011000"
+    },
+    {
+      "prime": 89,
+      "root": 62,
+      "bits": "1111110100100000110010101"
+    },
+    {
+      "prime": 101,
+      "root": 39,
+      "bits": "0000001011101010111100111"
+    },
+    {
+      "prime": 107,
+      "root": 34,
+      "bits": "1011000100110001010001011"
+    },
+    {
+      "prime": 109,
+      "root": 25,
+      "bits": "1111011111101000110001010"
+    },
+    {
+      "prime": 109,
+      "root": 85,
+      "bits": "0011100010010110011010010"
+    },
+    {
+      "prime": 113,
+      "root": 16,
+      "bits": "1100100111110100110011100"
+    },
+    {
+      "prime": 113,
+      "root": 96,
+      "bits": "1101110101011100111111110"
+    },
+    {
+      "prime": 131,
+      "root": 57,
+      "bits": "1100101011110011001010001"
+    },
+    {
+      "prime": 131,
+      "root": 74,
+      "bits": "1000101001011100011010101"
+    },
+    {
+      "prime": 149,
+      "root": 6,
+      "bits": "1110000000111110111111111"
+    },
+    {
+      "prime": 163,
+      "root": 105,
+      "bits": "1101111011100101001100111"
+    },
+    {
+      "prime": 173,
+      "root": 104,
+      "bits": "0001111000010100011011001"
+    }
+  ],
+  "good_primes_examined": 33,
+  "largest_prime_examined": 173,
+  "requested_prime_bound": 2000,
+  "conditional_assumptions": []
+}

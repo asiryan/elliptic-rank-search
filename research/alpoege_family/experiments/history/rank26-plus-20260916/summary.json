@@ -1,0 +1,640 @@
+{
+  "catalogue_count": 750,
+  "catalogue_downloaded_at": "2026-09-16T19:27:19.769736+00:00",
+  "catalogue_sha256": "abac58b45efee2fc1a338b649eecd8e1b3d3c5af2f13383ffbd80c1387d66058",
+  "search_invocations": 159,
+  "distinct_parameters_searched": 150,
+  "all_improved": [
+    {
+      "id": "936_811",
+      "parameter": "936/811",
+      "campaign_initial_bound": 19,
+      "lower_bound": 25,
+      "placement": {
+        "naive": 26,
+        "disc": 23,
+        "faltings": 24,
+        "conductor": 38
+      },
+      "catalogue_match": null,
+      "published_lower_bound": null,
+      "selected_result": "C:\\Users\\Profit77\\Documents\\Git\\elliptic-rank-search\\runs\\rank26-plus-20260916\\curves\\936_811\\final-wide-anchors-adaptive\\result.json"
+    },
+    {
+      "id": "-344_541",
+      "parameter": "-344/541",
+      "campaign_initial_bound": 17,
+      "lower_bound": 24,
+      "placement": {
+        "naive": 23,
+        "disc": 23,
+        "faltings": 23
+      },
+      "catalogue_match": null,
+      "published_lower_bound": null,
+      "selected_result": "C:\\Users\\Profit77\\Documents\\Git\\elliptic-rank-search\\runs\\rank26-plus-20260916\\curves\\-344_541\\final-wide-anchors-adaptive\\result.json"
+    },
+    {
+      "id": "517_1382",
+      "parameter": "517/1382",
+      "campaign_initial_bound": 18,
+      "lower_bound": 24,
+      "placement": {
+        "naive": 32,
+        "disc": 32,
+        "faltings": 32,
+        "conductor": 46
+      },
+      "catalogue_match": null,
+      "published_lower_bound": null,
+      "selected_result": "C:\\Users\\Profit77\\Documents\\Git\\elliptic-rank-search\\runs\\rank26-plus-20260916\\curves\\517_1382\\final-wide-anchors-adaptive\\result.json"
+    },
+    {
+      "id": "218_355",
+      "parameter": "218/355",
+      "campaign_initial_bound": 22,
+      "lower_bound": 23,
+      "placement": {
+        "naive": 46,
+        "disc": 46,
+        "faltings": 46
+      },
+      "catalogue_match": null,
+      "published_lower_bound": null,
+      "selected_result": "C:\\Users\\Profit77\\Documents\\Git\\elliptic-rank-search\\runs\\rank26-plus-20260916\\curves\\218_355\\middle-extension-adaptive\\result.json"
+    },
+    {
+      "id": "-503_991",
+      "parameter": "-503/991",
+      "campaign_initial_bound": 17,
+      "lower_bound": 23,
+      "placement": {
+        "naive": 52,
+        "disc": 51,
+        "faltings": 51,
+        "conductor": 64
+      },
+      "catalogue_match": null,
+      "published_lower_bound": null,
+      "selected_result": "C:\\Users\\Profit77\\Documents\\Git\\elliptic-rank-search\\runs\\rank26-plus-20260916\\curves\\-503_991\\promising-medium-adaptive\\result.json"
+    },
+    {
+      "id": "-827_1010",
+      "parameter": "-827/1010",
+      "campaign_initial_bound": 17,
+      "lower_bound": 23,
+      "placement": {
+        "naive": 55,
+        "disc": 56,
+        "faltings": 56,
+        "conductor": 65
+      },
+      "catalogue_match": null,
+      "published_lower_bound": null,
+      "selected_result": "C:\\Users\\Profit77\\Documents\\Git\\elliptic-rank-search\\runs\\rank26-plus-20260916\\curves\\-827_1010\\wide-screen-adaptive\\result.json"
+    },
+    {
+      "id": "1122_337",
+      "parameter": "1122/337",
+      "campaign_initial_bound": 17,
+      "lower_bound": 23,
+      "placement": {
+        "naive": 64,
+        "disc": 59,
+        "faltings": 61
+      },
+      "catalogue_match": null,
+      "published_lower_bound": null,
+      "selected_result": "C:\\Users\\Profit77\\Documents\\Git\\elliptic-rank-search\\runs\\rank26-plus-20260916\\curves\\1122_337\\wide-screen-adaptive\\result.json"
+    },
+    {
+      "id": "-1262_903",
+      "parameter": "-1262/903",
+      "campaign_initial_bound": 17,
+      "lower_bound": 23,
+      "placement": {
+        "naive": 59,
+        "disc": 58,
+        "faltings": 59,
+        "conductor": 72
+      },
+      "catalogue_match": null,
+      "published_lower_bound": null,
+      "selected_result": "C:\\Users\\Profit77\\Documents\\Git\\elliptic-rank-search\\runs\\rank26-plus-20260916\\curves\\-1262_903\\wide-screen-adaptive\\result.json"
+    },
+    {
+      "id": "293_786",
+      "parameter": "293/786",
+      "campaign_initial_bound": 17,
+      "lower_bound": 22,
+      "placement": {
+        "naive": 58,
+        "disc": 56,
+        "faltings": 57
+      },
+      "catalogue_match": null,
+      "published_lower_bound": null,
+      "selected_result": "C:\\Users\\Profit77\\Documents\\Git\\elliptic-rank-search\\runs\\rank26-plus-20260916\\curves\\293_786\\wide-screen-adaptive\\result.json"
+    },
+    {
+      "id": "458_883",
+      "parameter": "458/883",
+      "campaign_initial_bound": 17,
+      "lower_bound": 22,
+      "placement": {
+        "naive": 68,
+        "disc": 68,
+        "faltings": 68,
+        "conductor": 76
+      },
+      "catalogue_match": null,
+      "published_lower_bound": null,
+      "selected_result": "C:\\Users\\Profit77\\Documents\\Git\\elliptic-rank-search\\runs\\rank26-plus-20260916\\curves\\458_883\\wide-screen-adaptive\\result.json"
+    },
+    {
+      "id": "-19_916",
+      "parameter": "-19/916",
+      "campaign_initial_bound": 17,
+      "lower_bound": 22,
+      "placement": {
+        "naive": 58,
+        "disc": 57,
+        "faltings": 58,
+        "conductor": 74
+      },
+      "catalogue_match": null,
+      "published_lower_bound": null,
+      "selected_result": "C:\\Users\\Profit77\\Documents\\Git\\elliptic-rank-search\\runs\\rank26-plus-20260916\\curves\\-19_916\\wide-screen-adaptive\\result.json"
+    },
+    {
+      "id": "347_937",
+      "parameter": "347/937",
+      "campaign_initial_bound": 17,
+      "lower_bound": 22,
+      "placement": {
+        "naive": 65,
+        "disc": 63,
+        "faltings": 65
+      },
+      "catalogue_match": null,
+      "published_lower_bound": null,
+      "selected_result": "C:\\Users\\Profit77\\Documents\\Git\\elliptic-rank-search\\runs\\rank26-plus-20260916\\curves\\347_937\\wide-screen-adaptive\\result.json"
+    },
+    {
+      "id": "719_1026",
+      "parameter": "719/1026",
+      "campaign_initial_bound": 17,
+      "lower_bound": 22,
+      "placement": {
+        "naive": 71,
+        "disc": 69,
+        "faltings": 70,
+        "conductor": 84
+      },
+      "catalogue_match": null,
+      "published_lower_bound": null,
+      "selected_result": "C:\\Users\\Profit77\\Documents\\Git\\elliptic-rank-search\\runs\\rank26-plus-20260916\\curves\\719_1026\\wide-screen-adaptive\\result.json"
+    },
+    {
+      "id": "512_1707",
+      "parameter": "512/1707",
+      "campaign_initial_bound": 17,
+      "lower_bound": 22,
+      "placement": {
+        "naive": 69,
+        "disc": 69,
+        "faltings": 69
+      },
+      "catalogue_match": null,
+      "published_lower_bound": null,
+      "selected_result": "C:\\Users\\Profit77\\Documents\\Git\\elliptic-rank-search\\runs\\rank26-plus-20260916\\curves\\512_1707\\wide-screen-adaptive\\result.json"
+    },
+    {
+      "id": "-533_2012",
+      "parameter": "-533/2012",
+      "campaign_initial_bound": 17,
+      "lower_bound": 22,
+      "placement": {
+        "naive": 68,
+        "disc": 68,
+        "faltings": 68,
+        "conductor": 80
+      },
+      "catalogue_match": null,
+      "published_lower_bound": null,
+      "selected_result": "C:\\Users\\Profit77\\Documents\\Git\\elliptic-rank-search\\runs\\rank26-plus-20260916\\curves\\-533_2012\\wide-screen-adaptive\\result.json"
+    },
+    {
+      "id": "-293_532",
+      "parameter": "-293/532",
+      "campaign_initial_bound": 17,
+      "lower_bound": 21,
+      "placement": {
+        "naive": 78,
+        "disc": 77,
+        "faltings": 78,
+        "conductor": 90
+      },
+      "catalogue_match": null,
+      "published_lower_bound": null,
+      "selected_result": "C:\\Users\\Profit77\\Documents\\Git\\elliptic-rank-search\\runs\\rank26-plus-20260916\\curves\\-293_532\\wide-screen-adaptive\\result.json"
+    },
+    {
+      "id": "272_547",
+      "parameter": "272/547",
+      "campaign_initial_bound": 17,
+      "lower_bound": 21,
+      "placement": {
+        "naive": 81,
+        "disc": 80,
+        "faltings": 81,
+        "conductor": 96
+      },
+      "catalogue_match": null,
+      "published_lower_bound": null,
+      "selected_result": "C:\\Users\\Profit77\\Documents\\Git\\elliptic-rank-search\\runs\\rank26-plus-20260916\\curves\\272_547\\wide-screen-adaptive\\result.json"
+    },
+    {
+      "id": "-713_480",
+      "parameter": "-713/480",
+      "campaign_initial_bound": 17,
+      "lower_bound": 21,
+      "placement": {
+        "naive": 87,
+        "disc": 86,
+        "faltings": 86
+      },
+      "catalogue_match": null,
+      "published_lower_bound": null,
+      "selected_result": "C:\\Users\\Profit77\\Documents\\Git\\elliptic-rank-search\\runs\\rank26-plus-20260916\\curves\\-713_480\\wide-screen-adaptive\\result.json"
+    },
+    {
+      "id": "-811_214",
+      "parameter": "-811/214",
+      "campaign_initial_bound": 17,
+      "lower_bound": 21,
+      "placement": {
+        "naive": 89,
+        "disc": 88,
+        "faltings": 88,
+        "conductor": 100
+      },
+      "catalogue_match": null,
+      "published_lower_bound": null,
+      "selected_result": "C:\\Users\\Profit77\\Documents\\Git\\elliptic-rank-search\\runs\\rank26-plus-20260916\\curves\\-811_214\\wide-screen-adaptive\\result.json"
+    },
+    {
+      "id": "310_833",
+      "parameter": "310/833",
+      "campaign_initial_bound": 17,
+      "lower_bound": 21,
+      "placement": {
+        "naive": 84,
+        "disc": 81,
+        "faltings": 83,
+        "conductor": 92
+      },
+      "catalogue_match": null,
+      "published_lower_bound": null,
+      "selected_result": "C:\\Users\\Profit77\\Documents\\Git\\elliptic-rank-search\\runs\\rank26-plus-20260916\\curves\\310_833\\wide-screen-adaptive\\result.json"
+    },
+    {
+      "id": "1679_1339",
+      "parameter": "1679/1339",
+      "campaign_initial_bound": 17,
+      "lower_bound": 21,
+      "placement": {
+        "naive": 91,
+        "disc": 89,
+        "faltings": 90,
+        "conductor": 115
+      },
+      "catalogue_match": null,
+      "published_lower_bound": null,
+      "selected_result": "C:\\Users\\Profit77\\Documents\\Git\\elliptic-rank-search\\runs\\rank26-plus-20260916\\curves\\1679_1339\\wide-screen-adaptive\\result.json"
+    },
+    {
+      "id": "-799_101",
+      "parameter": "-799/101",
+      "campaign_initial_bound": 17,
+      "lower_bound": 20,
+      "placement": {
+        "naive": 131,
+        "disc": 128,
+        "faltings": 129
+      },
+      "catalogue_match": null,
+      "published_lower_bound": null,
+      "selected_result": "C:\\Users\\Profit77\\Documents\\Git\\elliptic-rank-search\\runs\\rank26-plus-20260916\\curves\\-799_101\\wide-screen-adaptive\\result.json"
+    },
+    {
+      "id": "1111_760",
+      "parameter": "1111/760",
+      "campaign_initial_bound": 17,
+      "lower_bound": 20,
+      "placement": {
+        "naive": 146,
+        "disc": 144,
+        "faltings": 146
+      },
+      "catalogue_match": null,
+      "published_lower_bound": null,
+      "selected_result": "C:\\Users\\Profit77\\Documents\\Git\\elliptic-rank-search\\runs\\rank26-plus-20260916\\curves\\1111_760\\wide-screen-adaptive\\result.json"
+    },
+    {
+      "id": "812_1437",
+      "parameter": "812/1437",
+      "campaign_initial_bound": 17,
+      "lower_bound": 20,
+      "placement": {
+        "naive": 143,
+        "disc": 141,
+        "faltings": 141
+      },
+      "catalogue_match": null,
+      "published_lower_bound": null,
+      "selected_result": "C:\\Users\\Profit77\\Documents\\Git\\elliptic-rank-search\\runs\\rank26-plus-20260916\\curves\\812_1437\\wide-screen-adaptive\\result.json"
+    },
+    {
+      "id": "-1481_614",
+      "parameter": "-1481/614",
+      "campaign_initial_bound": 17,
+      "lower_bound": 20,
+      "placement": {
+        "naive": 146,
+        "disc": 144,
+        "faltings": 146,
+        "conductor": 161
+      },
+      "catalogue_match": null,
+      "published_lower_bound": null,
+      "selected_result": "C:\\Users\\Profit77\\Documents\\Git\\elliptic-rank-search\\runs\\rank26-plus-20260916\\curves\\-1481_614\\wide-screen-adaptive\\result.json"
+    },
+    {
+      "id": "-1811_654",
+      "parameter": "-1811/654",
+      "campaign_initial_bound": 17,
+      "lower_bound": 20,
+      "placement": {
+        "naive": 141,
+        "disc": 139,
+        "faltings": 139
+      },
+      "catalogue_match": null,
+      "published_lower_bound": null,
+      "selected_result": "C:\\Users\\Profit77\\Documents\\Git\\elliptic-rank-search\\runs\\rank26-plus-20260916\\curves\\-1811_654\\wide-screen-adaptive\\result.json"
+    },
+    {
+      "id": "-81_589",
+      "parameter": "-81/589",
+      "campaign_initial_bound": 17,
+      "lower_bound": 19,
+      "placement": {
+        "naive": 157,
+        "disc": 159,
+        "faltings": 159,
+        "conductor": 194
+      },
+      "catalogue_match": null,
+      "published_lower_bound": null,
+      "selected_result": "C:\\Users\\Profit77\\Documents\\Git\\elliptic-rank-search\\runs\\rank26-plus-20260916\\curves\\-81_589\\wide-screen-adaptive\\result.json"
+    },
+    {
+      "id": "-746_169",
+      "parameter": "-746/169",
+      "campaign_initial_bound": 17,
+      "lower_bound": 19,
+      "placement": {
+        "naive": 183,
+        "disc": 183,
+        "faltings": 183,
+        "conductor": 202
+      },
+      "catalogue_match": null,
+      "published_lower_bound": null,
+      "selected_result": "C:\\Users\\Profit77\\Documents\\Git\\elliptic-rank-search\\runs\\rank26-plus-20260916\\curves\\-746_169\\wide-screen-adaptive\\result.json"
+    },
+    {
+      "id": "-127_1038",
+      "parameter": "-127/1038",
+      "campaign_initial_bound": 17,
+      "lower_bound": 19,
+      "placement": {
+        "naive": 162,
+        "disc": 159,
+        "faltings": 160,
+        "conductor": 193
+      },
+      "catalogue_match": null,
+      "published_lower_bound": null,
+      "selected_result": "C:\\Users\\Profit77\\Documents\\Git\\elliptic-rank-search\\runs\\rank26-plus-20260916\\curves\\-127_1038\\wide-screen-adaptive\\result.json"
+    },
+    {
+      "id": "1611_1516",
+      "parameter": "1611/1516",
+      "campaign_initial_bound": 17,
+      "lower_bound": 19,
+      "placement": {
+        "naive": 197,
+        "disc": 197,
+        "faltings": 197
+      },
+      "catalogue_match": null,
+      "published_lower_bound": null,
+      "selected_result": "C:\\Users\\Profit77\\Documents\\Git\\elliptic-rank-search\\runs\\rank26-plus-20260916\\curves\\1611_1516\\promising-medium-adaptive\\result.json"
+    },
+    {
+      "id": "-1803_152",
+      "parameter": "-1803/152",
+      "campaign_initial_bound": 17,
+      "lower_bound": 19,
+      "placement": {
+        "naive": 197,
+        "disc": 196,
+        "faltings": 197
+      },
+      "catalogue_match": null,
+      "published_lower_bound": null,
+      "selected_result": "C:\\Users\\Profit77\\Documents\\Git\\elliptic-rank-search\\runs\\rank26-plus-20260916\\curves\\-1803_152\\wide-screen-adaptive\\result.json"
+    },
+    {
+      "id": "452_625",
+      "parameter": "452/625",
+      "campaign_initial_bound": 17,
+      "lower_bound": 18,
+      "placement": {
+        "naive": 220,
+        "disc": 218,
+        "faltings": 219
+      },
+      "catalogue_match": null,
+      "published_lower_bound": null,
+      "selected_result": "C:\\Users\\Profit77\\Documents\\Git\\elliptic-rank-search\\runs\\rank26-plus-20260916\\curves\\452_625\\wide-screen-adaptive\\result.json"
+    },
+    {
+      "id": "464_689",
+      "parameter": "464/689",
+      "campaign_initial_bound": 17,
+      "lower_bound": 18,
+      "placement": {
+        "naive": 221,
+        "disc": 219,
+        "faltings": 221,
+        "conductor": 248
+      },
+      "catalogue_match": null,
+      "published_lower_bound": null,
+      "selected_result": "C:\\Users\\Profit77\\Documents\\Git\\elliptic-rank-search\\runs\\rank26-plus-20260916\\curves\\464_689\\wide-screen-adaptive\\result.json"
+    },
+    {
+      "id": "46_1231",
+      "parameter": "46/1231",
+      "campaign_initial_bound": 17,
+      "lower_bound": 18,
+      "placement": {
+        "naive": 215,
+        "disc": 213,
+        "faltings": 213,
+        "conductor": 237
+      },
+      "catalogue_match": null,
+      "published_lower_bound": null,
+      "selected_result": "C:\\Users\\Profit77\\Documents\\Git\\elliptic-rank-search\\runs\\rank26-plus-20260916\\curves\\46_1231\\wide-screen-adaptive\\result.json"
+    },
+    {
+      "id": "1571_1671",
+      "parameter": "1571/1671",
+      "campaign_initial_bound": 17,
+      "lower_bound": 18,
+      "placement": {
+        "naive": 232,
+        "disc": 230,
+        "faltings": 231,
+        "conductor": 270
+      },
+      "catalogue_match": null,
+      "published_lower_bound": null,
+      "selected_result": "C:\\Users\\Profit77\\Documents\\Git\\elliptic-rank-search\\runs\\rank26-plus-20260916\\curves\\1571_1671\\wide-screen-adaptive\\result.json"
+    },
+    {
+      "id": "1927_612",
+      "parameter": "1927/612",
+      "campaign_initial_bound": 17,
+      "lower_bound": 18,
+      "placement": {
+        "naive": 240,
+        "disc": 238,
+        "faltings": 239
+      },
+      "catalogue_match": null,
+      "published_lower_bound": null,
+      "selected_result": "C:\\Users\\Profit77\\Documents\\Git\\elliptic-rank-search\\runs\\rank26-plus-20260916\\curves\\1927_612\\wide-screen-adaptive\\result.json"
+    },
+    {
+      "id": "288_1993",
+      "parameter": "288/1993",
+      "campaign_initial_bound": 17,
+      "lower_bound": 18,
+      "placement": {
+        "naive": 222,
+        "disc": 221,
+        "faltings": 222
+      },
+      "catalogue_match": null,
+      "published_lower_bound": null,
+      "selected_result": "C:\\Users\\Profit77\\Documents\\Git\\elliptic-rank-search\\runs\\rank26-plus-20260916\\curves\\288_1993\\wide-screen-adaptive\\result.json"
+    }
+  ],
+  "new_or_improved_at_least_26": [],
+  "qualifiers_at_least_26": [],
+  "qualifiers_at_any_current_bound": [],
+  "local_deliveries": [
+    {
+      "id": "936_811",
+      "parameter": "936/811",
+      "campaign_initial_bound": 19,
+      "lower_bound": 25,
+      "placement": {
+        "naive": 26,
+        "disc": 23,
+        "faltings": 24,
+        "conductor": 38
+      },
+      "catalogue_match": null,
+      "published_lower_bound": null,
+      "selected_result": "C:\\Users\\Profit77\\Documents\\Git\\elliptic-rank-search\\runs\\rank26-plus-20260916\\curves\\936_811\\final-wide-anchors-adaptive\\result.json"
+    },
+    {
+      "id": "-344_541",
+      "parameter": "-344/541",
+      "campaign_initial_bound": 17,
+      "lower_bound": 24,
+      "placement": {
+        "naive": 23,
+        "disc": 23,
+        "faltings": 23
+      },
+      "catalogue_match": null,
+      "published_lower_bound": null,
+      "selected_result": "C:\\Users\\Profit77\\Documents\\Git\\elliptic-rank-search\\runs\\rank26-plus-20260916\\curves\\-344_541\\final-wide-anchors-adaptive\\result.json"
+    },
+    {
+      "id": "517_1382",
+      "parameter": "517/1382",
+      "campaign_initial_bound": 18,
+      "lower_bound": 24,
+      "placement": {
+        "naive": 32,
+        "disc": 32,
+        "faltings": 32,
+        "conductor": 46
+      },
+      "catalogue_match": null,
+      "published_lower_bound": null,
+      "selected_result": "C:\\Users\\Profit77\\Documents\\Git\\elliptic-rank-search\\runs\\rank26-plus-20260916\\curves\\517_1382\\final-wide-anchors-adaptive\\result.json"
+    }
+  ],
+  "maximum_newly_improved_bound": 25,
+  "known_26_not_counted_as_discovery": true,
+  "target_32_reached": false,
+  "errors": {},
+  "public_points_used": false,
+  "core_hashes_unchanged": {
+    "C:\\Users\\Profit77\\Documents\\Git\\elliptic-rank-search\\anchor_diversity.py": true,
+    "C:\\Users\\Profit77\\Documents\\Git\\elliptic-rank-search\\bootstrap.py": true,
+    "C:\\Users\\Profit77\\Documents\\Git\\elliptic-rank-search\\bounded_anchor_pool.py": true,
+    "C:\\Users\\Profit77\\Documents\\Git\\elliptic-rank-search\\certificate.py": true,
+    "C:\\Users\\Profit77\\Documents\\Git\\elliptic-rank-search\\doctor.py": true,
+    "C:\\Users\\Profit77\\Documents\\Git\\elliptic-rank-search\\first_cover.py": true,
+    "C:\\Users\\Profit77\\Documents\\Git\\elliptic-rank-search\\first_jet.py": true,
+    "C:\\Users\\Profit77\\Documents\\Git\\elliptic-rank-search\\geometry.py": true,
+    "C:\\Users\\Profit77\\Documents\\Git\\elliptic-rank-search\\lattice.py": true,
+    "C:\\Users\\Profit77\\Documents\\Git\\elliptic-rank-search\\local_models.py": true,
+    "C:\\Users\\Profit77\\Documents\\Git\\elliptic-rank-search\\models.py": true,
+    "C:\\Users\\Profit77\\Documents\\Git\\elliptic-rank-search\\point_arithmetic.py": true,
+    "C:\\Users\\Profit77\\Documents\\Git\\elliptic-rank-search\\point_models.py": true,
+    "C:\\Users\\Profit77\\Documents\\Git\\elliptic-rank-search\\quartic.py": true,
+    "C:\\Users\\Profit77\\Documents\\Git\\elliptic-rank-search\\reproduce.py": true,
+    "C:\\Users\\Profit77\\Documents\\Git\\elliptic-rank-search\\run.py": true,
+    "C:\\Users\\Profit77\\Documents\\Git\\elliptic-rank-search\\runtime.py": true,
+    "C:\\Users\\Profit77\\Documents\\Git\\elliptic-rank-search\\search_policy.py": true,
+    "C:\\Users\\Profit77\\Documents\\Git\\elliptic-rank-search\\seeded.py": true,
+    "C:\\Users\\Profit77\\Documents\\Git\\elliptic-rank-search\\torsion_certificate.py": true,
+    "C:\\Users\\Profit77\\Documents\\Git\\elliptic-rank-search\\unified.py": true,
+    "C:\\Users\\Profit77\\Documents\\Git\\elliptic-rank-search\\verify.py": true
+  },
+  "submitted": false,
+  "known31_positive_control": {
+    "parameter": "164518/924945",
+    "id": "164518_924945",
+    "before": 17,
+    "after": 24,
+    "target": 31,
+    "seconds": 120.98607769999944,
+    "result": "C:\\Users\\Profit77\\Documents\\Git\\elliptic-rank-search\\runs\\rank26-plus-20260916\\calibration\\curves\\164518_924945\\known31-control-adaptive\\result.json",
+    "mode": "adaptive",
+    "stage": "known31-control"
+  },
+  "complete_conductors_for_improved": 21,
+  "incomplete_conductors_for_improved": 16
+}

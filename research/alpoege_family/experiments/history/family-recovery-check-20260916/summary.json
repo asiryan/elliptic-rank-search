@@ -1,0 +1,72 @@
+{
+  "results": [
+    {
+      "icarm_id": 727,
+      "parameter": "-311/519",
+      "initial_lower_bound": 17,
+      "final_lower_bound": 26,
+      "target": 26,
+      "target_reached": true,
+      "search_seconds": 13.3281999000028,
+      "process_seconds": 14.287013499997556,
+      "budget_seconds": 60,
+      "anchors": 2048,
+      "workers": 8,
+      "additional_independent_points": 9,
+      "audit": {
+        "path": "curves\\-311_519\\fresh-adaptive\\result.json",
+        "parameter": "-311/519",
+        "verification": {
+          "points_checked": 26,
+          "matrix_rank": 26,
+          "torsion_2_dimension_upper_bound": 0,
+          "rank_lower_bound": 26,
+          "all_points_independent_modulo_torsion": true,
+          "conditional_assumptions": []
+        },
+        "source_and_origin_hashes_verified": true,
+        "data_reads_verified": true,
+        "seed_or_discovered_points_only": true
+      },
+      "original17_preserved_in_certified_extension": true,
+      "public_points_used": false,
+      "exact_rank_or_full_mordell_weil_basis_proved": false,
+      "result": "C:\\Users\\Profit77\\Documents\\Git\\elliptic-rank-search\\runs\\family-recovery-check-20260916\\curves\\-311_519\\fresh-adaptive\\result.json"
+    },
+    {
+      "icarm_id": 302,
+      "parameter": "164518/924945",
+      "initial_lower_bound": 17,
+      "final_lower_bound": 31,
+      "target": 31,
+      "target_reached": true,
+      "search_seconds": 147.9370271999942,
+      "process_seconds": 149.38781539999763,
+      "budget_seconds": 300,
+      "anchors": 2048,
+      "workers": 8,
+      "additional_independent_points": 14,
+      "audit": {
+        "path": "curves\\164518_924945\\fresh-adaptive\\result.json",
+        "parameter": "164518/924945",
+        "verification": {
+          "points_checked": 31,
+          "matrix_rank": 31,
+          "torsion_2_dimension_upper_bound": 0,
+          "rank_lower_bound": 31,
+          "all_points_independent_modulo_torsion": true,
+          "conditional_assumptions": []
+        },
+        "source_and_origin_hashes_verified": true,
+        "data_reads_verified": true,
+        "seed_or_discovered_points_only": true
+      },
+      "original17_preserved_in_certified_extension": true,
+      "public_points_used": false,
+      "exact_rank_or_full_mordell_weil_basis_proved": false,
+      "result": "C:\\Users\\Profit77\\Documents\\Git\\elliptic-rank-search\\runs\\family-recovery-check-20260916\\curves\\164518_924945\\fresh-adaptive\\result.json"
+    }
+  ],
+  "errors": [],
+  "fresh_reproduction": true
+}

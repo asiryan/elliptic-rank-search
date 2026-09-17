@@ -1,0 +1,78 @@
+{
+  "attempted": 10,
+  "budget_seconds": 8,
+  "results": {
+    "57_85": {
+      "status": "incomplete",
+      "budget_seconds": 8
+    },
+    "49_128": {
+      "status": "incomplete",
+      "budget_seconds": 8
+    },
+    "-83_111": {
+      "status": "incomplete",
+      "budget_seconds": 8
+    },
+    "-43_81": {
+      "conductor": "26101825886530123630610615967896791478130971663092853971850175516219963429357366960",
+      "bad_primes": [
+        "2",
+        "3",
+        "5",
+        "7",
+        "13",
+        "19",
+        "23",
+        "47",
+        "1992712827976583",
+        "10180299648233885641925609203",
+        "956120052993852050543717127043"
+      ],
+      "primality_proved": true,
+      "status": "complete",
+      "method": "bounded_full_factorization"
+    },
+    "-95_17": {
+      "status": "incomplete",
+      "budget_seconds": 8
+    },
+    "-115_89": {
+      "status": "incomplete",
+      "budget_seconds": 8
+    },
+    "-68_73": {
+      "conductor": "22782036651020361548194469941597359904000061318301866838369305723625491114356386782790",
+      "bad_primes": [
+        "2",
+        "3",
+        "5",
+        "11",
+        "17",
+        "23",
+        "29",
+        "37",
+        "101",
+        "6529",
+        "22386719119",
+        "12829113160994158718535467",
+        "1762382124041661095789828869580861"
+      ],
+      "primality_proved": true,
+      "status": "complete",
+      "method": "bounded_full_factorization"
+    },
+    "-98_57": {
+      "status": "incomplete",
+      "budget_seconds": 8
+    },
+    "75_34": {
+      "status": "incomplete",
+      "budget_seconds": 8
+    },
+    "-5037_2518": {
+      "status": "incomplete",
+      "budget_seconds": 8
+    }
+  }
+}

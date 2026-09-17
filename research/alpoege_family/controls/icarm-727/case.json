@@ -1,0 +1,24 @@
+{
+  "id": "icarm-727",
+  "icarm_id": 727,
+  "study": "alpoege_family",
+  "kind": "control",
+  "path": "alpoege_family/controls/icarm-727",
+  "rank_lower_bound": 26,
+  "url": "https://elliptic-rank.icarm.cloud/curve/727",
+  "parameter": "-311/519",
+  "rank_is_a_lower_bound": true,
+  "historical_source": {
+    "path": "runs/family-recovery-check-20260916/curves/-311_519/fresh-adaptive/result.json",
+    "sha256": "910c038912851aa1ee1836fd9f3cbc08c245d1a4f54188e059e44093bbf38bc8"
+  },
+  "public_catalogue_snapshot_sha256": "2734f65aaac10674a445f2050b491c2b715c2122be22370697cfbfae105d0c6a",
+  "role": "Reproduction of a previously published bound; not one of our discoveries",
+  "files_sha256": {
+    "certificate.json": "9419c0531ee0a20f71caf5ecb5dcaea3ad6f04a2249fde1a0fe934a82cd290b4",
+    "equation.json": "2ec26c0fc0b6d30c5dedc671c0ea8c678eb71bf58188ea7ff322d480f0e3d9b7",
+    "invariants.json": "c57032a51b9023811d13a3b2dbc39c6f15af3966eaaefc649c76eb6503d875ff",
+    "points.json": "ec744697de999d3a4abf0a21223fc3303667d641ca273047e17c42c05ce6be77",
+    "reproduction.json": "5b20474cd7a1e444865cb3fc35a3872b6cb2d7f8859abc62524de415572d0122"
+  }
+}

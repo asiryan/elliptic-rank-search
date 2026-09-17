@@ -2,11 +2,12 @@
 from fractions import Fraction as Q
 from pathlib import Path
 import sys
+sys.path.insert(0, str(Path(__file__).resolve().parents[1] / 'src'))
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 import unittest
 
-from point_arithmetic import add,multiply,on_curve
-from torsion_certificate import translate_pool
+from elliptic_rank_search.arithmetic.point_arithmetic import add,multiply,on_curve
+from elliptic_rank_search.certificates.torsion_certificate import translate_pool
 
 
 class TorsionBalanceTests(unittest.TestCase):

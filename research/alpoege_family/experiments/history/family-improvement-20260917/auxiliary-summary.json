@@ -1,0 +1,80 @@
+[
+  {
+    "parameter_seed": "22/87",
+    "pair": [
+      235,
+      251
+    ],
+    "auxiliary_ainvs": [
+      "1",
+      "-1",
+      "1",
+      "-63485289914481859411120054823122798169440488167",
+      "6156838065612911925290121761743779985989279596745373581187660379449759"
+    ],
+    "auxiliary_rank_lower_bound_certified": 2,
+    "pari_auxiliary_bounds_diagnostic": [
+      2,
+      4
+    ],
+    "seconds": 0.3131735000060871,
+    "emitted": 1,
+    "smallest": [
+      {
+        "u": 22,
+        "v": 87,
+        "height": 87,
+        "cover_ids": [
+          235,
+          251
+        ],
+        "auxiliary_pair": [
+          235,
+          251
+        ]
+      }
+    ],
+    "quartic_squarefree": true,
+    "family_rank_lower_bound": 19,
+    "reason": "The 19 rational sections over the smooth double-cover intersection specialize to 19 certified independent rational points at the seed."
+  },
+  {
+    "parameter_seed": "34/125",
+    "pair": [
+      126,
+      146
+    ],
+    "auxiliary_ainvs": [
+      "1",
+      "0",
+      "0",
+      "-70071123076736780236489626583870983046655",
+      "6773671990184171075753451480982832055633220157851004041088025"
+    ],
+    "auxiliary_rank_lower_bound_certified": 3,
+    "pari_auxiliary_bounds_diagnostic": [
+      3,
+      3
+    ],
+    "seconds": 0.18254729999171104,
+    "emitted": 1,
+    "smallest": [
+      {
+        "u": 34,
+        "v": 125,
+        "height": 125,
+        "cover_ids": [
+          126,
+          146
+        ],
+        "auxiliary_pair": [
+          126,
+          146
+        ]
+      }
+    ],
+    "quartic_squarefree": true,
+    "family_rank_lower_bound": 19,
+    "reason": "The 19 rational sections over the smooth double-cover intersection specialize to 19 certified independent rational points at the seed."
+  }
+]

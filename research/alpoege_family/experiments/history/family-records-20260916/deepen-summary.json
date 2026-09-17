@@ -1,0 +1,39 @@
+{
+  "results": [
+    {
+      "parameter": "4/17",
+      "id": "4_17",
+      "before": 18,
+      "after": 18,
+      "target": 19,
+      "seconds": 90.4075720999972,
+      "result": "C:\\Users\\Profit77\\Documents\\Git\\elliptic-rank-search\\runs\\family-records-20260916\\curves\\4_17\\deepen-unified\\result.json",
+      "mode": "unified",
+      "stage": "deepen"
+    },
+    {
+      "parameter": "-13/47",
+      "id": "-13_47",
+      "before": 21,
+      "after": 21,
+      "target": 23,
+      "seconds": 90.46959079999942,
+      "result": "C:\\Users\\Profit77\\Documents\\Git\\elliptic-rank-search\\runs\\family-records-20260916\\curves\\-13_47\\deepen-unified\\result.json",
+      "mode": "unified",
+      "stage": "deepen"
+    },
+    {
+      "parameter": "-7/12",
+      "id": "-7_12",
+      "before": 20,
+      "after": 20,
+      "target": 22,
+      "seconds": 90.51161560000037,
+      "result": "C:\\Users\\Profit77\\Documents\\Git\\elliptic-rank-search\\runs\\family-records-20260916\\curves\\-7_12\\deepen-unified\\result.json",
+      "mode": "unified",
+      "stage": "deepen"
+    }
+  ],
+  "errors": [],
+  "seconds": 90.52515329999733
+}

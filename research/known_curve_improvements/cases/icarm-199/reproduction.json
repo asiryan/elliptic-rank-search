@@ -1,0 +1,16 @@
+{
+  "target": 15,
+  "success_means": "A freshly certified bound at least equal to the target; basis coordinates may differ",
+  "stages": [
+    {
+      "seconds": 30,
+      "workers": 2,
+      "anchors": 16,
+      "mode": "unified"
+    }
+  ],
+  "input": {
+    "kind": "declared_seed",
+    "file": "seed.json"
+  }
+}

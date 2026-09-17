@@ -1,0 +1,64 @@
+{
+  "results": [
+    {
+      "parameter": "1159069/1681844",
+      "id": "1159069_1681844",
+      "before": 17,
+      "after": 17,
+      "target": 32,
+      "seconds": 300.5181134000013,
+      "search_seconds": 300.0233329999901,
+      "workers": 8,
+      "anchors": 2048,
+      "result": "C:\\Users\\Profit77\\Documents\\Git\\elliptic-rank-search\\runs\\high-height-20260916\\curves\\1159069_1681844\\above-million-adaptive\\result.json",
+      "mode": "adaptive",
+      "stage": "above-million",
+      "audit": {
+        "path": "curves\\1159069_1681844\\above-million-adaptive\\result.json",
+        "parameter": "1159069/1681844",
+        "verification": {
+          "points_checked": 17,
+          "matrix_rank": 17,
+          "torsion_2_dimension_upper_bound": 0,
+          "rank_lower_bound": 17,
+          "all_points_independent_modulo_torsion": true,
+          "conditional_assumptions": []
+        },
+        "source_and_origin_hashes_verified": true,
+        "data_reads_verified": true,
+        "seed_or_discovered_points_only": true
+      }
+    },
+    {
+      "parameter": "1962574/688659",
+      "id": "1962574_688659",
+      "before": 17,
+      "after": 17,
+      "target": 32,
+      "seconds": 300.5607137999905,
+      "search_seconds": 300.0380390999926,
+      "workers": 8,
+      "anchors": 2048,
+      "result": "C:\\Users\\Profit77\\Documents\\Git\\elliptic-rank-search\\runs\\high-height-20260916\\curves\\1962574_688659\\above-million-adaptive\\result.json",
+      "mode": "adaptive",
+      "stage": "above-million",
+      "audit": {
+        "path": "curves\\1962574_688659\\above-million-adaptive\\result.json",
+        "parameter": "1962574/688659",
+        "verification": {
+          "points_checked": 17,
+          "matrix_rank": 17,
+          "torsion_2_dimension_upper_bound": 0,
+          "rank_lower_bound": 17,
+          "all_points_independent_modulo_torsion": true,
+          "conditional_assumptions": []
+        },
+        "source_and_origin_hashes_verified": true,
+        "data_reads_verified": true,
+        "seed_or_discovered_points_only": true
+      }
+    }
+  ],
+  "errors": [],
+  "seconds": 300.5668389000057
+}

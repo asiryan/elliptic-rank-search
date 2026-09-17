@@ -1,0 +1,160 @@
+{
+  "results": [
+    {
+      "parameter": "-83/111",
+      "id": "-83_111",
+      "before": 24,
+      "after": 24,
+      "target": 32,
+      "seconds": 180.12371860000712,
+      "result": "C:\\Users\\Profit77\\Documents\\Git\\elliptic-rank-search\\runs\\rank26-plus-20260916\\curves\\-83_111\\leaders-unified-unified\\result.json",
+      "mode": "unified",
+      "stage": "leaders-unified"
+    },
+    {
+      "parameter": "-303/802",
+      "id": "-303_802",
+      "before": 25,
+      "after": 25,
+      "target": 32,
+      "seconds": 180.35286539999652,
+      "result": "C:\\Users\\Profit77\\Documents\\Git\\elliptic-rank-search\\runs\\rank26-plus-20260916\\curves\\-303_802\\leaders-unified-unified\\result.json",
+      "mode": "unified",
+      "stage": "leaders-unified"
+    },
+    {
+      "parameter": "-265/221",
+      "id": "-265_221",
+      "before": 25,
+      "after": 25,
+      "target": 32,
+      "seconds": 180.41017940000165,
+      "result": "C:\\Users\\Profit77\\Documents\\Git\\elliptic-rank-search\\runs\\rank26-plus-20260916\\curves\\-265_221\\leaders-unified-unified\\result.json",
+      "mode": "unified",
+      "stage": "leaders-unified"
+    },
+    {
+      "parameter": "-311/519",
+      "id": "-311_519",
+      "before": 26,
+      "after": 26,
+      "target": 32,
+      "seconds": 180.44426630000817,
+      "result": "C:\\Users\\Profit77\\Documents\\Git\\elliptic-rank-search\\runs\\rank26-plus-20260916\\curves\\-311_519\\leaders-unified-unified\\result.json",
+      "mode": "unified",
+      "stage": "leaders-unified"
+    },
+    {
+      "parameter": "-332/267",
+      "id": "-332_267",
+      "before": 25,
+      "after": 25,
+      "target": 32,
+      "seconds": 180.4739128999936,
+      "result": "C:\\Users\\Profit77\\Documents\\Git\\elliptic-rank-search\\runs\\rank26-plus-20260916\\curves\\-332_267\\leaders-unified-unified\\result.json",
+      "mode": "unified",
+      "stage": "leaders-unified"
+    },
+    {
+      "parameter": "15/508",
+      "id": "15_508",
+      "before": 24,
+      "after": 24,
+      "target": 32,
+      "seconds": 180.32852090000233,
+      "result": "C:\\Users\\Profit77\\Documents\\Git\\elliptic-rank-search\\runs\\rank26-plus-20260916\\curves\\15_508\\leaders-unified-unified\\result.json",
+      "mode": "unified",
+      "stage": "leaders-unified"
+    },
+    {
+      "parameter": "-185/121",
+      "id": "-185_121",
+      "before": 24,
+      "after": 24,
+      "target": 32,
+      "seconds": 180.4547467000084,
+      "result": "C:\\Users\\Profit77\\Documents\\Git\\elliptic-rank-search\\runs\\rank26-plus-20260916\\curves\\-185_121\\leaders-unified-unified\\result.json",
+      "mode": "unified",
+      "stage": "leaders-unified"
+    },
+    {
+      "parameter": "-47/500",
+      "id": "-47_500",
+      "before": 24,
+      "after": 24,
+      "target": 32,
+      "seconds": 180.44100769999204,
+      "result": "C:\\Users\\Profit77\\Documents\\Git\\elliptic-rank-search\\runs\\rank26-plus-20260916\\curves\\-47_500\\leaders-unified-unified\\result.json",
+      "mode": "unified",
+      "stage": "leaders-unified"
+    },
+    {
+      "parameter": "-253/2",
+      "id": "-253_2",
+      "before": 24,
+      "after": 24,
+      "target": 32,
+      "seconds": 180.48189619999903,
+      "result": "C:\\Users\\Profit77\\Documents\\Git\\elliptic-rank-search\\runs\\rank26-plus-20260916\\curves\\-253_2\\leaders-unified-unified\\result.json",
+      "mode": "unified",
+      "stage": "leaders-unified"
+    },
+    {
+      "parameter": "153/310",
+      "id": "153_310",
+      "before": 24,
+      "after": 24,
+      "target": 32,
+      "seconds": 180.4691865999921,
+      "result": "C:\\Users\\Profit77\\Documents\\Git\\elliptic-rank-search\\runs\\rank26-plus-20260916\\curves\\153_310\\leaders-unified-unified\\result.json",
+      "mode": "unified",
+      "stage": "leaders-unified"
+    },
+    {
+      "parameter": "169/135",
+      "id": "169_135",
+      "before": 24,
+      "after": 24,
+      "target": 32,
+      "seconds": 180.7662837000098,
+      "result": "C:\\Users\\Profit77\\Documents\\Git\\elliptic-rank-search\\runs\\rank26-plus-20260916\\curves\\169_135\\leaders-unified-unified\\result.json",
+      "mode": "unified",
+      "stage": "leaders-unified"
+    },
+    {
+      "parameter": "501/289",
+      "id": "501_289",
+      "before": 24,
+      "after": 24,
+      "target": 32,
+      "seconds": 180.5755965999997,
+      "result": "C:\\Users\\Profit77\\Documents\\Git\\elliptic-rank-search\\runs\\rank26-plus-20260916\\curves\\501_289\\leaders-unified-unified\\result.json",
+      "mode": "unified",
+      "stage": "leaders-unified"
+    },
+    {
+      "parameter": "371/79",
+      "id": "371_79",
+      "before": 24,
+      "after": 24,
+      "target": 32,
+      "seconds": 180.6675707999966,
+      "result": "C:\\Users\\Profit77\\Documents\\Git\\elliptic-rank-search\\runs\\rank26-plus-20260916\\curves\\371_79\\leaders-unified-unified\\result.json",
+      "mode": "unified",
+      "stage": "leaders-unified"
+    },
+    {
+      "parameter": "-6486/7309",
+      "id": "-6486_7309",
+      "before": 24,
+      "after": 24,
+      "target": 32,
+      "seconds": 180.71869249999872,
+      "result": "C:\\Users\\Profit77\\Documents\\Git\\elliptic-rank-search\\runs\\rank26-plus-20260916\\curves\\-6486_7309\\leaders-unified-unified\\result.json",
+      "mode": "unified",
+      "stage": "leaders-unified"
+    }
+  ],
+  "errors": [],
+  "seconds": 541.6657009000046
+}

@@ -1,0 +1,13 @@
+{
+  "ids": [
+    "936_811",
+    "-344_541",
+    "517_1382"
+  ],
+  "seconds": 180.0,
+  "mode": "adaptive",
+  "anchors": 2048,
+  "target": 32,
+  "parallel_curves": 3,
+  "workers_per_curve": 2
+}

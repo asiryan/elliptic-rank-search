@@ -1,0 +1,27 @@
+{
+  "id": "icarm-206",
+  "icarm_id": 206,
+  "study": "known_curve_improvements",
+  "kind": "improved_existing_curve",
+  "path": "known_curve_improvements/cases/icarm-206",
+  "rank_lower_bound": 14,
+  "url": "https://elliptic-rank.icarm.cloud/curve/206",
+  "rank_is_a_lower_bound": true,
+  "historical_source": {
+    "git_commit": "c08910ac761a7b444093e4d7ec16bf5fe2e6d305",
+    "path": "examples/icarm-206/points.json",
+    "sha256": "5c4b431ef73ededb7b59567e2cfd36dee59bb27d3be53fc9a0a489caa769c1ab"
+  },
+  "public_catalogue_snapshot_sha256": "2734f65aaac10674a445f2050b491c2b715c2122be22370697cfbfae105d0c6a",
+  "previous_lower_bound": 12,
+  "original_curve_credit": "Seewoo Lee; Mestre-Fermigier construction",
+  "seed_credit": "One original public point, optionally replaced by its group inverse",
+  "files_sha256": {
+    "certificate.json": "76aefcbdfecdd115afdea7f1b2b9625f10a8b69862673fccb65d5890f0db9224",
+    "equation.json": "5e6e07b8517668961c006641ce9c9341c7694120d889915138543a5e165891bf",
+    "invariants.json": "04f59c54df48b3f4eba644509fe845870c7ea682e35004535033c85faad8e1d3",
+    "points.json": "e8e9d13e92574efd40e7f8d4afc9ff57d7799db608d156d8a689d54aeffbec28",
+    "reproduction.json": "c1f1e9b8485ad0262bee62dd32b4d798f5023d62a6cf96eb0234c570f9aad88f",
+    "seed.json": "8e477cdc07eabd5521d534a75940549e4ef00ff6fce5b3ac852652a1c51bd67a"
+  }
+}
