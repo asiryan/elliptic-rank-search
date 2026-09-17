@@ -86,7 +86,7 @@ The root Python launchers remain available. `python verify.py --examples` and `p
 python -m unittest discover -s tests -v
 ```
 
-The full suite needs configured GP. Native-sieve tests run when its .NET tool has been built. CI replays certificates and section identities without GP, tests data integrity and builds/tests the sieve. Long discovery searches are explicit research commands.
+The full suite needs configured GP. Native-sieve tests run when its .NET tool has been built. Certificates and section identities can be checked without GP using the commands in the testing guide. Long discovery searches are explicit research commands.
 
 ## Attribution and license
 

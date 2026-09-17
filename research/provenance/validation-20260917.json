@@ -1158,7 +1158,7 @@
     "The full million-parameter sieve campaigns"
   ],
   "limitations": [
-    "Local validation on Windows only; CI definitions for Linux/Windows are added but have not run here",
+    "Local validation on Windows only",
     "Search timings are observed, not runtime guarantees",
     "No assertion of exact ranks, saturation or complete point groups"
   ]

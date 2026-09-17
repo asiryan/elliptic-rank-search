@@ -52,7 +52,7 @@ Each child had its own declared input and output directory. The coordinator repl
 
 ## Retained history and scope
 
-The historical 18-curve, 300-second-per-curve continuation and the full million-parameter campaigns were **not repeated** during reorganization. Their configurations and original summaries are retained separately. CI definitions were added for Linux and Windows; only the local Windows checks are reported as executed here.
+The historical 18-curve, 300-second-per-curve continuation and the full million-parameter campaigns were **not repeated** during reorganization. Their configurations and original summaries are retained separately. Only the local Windows checks are reported as executed here.
 
 [validation-20260917.json](../research/provenance/validation-20260917.json) contains per-case results, settings, audit outcomes, code hashes and metric values. [migration.json](../research/provenance/migration.json) records the original commit and source hashes. The earlier [three-curve extraction report](../research/known_curve_improvements/experiments/extraction-20260915.md) remains historical documentation.
 

@@ -45,4 +45,4 @@ Tests enumerate finite-field points independently to check modular scores, compa
 
 The package is additionally tested by building a wheel, installing it into a fresh virtual environment, and running from an empty workspace with GP explicitly configured. Code and research inputs resolve from that installation without old runs or source helpers. Completed results are in [VALIDATION.md](VALIDATION.md).
 
-CI runs offline proofs and section checks on Python 3.10/3.12 and builds/tests the .NET sieve on Linux and Windows. Long GP searches are explicit research commands, separate from ordinary CI.
+Run the checks locally using the commands above. Long GP searches are separate, explicit research commands.
