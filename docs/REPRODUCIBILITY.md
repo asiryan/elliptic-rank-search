@@ -12,7 +12,7 @@ ers-research sections
 
 The first command verifies all **21 published contributions**: 18 family curves and three improved existing curves. `--controls` also includes #302 and #727. The third command checks the 17 section identities over the rational polynomial ring. These commands need Python only. Rank fields in JSON are not accepted as proofs; the verifier recomputes curve membership, modular character rows, matrix rank and the torsion correction.
 
-`research/catalogue.json` is the canonical index. Each case separates the equation, witness points, certificate, invariants, reproduction recipe and provenance. All rationals in mathematical data are exact strings. Per-case hashes detect accidental changes; the mathematical verifier remains the authority for the rank claim.
+`research/catalogue.json` is the canonical index. Each case separates the equation, witness points, certificate, invariants, reproduction recipe and provenance. All rationals in mathematical data are exact strings. Proof replay checks the mathematical contents directly, so JSON formatting and line endings do not affect verification. Recipes and metric records are checked by their respective reproduction and metric commands.
 
 ## 2. Rediscover the lower bounds from declared inputs
 

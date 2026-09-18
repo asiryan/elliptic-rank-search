@@ -1,5 +1,4 @@
-"""Read immutable cases and replay their proof witnesses offline."""
-import hashlib
+"""Read research cases and replay their mathematical proof witnesses offline."""
 import json
 from pathlib import Path
 
@@ -28,11 +27,6 @@ def case_folder(row):
 
 def verify_case(row):
     folder = case_folder(row)
-    info = read(folder / 'case.json')
-    for name, expected in info['files_sha256'].items():
-        path = (folder / name).resolve()
-        if not path.is_relative_to(folder) or hashlib.sha256(path.read_bytes()).hexdigest() != expected:
-            raise ValueError(f'{row["id"]}: case resource hash mismatch: {name}')
     points = read(folder / 'points.json')
     if points['ainvs'] != read(folder / 'equation.json')['ainvs']:
         raise ValueError('Witnesses use a different curve model')

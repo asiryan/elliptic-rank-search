@@ -10,6 +10,6 @@
 
 Use `ers-research campaign` for grid/sample definitions, `ers-research reproduce` for fresh case recipes, and `ers-research deepen --study alpoege_family --seconds 300` for continuation. See [the guide](../../../docs/REPRODUCIBILITY.md) for complete commands.
 
-The `history/` directory preserves selected original plans and summaries verbatim with a [hash manifest](history/manifest.json). These are historical observations, not portable executable recipes. Absolute paths and references to undistributed working checkpoints inside those files are retained only to identify their original context. Full temporary logs and huge search checkpoints remain outside version control.
+The `history/` directory preserves selected original plans and summaries with a [source index](history/manifest.json). JSON formatting and line endings may be normalized by Git. These are historical observations, not portable executable recipes. Absolute paths and references to undistributed working checkpoints inside those files are retained only to identify their original context. Full temporary logs and huge search checkpoints remain outside version control.
 
 The [reports](../reports/) explain the broader search, audits of small parameters, controls and final continuation. Exploratory auxiliary-family reports are archived context; the supported fresh reproduction commands target the 21 published contributions and the two declared controls. No claim is made that every exploratory pilot has been packaged as a runnable experiment.

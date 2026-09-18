@@ -14,12 +14,5 @@
   },
   "public_catalogue_snapshot_sha256": "2734f65aaac10674a445f2050b491c2b715c2122be22370697cfbfae105d0c6a",
   "family_credit": "Family identified by wgxli in the commentary to ICARM #302; see study sources",
-  "discovery_source": "runs/family-records-20260916/assessment.json",
-  "files_sha256": {
-    "certificate.json": "bd0a83162279630ad10a30f180e434db0ad71465c7c91a7fc6b2b18bb77ce004",
-    "equation.json": "4ac85c5189891653aa7651e865cd3743be3b9bda7759825b5678a0762f77eb45",
-    "invariants.json": "f4a66bf921e9b9782bb2a530331aa40827ceecaa40935af44ffc93f0ac56864b",
-    "points.json": "47e06e62d4b54389d39ff445a625b4d36100d64bf81481d89bd714cc0763a098",
-    "reproduction.json": "1b2536aa34c996ef3ed7780d08d60b4d038cecfa35ee822c45939c3ea2a7e84d"
-  }
+  "discovery_source": "runs/family-records-20260916/assessment.json"
 }

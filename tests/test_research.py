@@ -1,7 +1,6 @@
 """Offline research catalogue, symbolic identities, and durable checkpoint tests."""
 import ast
 import copy
-import hashlib
 import json
 from pathlib import Path
 import sys
@@ -13,7 +12,6 @@ ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / 'src'))
 sys.path.insert(0, str(ROOT))
 from research.common import catalogue
-from research.alpoege_family.family import specialize as specialize_function
 from importlib import import_module
 family = import_module('research.alpoege_family.family.specialize')
 from elliptic_rank_search.search.bootstrap import save
@@ -39,17 +37,44 @@ class ResearchTests(unittest.TestCase):
             with patch.object(family, 'DATA', path), self.assertRaises(ValueError):
                 family.verify_sections()
 
-    def test_altered_case_resource_is_rejected_before_proof(self):
-        row = catalogue.cases(case='icarm-733')[0]
+    def test_proof_replay_accepts_line_endings_and_json_formatting(self):
         with tempfile.TemporaryDirectory() as raw:
             directory = Path(raw)
-            original = catalogue.case_folder(row)
-            info = catalogue.read(original / 'case.json')
-            for name in [*info['files_sha256'], 'case.json']:
-                (directory / name).write_bytes((original / name).read_bytes())
-            (directory / 'reproduction.json').write_text('{}')
-            with patch.object(catalogue, 'case_folder', return_value=directory), self.assertRaisesRegex(ValueError, 'hash mismatch'):
-                catalogue.verify_case(row)
+            for row in catalogue.cases(controls=True):
+                original = catalogue.case_folder(row)
+                data = {name: catalogue.read(original / name)
+                        for name in ('equation.json', 'points.json', 'certificate.json')}
+                for newline, indent in (('\n', 2), ('\r\n', 2), ('\n', None)):
+                    with self.subTest(case=row['id'], newline=repr(newline), indent=indent):
+                        for name, value in data.items():
+                            text = json.dumps(value, indent=indent, sort_keys=True) + '\n'
+                            (directory / name).write_bytes(text.replace('\n', newline).encode('utf-8'))
+                        with patch.object(catalogue, 'case_folder', return_value=directory):
+                            proof = catalogue.verify_case(row)
+                        self.assertEqual(proof['rank_lower_bound'], row['rank_lower_bound'])
+
+    def test_altered_mathematical_evidence_is_still_rejected(self):
+        row = catalogue.cases(case='icarm-733')[0]
+        original = catalogue.case_folder(row)
+        data = {name: catalogue.read(original / name)
+                for name in ('equation.json', 'points.json', 'certificate.json')}
+        for change in ('point', 'character', 'equation', 'claimed_rank'):
+            with self.subTest(change=change), tempfile.TemporaryDirectory() as raw:
+                directory = Path(raw)
+                altered, claim = copy.deepcopy(data), dict(row)
+                if change == 'point':
+                    altered['points.json']['points'][0][0] = '0'
+                elif change == 'character':
+                    entry = altered['certificate.json']['independent_rows'][0]
+                    entry['bits'] = str(1 - int(entry['bits'][0])) + entry['bits'][1:]
+                elif change == 'equation':
+                    altered['equation.json']['ainvs'][0] = '0'
+                else:
+                    claim['rank_lower_bound'] += 1
+                for name, value in altered.items():
+                    (directory / name).write_text(json.dumps(value), encoding='utf-8')
+                with patch.object(catalogue, 'case_folder', return_value=directory), self.assertRaises(ValueError):
+                    catalogue.verify_case(claim)
 
     def test_core_does_not_import_studies(self):
         for path in (ROOT / 'src/elliptic_rank_search').rglob('*.py'):

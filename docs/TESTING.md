@@ -11,7 +11,7 @@ python -m unittest discover -s tests -p test_certificates.py -v
 python -m unittest discover -s tests -p test_research.py -v
 ```
 
-These replay all 23 certificates, verify the 17 exact polynomial identities, reject altered mathematical evidence and case resources, and check the engine/study boundary. Atomic-checkpoint tests exercise transient Windows-style sharing failure and persistent failure while preserving the prior checkpoint.
+These replay all 23 certificates, verify the 17 exact polynomial identities, reject altered mathematical evidence, and check the engine/study boundary. Proof replay is also checked with LF/CRLF line endings and reformatted JSON for every case. Atomic-checkpoint tests exercise transient Windows-style sharing failure and persistent failure while preserving the prior checkpoint.
 
 ## Arithmetic and search regressions
 
@@ -24,7 +24,7 @@ python first_cover.py --self-test
 python first_jet.py --self-test
 ```
 
-The original 54 regressions are retained. New tests rebuild every family model from formulas and certify each actual initial seed bound. They also cover the research catalogue and standalone sieve. The current full suite has 65 tests; three native-sieve tests are skipped until that optional tool is built.
+The original 54 regressions are retained. New tests rebuild every family model from formulas and certify each actual initial seed bound. They also cover the research catalogue and standalone sieve. The current full suite has 66 tests; three native-sieve tests are skipped until that optional tool is built.
 
 The suite exercises exact inverse maps, torsion corrections, divided points, interrupted reductions, search feedback, model scheduling, checkpoint/resume and declared-input data boundaries. Some tests deliberately simulate rare interruption paths; others execute real GP searches. Very short arithmetic budgets can be sensitive to machine load.
 

@@ -15,13 +15,5 @@
   "public_catalogue_snapshot_sha256": "2734f65aaac10674a445f2050b491c2b715c2122be22370697cfbfae105d0c6a",
   "previous_lower_bound": 11,
   "original_curve_credit": "Seewoo Lee; Mestre-Fermigier construction",
-  "seed_credit": "One original public point, optionally replaced by its group inverse",
-  "files_sha256": {
-    "certificate.json": "c027f32270f270c0a7fdca491e86b241cf38b03394ccc0d39dfc291b9f6890f8",
-    "equation.json": "07d16291992e7c4f948562dcb770354db8fe677434795bf7e4b905c0aea9e03f",
-    "invariants.json": "03d4b4c89fd929713b26f47291981202ae6bbc09acebdc97644b4b9ee1fa3ffd",
-    "points.json": "961e9af3db3c0a7fe0476815ba5fd926bf912d5682a4817d44c4c6662c97c524",
-    "reproduction.json": "da6b3f0d8538314ac3db5538f5a786a32d3966545d1d921a811be4f2478e8848",
-    "seed.json": "7f09f8ffe398f0204968bb5f65e8d313238f679df9c8070710900ebe6ca5a755"
-  }
+  "seed_credit": "One original public point, optionally replaced by its group inverse"
 }

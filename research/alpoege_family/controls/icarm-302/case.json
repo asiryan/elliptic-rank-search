@@ -13,12 +13,5 @@
     "sha256": "c908682e78c3b2b1d49219e5f5ebfd216f3c5374633915e9b8d4be4ccce352c8"
   },
   "public_catalogue_snapshot_sha256": "2734f65aaac10674a445f2050b491c2b715c2122be22370697cfbfae105d0c6a",
-  "role": "Reproduction of a previously published bound; not one of our discoveries",
-  "files_sha256": {
-    "certificate.json": "39fabac5431c86399c7a1286943c60251d2e64564a9da27b3afdad49054cf0fc",
-    "equation.json": "454f66a84f2583610ed822a4f0990a5862d39d480b4bd0991d003d043dc4d0c2",
-    "invariants.json": "55c0b1762d1d6194e274ca765c2afb45193064cb3b5385d5ab62fe63cdcac7ea",
-    "points.json": "34f5a0ca1b58d865601704f7aa9bc0334fb48227908ca7b25915a9d661b173ba",
-    "reproduction.json": "8652ccde38287de54041e5a577fb5beb31a3029c1a293d5e0198a6708a1ac12e"
-  }
+  "role": "Reproduction of a previously published bound; not one of our discoveries"
 }
