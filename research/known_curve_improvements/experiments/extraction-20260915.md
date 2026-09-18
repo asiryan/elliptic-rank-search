@@ -1,4 +1,4 @@
-# Extraction validation — 2026-09-15
+# Extraction validation - 2026-09-15
 
 ## Environment
 

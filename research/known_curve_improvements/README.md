@@ -1,6 +1,6 @@
 # Three known-curve improvements
 
-The three ICARM curves were originally submitted by Seewoo Lee. Their pages describe Mestre–Fermigier constructions and contain the original independent-point witnesses:
+The three ICARM curves were originally submitted by Seewoo Lee. Their pages describe Mestre-Fermigier constructions and contain the original independent-point witnesses:
 
 - [Curve #199](https://elliptic-rank.icarm.cloud/curve/199): snapshot lower bound 13; included certificate proves 15.
 - [Curve #206](https://elliptic-rank.icarm.cloud/curve/206): snapshot lower bound 12; included certificate proves 14.

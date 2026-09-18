@@ -4,7 +4,7 @@ This directory contains the reproducible mathematical inputs, proof witnesses an
 
 | Study | Contributions | Declared fresh-search input |
 |---|---|---|
-| [Alpoege family](alpoege_family/README.md) | 18 curves, #733–#750, certified bounds 18–25 | The exact parameter and 17 generic section formulas |
+| [Alpoege family](alpoege_family/README.md) | 18 curves, #733-#750, certified bounds 18-25 | The exact parameter and 17 generic section formulas |
 | [Known-curve improvements](known_curve_improvements/README.md) | #199: 13→15; #206: 12→14; #212: 11→13 | One declared public point per curve |
 | Family controls | #302 ≥31 and #727 ≥26 | The same generic section formulas; kept outside the discovery list |
 

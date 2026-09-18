@@ -108,14 +108,14 @@ The saved certificate records primes, roots, bit rows, torsion evidence, and an 
 
 The concrete finding is that this implementation's combination of point-centred models, adaptive reuse of observations, and exact certification yields the three stronger bounds above from one declared seed each. The construction of the quartic and the local-character independence method are classical. We do not claim to have established mathematical priority for the overall search strategy or a general speed advantage over existing software.
 
-The implemented search is bounded and heuristic. It does not compute a complete Mordell–Weil group, a full Selmer group, an upper rank bound, or a saturation certificate. An inconclusive character test does not prove dependence; independent points can be hidden by even index. No bound guarantees that a new independent point has small coordinates in one of the selected models.
+The implemented search is bounded and heuristic. It does not compute a complete Mordell-Weil group, a full Selmer group, an upper rank bound, or a saturation certificate. An inconclusive character test does not prove dependence; independent points can be hidden by even index. No bound guarantees that a new independent point has small coordinates in one of the selected models.
 
 
 ## References and attribution
 
-- J. E. Cremona, [On the computation of Mordell–Weil and 2-Selmer Groups of Elliptic Curves](https://johncremona.github.io/papers/filter.pdf), §2: local-character independence tests.
+- J. E. Cremona, [On the computation of Mordell-Weil and 2-Selmer Groups of Elliptic Curves](https://johncremona.github.io/papers/filter.pdf), §2: local-character independence tests.
 - The PARI Group, [hyperelliptic-curve functions](https://pari.math.u-bordeaux.fr/dochtml/ref/Hyperelliptic_curves.html): model changes, reduction, minimization, and rational-point search.
-- [ICARM Elliptic Curve Rank Leaderboard](https://elliptic-rank.icarm.cloud/curves): source curves and the initial public points. The three curve pages credit Seewoo Lee and describe their Mestre–Fermigier constructions.
+- [ICARM Elliptic Curve Rank Leaderboard](https://elliptic-rank.icarm.cloud/curves): source curves and the initial public points. The three curve pages credit Seewoo Lee and describe their Mestre-Fermigier constructions.
 - [ICARM's verifier](https://github.com/icarm/elliptic-rank/blob/main/src/verify.ts): related implementation of the local-character method. The included Python verifier is separately implemented.
 
 We acknowledge the NSF Institute for Computer-Aided Reasoning in Mathematics (ICARM) and NSF Grant DMS 2425401 for the source data and leaderboard infrastructure. Original curve construction and seed-point credit remain with their authors; this project supplies the additional search and lower-bound evidence.

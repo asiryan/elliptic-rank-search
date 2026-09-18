@@ -10,7 +10,7 @@ All **21 contributions** recorded on [Valery Asiryan's ICARM profile](https://el
 
 | Study | Results | Fresh input |
 |---|---|---|
-| [Alpoege family](research/alpoege_family/README.md) | 18 curves, #733–#750, bounds 18–25 | Parameter T and 17 generic section formulas |
+| [Alpoege family](research/alpoege_family/README.md) | 18 curves, #733-#750, bounds 18-25 | Parameter T and 17 generic section formulas |
 | [Known-curve improvements](research/known_curve_improvements/README.md) | #199: 13→15; #206: 12→14; #212: 11→13 | One declared public point per curve |
 
 The known curves #302 ≥31 and #727 ≥26 are separate controls. All rank claims are lower bounds. A finite unsuccessful search does not prove that further independent points do not exist.
@@ -92,4 +92,4 @@ The full suite needs configured GP. Native-sieve tests run when its .NET tool ha
 
 Curve construction, family identification and original seed/section credit remain with their authors; each study documents its sources. We acknowledge ICARM and NSF Grant DMS 2425401 for the leaderboard data and infrastructure. The included Python certificate verifier is independently implemented using the local-character method described in [Cremona's paper](https://johncremona.github.io/papers/filter.pdf).
 
-MIT, copyright © 2025–2026 Valery Asiryan. See [LICENSE](LICENSE). PARI/GP is installed separately under its own license.
+MIT, copyright © 2025-2026 Valery Asiryan. See [LICENSE](LICENSE). PARI/GP is installed separately under its own license.
