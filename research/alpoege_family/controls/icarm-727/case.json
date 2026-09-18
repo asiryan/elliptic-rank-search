@@ -8,10 +8,5 @@
   "url": "https://elliptic-rank.icarm.cloud/curve/727",
   "parameter": "-311/519",
   "rank_is_a_lower_bound": true,
-  "historical_source": {
-    "path": "runs/family-recovery-check-20260916/curves/-311_519/fresh-adaptive/result.json",
-    "sha256": "910c038912851aa1ee1836fd9f3cbc08c245d1a4f54188e059e44093bbf38bc8"
-  },
-  "public_catalogue_snapshot_sha256": "2734f65aaac10674a445f2050b491c2b715c2122be22370697cfbfae105d0c6a",
   "role": "Reproduction of a previously published bound; not one of our discoveries"
 }

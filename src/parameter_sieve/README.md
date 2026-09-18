@@ -13,4 +13,4 @@ All scores are heuristic, using good reductions of the supplied generic model an
 
 Checkpointed native runs can resume with the same options. The higher-level `ers-research campaign` coordinator deliberately uses an empty directory to keep new runs distinct. Grid summation and sampler RNG are deterministic across worker counts; elapsed times are not.
 
-[provenance.json](provenance.json) records the historical source hashes. Scoring and selection were extracted from the local RankHunt tools; dependencies on the sibling `EllipticCurves` project and its point-export code were removed. Exact j-invariant arithmetic is included here. The tests compare scores with independent finite-field point enumeration and compare selected parameters with one and four workers.
+Scoring and selection were extracted from the local RankHunt tools. The sieve has no dependency on a sibling project and includes exact j-invariant arithmetic. The tests compare scores with independent finite-field point enumeration and compare selected parameters with one and four workers.

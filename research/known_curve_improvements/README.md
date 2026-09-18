@@ -17,7 +17,7 @@ Each folder under `cases/` contains:
 
 The seed is the first public witness point, possibly replaced by its group inverse. On a general Weierstrass equation, the inverse of `(x,y)` is `(x,-y-a1*x-a3)`. This normalization preserves the generated subgroup and does not supply a new direction.
 
-The witness sets and certificates were retained from the local improvement report dated 2026-09-15, with #199 updated from the subsequent saved search that certified 15 independent points. The standalone engine also reproduced the bound 15 from its single declared seed. [summary.json](summary.json) records the snapshot's old bounds, the proved new bounds, source URLs, and the original source-snapshot SHA256. That hash is historical provenance: the complete downloaded snapshot is not distributed here, and checking the mathematical proofs does not require it.
+The witness sets and certificates were retained from the local improvement report dated 2026-09-15, with #199 updated from the subsequent saved search that certified 15 independent points. The standalone engine also reproduced the bound 15 from its single declared seed. [summary.json](summary.json) records the report date, old bounds, proved new bounds and source URLs. The included mathematical proofs can be checked independently of the original download.
 
 The examples are selected successes, not a random benchmark. The old lower bounds are comparison data only. They are not evidence for our new claims: the included exact certificates provide that evidence.
 

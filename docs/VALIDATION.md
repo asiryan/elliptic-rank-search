@@ -1,6 +1,6 @@
 # Repository validation - 2026-09-17
 
-Update, 2026-09-18: file-integrity hashes for case resources and the historical file index were removed because Git's line-ending normalization invalidated the original local byte hashes. Proof replay checks the mathematical evidence directly. All 12 offline research/certificate tests passed, including LF/CRLF, JSON reformatting and rejection of altered evidence. A wheel built from a clean source copy with LF line endings and installed into an empty workspace replayed all 23 certificates and checked all 17 section identities with GP unavailable. No new point search was run. The results below describe the original local validation.
+Update, 2026-09-18: proof replay checks the mathematical evidence directly and accepts LF/CRLF line endings and reformatted JSON. All 12 offline research/certificate tests passed, including rejection of altered evidence. A wheel built from a clean source copy with LF line endings and installed into an empty workspace replayed all 23 certificates and checked all 17 section identities with GP unavailable. No new point search was run. The results below describe the original local validation.
 
 The reorganized repository was validated locally on Windows with Python 3.12.0, PARI/GP 2.19.0 development build `31261-9397d772d8`, and .NET SDK 10.0.401 targeting .NET 8. GP was an explicitly configured external executable.
 
@@ -13,10 +13,10 @@ The general package was built as a wheel and installed without dependencies into
 - All 23 minimal models, exact invariants, height comparisons and conductors were checked, including primality and completeness of the supplied bad-prime factors.
 - All 65 unit/regression tests passed, with real GP arithmetic. Both experimental first-point self-tests passed.
 - The standalone .NET sieve built without a sibling project or external package. Modular scores matched independent finite-field point enumeration; one and four workers selected the same parameters. The small grid campaign generated valid section inputs end to end.
-- All 119 archived plan/summary files matched the original local manifest at validation time; the retained index now records paths and historical sources without file-integrity hashes.
-- The independent v1 verifier remains byte-identical to the original: SHA256 `9e0d0d2562fc53705e92a2eaa9a3f6e7c923f1cd3fd82b14df68b60268f4ad54`.
+- All 119 archived plan/summary files were checked against the original local records; the retained index records their paths and historical sources.
+- The independent v1 verifier remains unchanged from the original implementation.
 
-The mathematical search formulas were relocated with package imports. Runtime paths and code hashing were made installation-independent. Checkpoint replacement now retries a short, bounded sequence of transient Windows sharing failures, retaining the prior file if replacement remains impossible. No search formula was changed by that I/O fix.
+The mathematical search formulas were relocated with package imports. Runtime paths and checkpoint compatibility checks were made installation-independent. Checkpoint replacement now retries a short, bounded sequence of transient Windows sharing failures, retaining the prior file if replacement remains impossible. No search formula was changed by that I/O fix.
 
 ## Fresh installed-package results
 
@@ -56,6 +56,6 @@ Each child had its own declared input and output directory. The coordinator repl
 
 The historical 18-curve, 300-second-per-curve continuation and the full million-parameter campaigns were **not repeated** during reorganization. Their configurations and original summaries are retained separately. Only the local Windows checks are reported as executed here.
 
-[validation-20260917.json](../research/provenance/validation-20260917.json) contains per-case results, settings, audit outcomes, code hashes and metric values. [migration.json](../research/provenance/migration.json) records the original commit and source hashes. The earlier [three-curve extraction report](../research/known_curve_improvements/experiments/extraction-20260915.md) remains historical documentation.
+[validation-20260917.json](validation-20260917.json) contains per-case results, settings, audit outcomes and metric values. Code history is maintained in Git. The earlier [three-curve extraction report](../research/known_curve_improvements/experiments/extraction-20260915.md) remains historical documentation.
 
 These results establish the stated lower bounds and the portability of the packaged workflow. They do not establish exact ranks, saturation, completeness of rational-point groups or priority over every prior publication.

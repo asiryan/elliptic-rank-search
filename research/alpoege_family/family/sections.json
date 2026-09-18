@@ -1,6 +1,5 @@
 {
   "source": "elliptic_rank_structure_20260914.zip, independently checked by tools/RankStructureAudit/audit.py",
-  "source_sections_sha256": "2af3a624875d00c57b76e124341cd25337e8c344855eab22609a086f34800619",
   "sections": [
     {
       "x_coeffs": [
