@@ -49,12 +49,12 @@ ers verify runs/toy/result.json
 
 ```text
 src/
-  elliptic_rank_search/            General engine; no dependency on research
+  elliptic_rank_search/           General engine; no dependency on research
     arithmetic/                   Exact point arithmetic and model geometry
     search/                       Discovery, anchor policies and search loops
     certificates/                 Exact certificate construction and replay
     cli/                          General command-line entry points
-  parameter_sieve/                 Optional standalone .NET parameter selection
+  parameter_sieve/                Optional standalone .NET parameter selection
 research/
   common/                         Catalogue, reproduction and metric commands
   known_curve_improvements/       Three improved existing curves
@@ -66,7 +66,7 @@ research/
     reports/                      Research narrative and final continuation
   data/                           Frozen ICARM catalogue metadata
   provenance/                     Migration and validation records
-examples/toy/                      Small functional inputs
+examples/toy/                     Small functional inputs
 tests/                            Mathematical and search regressions
 docs/                             Algorithm, usage and reproducibility
 runs/                             Generated outputs, ignored by Git
