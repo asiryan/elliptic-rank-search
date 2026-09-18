@@ -1,17 +1,17 @@
-# Поиск в семействе ICARM302 при больших параметрах
+# Searching the ICARM302 family at large parameter heights
 
-Новых границ ≥26: **0**. Подтверждённых новых проходных кривых: **0**.
+New bounds ≥26: **0**. New curves confirmed to qualify for the leaderboard: **0**.
 
-## Проведённый поиск
+## Search performed
 
-- Новый отбор: 6,000,000 выборок несократимых T с возвращением, max(|числитель|, знаменатель) ≤ 2,000,000.
-- Отбор по нескольким диапазонам простых, случайному резерву и благоприятным сравнениям; 2048 кандидатов пересчитаны на всех простых до 65521, 128 сохранены.
-- Вместе с 96 кандидатами предыдущего отбора проверены 224 параметра на дополнительном диапазоне 65521 < p ≤ 262139. Списки зафиксированы до этой проверки. Дальнейший выбор по её результатам остаётся эвристикой.
-- Для 128 новых параметров заново специализированы и точно проверены 17 сечений и переход к минимальной модели. Для прежних 96 использованы сохранённые проверенные входы; каждый запускаемый поиск повторно проверяет вход. Диагностика высот исходных точек используется только для выбора порядка поиска.
-- Завершено 10 поисков: каждый с 2048 опорами, 8 работниками, в режиме adaptive, бюджет 300 секунд. Поисковое ядро не менялось.
-- Одновременно шли до трёх поисков; часть времени выполнялся отбор кандидатов. Поэтому одинаковое число работников не означает идентичную скорость контрольному запуску.
+- New selection: 6,000,000 draws of primitive T with replacement, max(|numerator|, denominator) ≤ 2,000,000.
+- Selection used several prime intervals, a random reservoir and favorable congruences; 2048 candidates were rescored at all primes up to 65521, and 128 were retained.
+- Together with 96 candidates from the previous selection, 224 parameters were checked on the additional interval 65521 < p ≤ 262139. The lists were fixed before this check. Subsequent selection based on its results remains heuristic.
+- For the 128 new parameters, the 17 sections were specialized afresh and checked exactly, along with the change to the minimal model. Saved verified inputs were used for the previous 96; every search checks its input again when it starts. Initial-point height diagnostics are used only to set the search order.
+- 10 searches were completed, each with 2048 anchors, 8 workers, adaptive mode and a 300-second budget. The search engine was unchanged.
+- Up to three searches ran concurrently; candidate selection was also running during part of that time. An equal worker count therefore does not imply the same speed as the control run.
 
-| T | Было ≥ | Получено ≥ | Время поиска, с | Балл до 262139 |
+| T | Previous bound ≥ | Resulting bound ≥ | Search time, s | Score up to 262139 |
 |---|---:|---:|---:|---:|
 | 1159069/1681844 | 17 | 17 | 300.02 | 25.8677 |
 | 1962574/688659 | 17 | 17 | 300.04 | 25.7299 |
@@ -24,23 +24,23 @@
 | 139941/325751 | 17 | 17 | 300.07 | 25.9258 |
 | 95083/512532 | 17 | 18 | 300.05 | 20.1525 |
 
-Уравнения и независимые точки улучшенных кривых сохранены локально:
+Equations and independent points for improved curves were saved locally:
 
-- T=95083/512532, ≥18: данные (historical local artifact).
+- T=95083/512532, ≥18: data (historical local artifact).
 
-## Сравнение с ICARM
+## Comparison with ICARM
 
-Снимок: 750 кривых, 2026-09-16T21:02:35.557423+00:00. Минимальные уравнения сопоставлены по c4 и c6. Места по доступным метрикам пересчитаны двумя реализациями.
-Кондукторы этой партии не вычислены полностью. Отсутствие прохода по трём известным метрикам не является исключением прохода по кондуктору.
-Все результаты сохранены локально. На сайт ничего не отправлялось.
+Snapshot: 750 curves, 2026-09-16T21:02:35.557423+00:00. Minimal equations were matched by c4 and c6. Positions under the available metrics were recomputed by two implementations.
+Conductors for this batch were not fully computed. Failure to qualify under the three known metrics does not rule out qualification by conductor.
+All results were saved locally. Nothing was submitted to the website.
 
-## Контроль и ограничения
+## Control and limitations
 
-Контрольная #302: T=164518/924945, высота параметра 924945, опубликованная нижняя граница 31. В отдельном свежем запуске тот же алгоритм восстановил 31 независимое направление из 17 за 147.94 секунды (2048 опор, 8 работников). Контроль исключён из новых кандидатов.
-Отдельно проверены все 73 опубликованных кривых ≥26: решено точное уравнение совпадения j-инвариантов, факторизация проверена перемножением с учётом постоянного множителя, рассмотрен T=∞. Рациональные параметры найдены только для #302 (164518/924945) и #727 (-311/519); в обоих случаях совпала рациональная минимальная модель. Чужие точки для этой проверки не загружались.
-Большая высота параметра расширяет область поиска, но не гарантирует большего ранга. Баллы по простым и численные высоты точек не являются доказательствами ранга.
-Каждый результат повторно проверен точным сертификатом, проверены принадлежность точек кривой, происхождение найденных точек и хеши входов. Неуспешный поиск ограниченного времени не даёт верхней границы ранга.
+Control #302: T=164518/924945, parameter height 924945, published lower bound 31. In a separate fresh run, the same algorithm recovered 31 independent directions from 17 in 147.94 seconds (2048 anchors, 8 workers). The control was excluded from new candidates.
+All 73 published curves with bounds ≥26 were checked separately: the exact equation for equality of j-invariants was solved, the factorization was verified by multiplication including the constant factor, and T=∞ was considered. Rational parameters were found only for #302 (164518/924945) and #727 (-311/519); in both cases the minimal models over the rationals matched. Other authors' points were not downloaded for this check.
+A larger parameter height broadens the search range but does not guarantee a higher rank. Prime scores and numerical point heights are not rank proofs.
+Each result was checked again using an exact certificate; curve membership, provenance of discovered points and input hashes were verified. An unsuccessful search with a finite time budget does not give an upper rank bound.
 
-Машиночитаемые результаты (historical local artifact) · Все кандидаты (historical local artifact)
-[ICARM #302](https://elliptic-rank.icarm.cloud/curve/302) · [Каталог ICARM](https://elliptic-rank.icarm.cloud/database.json)
+Machine-readable results (historical local artifact) · All candidates (historical local artifact)
+[ICARM #302](https://elliptic-rank.icarm.cloud/curve/302) · [ICARM catalogue](https://elliptic-rank.icarm.cloud/database.json)
 Public catalogue maintained by ICARM with support from NSF Grant DMS 2425401.

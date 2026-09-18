@@ -1,14 +1,14 @@
-# Короткая проверка восстановления из 17 сечений
+# Brief recovery check from 17 sections
 
-| ICARM | T | Вход | Подтверждённый результат | Время поиска |
+| ICARM | T | Input points | Certified result | Search time |
 |---|---|---:|---:|---:|
-| [#302](https://elliptic-rank.icarm.cloud/curve/302) | 164518/924945 | 17 | ≥31 | 147.94 с |
-| [#727](https://elliptic-rank.icarm.cloud/curve/727) | -311/519 | 17 | ≥26 | 13.33 с |
+| [#302](https://elliptic-rank.icarm.cloud/curve/302) | 164518/924945 | 17 | ≥31 | 147.94 s |
+| [#727](https://elliptic-rank.icarm.cloud/curve/727) | -311/519 | 17 | ≥26 | 13.33 s |
 
-Обе кривые - специализации того же семейства ICARM302. Начальные 17 точек заново вычислены по общим формулам; точно проверены преобразование модели и совпадение уравнений с ICARM. Наборы совпадают с архивными входами с точностью до знака и порядка.
-Поиск текущим seeded.py запускался в новых папках без продолжения старых результатов. Режим adaptive, 2048 опор, 8 работников на кривую. Вход содержит только уравнение и 17 общих точек; опубликованные дополнительные точки поиску не передавались.
-Для результатов заново проверены независимость, принадлежность точек кривой, хеши исходных данных, происхождение точек из начального набора или журналов поиска и границы чтения данных. Отдельно сохранено расширение именно исходных 17 точек.
-Архивные сертификаты 26 и 31 перепроверены. Для архивного blind-record-v3 проверены хеши всех файлов из манифеста. Его аудит отмечает отсутствие чтения эталонных точек или рецепта в самом запуске; известная кривая ранее использовалась при разработке метода. Раннее guided-воспроизведение 31 опубликованной точки - отдельный эксперимент с использованием известных ответов.
-**Это восстановление независимых наборов для нижних границ ранга. Полнота группы рациональных точек, насыщенность найденной подгруппы и точный ранг этим не доказаны. Общность семейства даёт 17 сечений, но не гарантирует быстрого нахождения всех дополнительных направлений при каждом T.**
+Both curves are specializations of the same ICARM302 family. The initial 17 points were recomputed from the generic formulas; the model transformation and agreement with the ICARM equations were checked exactly. The sets match the archived inputs up to sign and order.
+Searches using the then-current seeded.py ran in fresh directories without resuming earlier results. Settings were adaptive mode, 2048 anchors and 8 workers per curve. Inputs contained only the equation and 17 generic points; published additional points were not supplied to the search.
+Independence, curve membership, input hashes, provenance of points from the initial set or search logs, and data-read boundaries were checked again for the results. An extension retaining the original 17 points was also saved separately.
+Archived certificates for 26 and 31 were checked again. For the archived blind-record-v3, hashes of every file in the manifest were verified. Its audit records that neither reference points nor the recipe were read during the run itself; the known curve had previously been used in developing the method. The earlier guided recovery of 31 published points is a separate experiment using known answers.
+**This recovers independent sets establishing rank lower bounds. It does not prove completeness of the rational-point group, saturation of the subgroup found, or the exact rank. The common family supplies 17 sections but does not guarantee that every additional independent direction can be found quickly at each T.**
 
-Итоги (historical local artifact) · Проверка архива (historical local artifact)
+Results (historical local artifact) · Archive verification (historical local artifact)

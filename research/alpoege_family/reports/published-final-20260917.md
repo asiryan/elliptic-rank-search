@@ -1,8 +1,8 @@
-# Финальный проход по 18 опубликованным кривым
+# Final pass over the 18 published curves
 
-Каждая кривая: дополнительные 300 секунд поиска, 8 работников, 2048 опор, adaptive. Поиск последовательно, от лучших собственных сохранённых точек. Ядро совпадает с контрольным запуском #302; остановка при первом улучшении отключена.
+Each curve received an additional 300 seconds of search with 8 workers, 2048 anchors and adaptive mode. Searches ran sequentially, starting from the best points saved by our earlier runs. The engine matched the #302 control run; stopping at the first improvement was disabled.
 
-| ICARM | T | Было ≥ | Стало ≥ | Поиск, с |
+| ICARM | T | Previous bound ≥ | Final bound ≥ | Search, s |
 |---|---|---:|---:|---:|
 | [#749](https://elliptic-rank.icarm.cloud/curve/749) | -332/267 | 25 | 25 | 300.00 |
 | [#748](https://elliptic-rank.icarm.cloud/curve/748) | -265/221 | 25 | 25 | 300.06 |
@@ -23,14 +23,14 @@
 | [#734](https://elliptic-rank.icarm.cloud/curve/734) | 1/4 | 18 | 18 | 300.11 |
 | [#737](https://elliptic-rank.icarm.cloud/curve/737) | 4/17 | 18 | 18 | 300.09 |
 
-Завершено: 18/18. Улучшено: 0. Незавершённых запусков с ошибкой: 0. Восстановленных сбоев: 1.
+Completed: 18/18. Improved: 0. Runs left incomplete by errors: 0. Recovered failures: 1.
 
-Все приведённые ранги - нижние оценки с точной проверкой независимости. Результаты, исходные данные, журналы происхождения и сертификаты сохранены локально. Новые данные на сайт не отправлялись.
+All reported ranks are lower bounds with exact independence checks. Results, inputs, provenance logs and certificates were saved locally. No new data were submitted to the website.
 
-## Улучшения для ICARM
+## Improvements for ICARM
 
-В этом проходе новых повышений нижних оценок ранга не получено.
+This pass produced no further increases in the rank lower bounds.
 
-Для #734 после 64 секунд произошёл временный отказ Windows при замене файла контрольной точки. Чтение прогресса исправлено, чтобы разрешать такую замену. Поиск возобновлён из сохранённого состояния с прежними настройками до суммарных 300 секунд. Поисковое ядро не изменялось. Исходный журнал ошибки сохранён.
+For #734, a transient Windows error occurred after 64 seconds while replacing the checkpoint file. The progress reader was fixed to allow that replacement. The search resumed from the saved state with the same settings until the total reached 300 seconds. The search engine was unchanged. The original error log was retained.
 
-Проверка полноты прохода и настроек (see experiment history).
+Pass completeness and settings verification (see experiment history).

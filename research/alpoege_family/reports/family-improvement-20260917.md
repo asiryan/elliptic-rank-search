@@ -1,45 +1,45 @@
-# Можно ли улучшить семейство ICARM302 для поиска рекордов?
+# Can the ICARM302 family be improved for record searches?
 
-17 сентября 2026 года. Ограниченное исследование геометрии и два вычислительных пилота.
+September 17, 2026. A bounded study of the geometry and two computational pilot experiments.
 
-**Ускорение поиска новых рекордов пока не установлено.** Построены и проверены конкретные изменения семейства, а не только способы расширить перебор T. Принудительные дополнительные точки дают дешёвые нижние оценки 18-19, но в парном пилоте не повысили итоговый найденный ранг. Другое эллиптическое расслоение той же поверхности действительно даёт кривые вне исходного семейства, однако проверенный вариант уступает исходному по общему рангу и размерам коэффициентов в выбранных координатах.
+**Faster discovery of new records has not been established.** Specific changes to the family were constructed and checked, going beyond broader enumeration of T. Imposing extra points gives inexpensive lower bounds of 18-19, but did not improve the final rank found in the paired pilot. A different elliptic fibration on the same surface does produce curves outside the original family, but the tested version has a lower generic rank and larger coefficients in the chosen coordinates.
 
-Практическое решение: эти два варианта пока не заслуживают большого вычислительного бюджета. Следующий поиск улучшенного семейства следует отбирать одновременно по общему рангу, арифметическим размерам специализаций и фактическому выходу высоких рангов за одинаковое время.
+Practical decision: neither of these two approaches currently warrants a large computational budget. The next search for an improved family should assess generic rank, arithmetic sizes of specializations and the actual yield of high ranks within equal time budgets together.
 
-## Что уже было известно
+## What was already known
 
-Наш прежний результат **rank E(Q(T)) = 17** подтверждён сохранённым аудитом. Проверены 17 сечений, их матрица высот с определителем 1092 и квадратсвободный дискриминант степени 24. Полнота порождённой ими решётки по индексу не установлена; для доказательства ранга она не нужна.
+The retained audit confirms our earlier result **rank E(Q(T)) = 17**. It checks 17 sections, their height matrix with determinant 1092, and a squarefree discriminant of degree 24. It has not been established that the lattice they generate has index one in the full section lattice; this is not required for the rank proof.
 
-Ранг 17 максимален для эллиптической K3-поверхности над Q(T). Это ограничение относится к общему рангу в данном геометрическом классе, а не к рангу отдельных кривых над Q и не к эффективности поиска. [Elkies, 2026, введение и теорема 1](https://arxiv.org/html/2608.25406v1).
+Rank 17 is maximal for an elliptic K3 surface over Q(T). This restriction concerns the generic rank within that geometric class, not ranks of individual curves over Q or search efficiency. [Elkies, 2026, introduction and Theorem 1](https://arxiv.org/html/2608.25406v1).
 
-Поэтому нельзя просто подправить коэффициенты этой K3-модели, сохранить тот же класс и получить общий ранг 18. Можно менять базу, выбирать другое расслоение либо искать другую поверхность. Это разные операции с разной ценой.
+Thus, one cannot simply adjust the coefficients of this K3 model, remain in the same class and obtain generic rank 18. One can change the base, choose another fibration or seek another surface. These are different operations with different costs.
 
-Старые поиски действительно были значительными:
+The earlier searches were substantial:
 
-| Сохранённый эксперимент | Что фактически проверено |
+| Retained experiment | What was actually checked |
 |---|---|
-| rank26-plus-20260916 | Просеяны 5 102 343 рациональных параметра высоты ≤2048 и ещё 2 млн случайных параметров; 159 поисков точек на 150 параметрах; новых оценок ≥26 нет, лучший новый результат ≥25 |
-| high-height-20260916 | 6 млн случайных параметров высоты ≤2 млн; 224 финалиста сита; 10 поисков по 300 секунд: девять остались на оценке 17, один достиг 18 |
-| small-t-audit-20260917 | Перечислены все 5039 параметров высоты ≤64, но на момент аудита поиск точек выполнен только для 634 |
+| rank26-plus-20260916 | Sieved 5 102 343 rational parameters of height ≤2048 and another 2 million random parameters; 159 point searches on 150 parameters; no new bounds ≥26, best new result ≥25 |
+| high-height-20260916 | 6 million random parameters of height ≤2 million; 224 sieve finalists; 10 searches of 300 seconds each: nine stayed at bound 17, one reached 18 |
+| small-t-audit-20260917 | Enumerated all 5039 parameters of height ≤64, but point searches had been run for only 634 at the time of the audit |
 
-Это свидетельство слабой отдачи проверенной стратегии. Оно не доказывает, что семейство исчерпано: просеивание не определяет ранг, а остановившаяся нижняя оценка не является верхней границей.
+This is evidence of the tested strategy's low yield. It does not prove that the family is exhausted: sieving does not determine rank, and a lower bound that stops improving is not an upper bound.
 
-## Дополнительные точки через квадратичные условия
+## Extra points from quadratic conditions
 
-Из ранее построенных 318 квадратичных сечений получены 126 различных условий z²=h(T). При выполнении условия на кривой появляется явная рациональная точка. Её независимость от специализаций старых сечений проверялась отдельно.
+The 318 quadratic sections constructed earlier gave 126 distinct conditions z²=h(T). Satisfying a condition supplies an explicit rational point on the curve. Its independence from the specialized original sections was checked separately.
 
-Полный перебор 20 087 рациональных T=u/v, max(|u|,v)≤128, обнаружил 244 параметра на этих покрытиях. Проверка квадратов заняла 0,61 секунды при уже подготовленных условиях. Подготовка кривых, добавление точек, сертификаты и диагностические высоты для этих 244 параметров заняли суммарно около 19 секунд.
+Exhaustive enumeration of 20 087 rational T=u/v with max(|u|,v)≤128 found 244 parameters on these covers. Square testing took 0.61 seconds once the conditions were prepared. Preparing the curves, adding points, producing certificates and computing diagnostic heights for these 244 parameters took about 19 seconds in total.
 
-На 112 параметрах добавленные точки улучшили сертифицированную исходную нижнюю оценку. Получено 106 стартовых оценок 18 и две оценки 19; остальные улучшения происходили с меньших сертифицированных оценок. Отсутствие улучшения сертификата само по себе не доказывает зависимость новой точки.
+At 112 parameters, the added points improved the certified initial lower bound. This produced 106 initial bounds of 18 and two bounds of 19; the remaining improvements started from smaller certified bounds. Failure to improve the certificate does not by itself prove that a new point is dependent.
 
-Два компактных примера со стартовой оценкой 19:
+Two compact examples with initial bound 19:
 
-| T | Два условия | Логарифмическая высота минимальной кривой |
+| T | Two conditions | Logarithmic height of the minimal curve |
 |---|---|---:|
-| 22/87 | покрытия 235 и 251 | 248,68 |
-| 34/125 | покрытия 126 и 146 | 271,40 |
+| 22/87 | Covers 235 and 251 | 248.68 |
+| 34/125 | Covers 126 and 146 | 271.40 |
 
-Например, для первого примера условия имеют вид
+For the first example, the conditions are
 
 \[
 z_1^2=2621951051076+8268590077188T+6460014767761T^2,
@@ -48,19 +48,19 @@ z_1^2=2621951051076+8268590077188T+6460014767761T^2,
 z_2^2=592140288609-1755202210890T+1763969844025T^2.
 \]
 
-Их совместное выполнение задаёт гладкую кривую рода 1. Для обеих пар построены вспомогательные эллиптические модели с безусловно сертифицированными рангами ≥2 и ≥3 соответственно. Девятнадцать точек над их функциональными полями независимы: на указанных специализациях их независимость удостоверена точными сертификатами. Это даёт семейства общего ранга ≥19 над эллиптической базой и бесконечно много рациональных параметров. Это не утверждение о ранге 19 над Q(T).
+Satisfying both defines a smooth genus-1 curve. Auxiliary elliptic models were constructed for both pairs, with unconditionally certified ranks ≥2 and ≥3 respectively. Nineteen points over their function fields are independent: exact certificates establish independence at the listed specializations. This gives families of generic rank ≥19 over an elliptic base and infinitely many rational parameters. It does not assert rank 19 over Q(T).
 
-**Проблема - арифметическая цена параметров.** В имеющихся параметризациях одиночных покрытий даже при высоте входного параметра ≤16 медианная высота выходного T составила 7 763 655 297. Из 40 320 вычислений получено 2915 различных T высоты ≤2 млн. На двух вспомогательных эллиптических кривых проверенные малые комбинации точек не дали дополнительных T с числителем и знаменателем до 12 цифр: прошли только сами исходные примеры. Это ограниченный поиск и характеристика выбранных координат, не доказательство неизбежности такого роста.
+**The problem is the arithmetic size of the parameters.** In the available parametrizations of individual covers, even with input parameter height ≤16, the median output height of T was 7 763 655 297. Of 40 320 evaluations, 2915 distinct T had height ≤2 million. On the two auxiliary elliptic curves, the small point combinations tested produced no additional T with numerators and denominators of at most 12 digits: only the original examples qualified. This is a bounded search and an observation about the chosen coordinates, not a proof that such growth is unavoidable.
 
-**Особенно существенное ограничение:** рекордный T=164518/924945 не удовлетворяет ни одному из этих 126 условий. То же верно для трёх других проверенных сильных параметров: -311/519, -6486/7309 и 936/811. Следовательно, замена всего поиска на эти покрытия исключила бы уже известные удачные кривые. Дополнительный общий ранг сам по себе не гарантирует более выгодное распределение редких скачков ранга.
+**A particularly significant limitation:** the record parameter T=164518/924945 satisfies none of these 126 conditions. The same is true of three other strong parameters checked: -311/519, -6486/7309 and 936/811. Replacing the entire search with these covers would therefore exclude known successful curves. Extra generic rank alone does not guarantee a more favorable distribution of rare rank jumps.
 
-## Проверка, помогают ли готовые 18-19 точек поисковику
+## Do 18-19 initial points help the search engine?
 
-Восемь кривых выбраны до запуска поиска: два двойных покрытия и шесть одиночных покрытий с наименьшей высотой кривой, исходной сертифицированной оценкой 17 и подтверждённой дополнительной точкой. На каждой проведены два запуска: только с 17 исходными точками и с геометрически дополненным набором.
+Eight curves were selected before searching: two intersections of pairs of covers and six individual covers with the lowest curve height, initial certified bound 17 and a confirmed extra point. Each curve had two runs: one with only the 17 original points, and one with the geometrically enlarged set.
 
-Одинаковые настройки: 12 секунд поиска, 2 рабочих процесса, 256 опорных точек, адаптивный режим. Запуски шли последовательно, порядок двух вариантов чередовался. Поисковое ядро не менялось.
+Settings were identical: 12 seconds of search, 2 worker processes, 256 anchors and adaptive mode. Runs were sequential, alternating the order of the two variants. The search engine was unchanged.
 
-| T | Старт с 17: итоговая оценка | Старт с 18-19: итоговая оценка |
+| T | Starting from 17: final bound | Starting from 18-19: final bound |
 |---|---:|---:|
 | 22/87 | 20 | 20 |
 | 34/125 | 20 | 20 |
@@ -71,19 +71,19 @@ z_2^2=592140288609-1755202210890T+1763969844025T^2.
 | -17/35 | 20 | 20 |
 | 2/35 | 19 | 19 |
 
-Все числа - безусловные сертифицированные нижние оценки, не вычисленные точные ранги. На данном бюджете преимущество по итоговой оценке отсутствует в 8 из 8 пар. Это не статистическое доказательство равной эффективности и не сравнение частоты рекордов в двух распределениях параметров. Подготовка дополнительных точек в бюджет 12 секунд не включена. Время первого достижения каждого промежуточного ранга отдельно не сравнивалось.
+All numbers are unconditional certified lower bounds, not computed exact ranks. Within this budget, the final bounds were identical in 8 of 8 pairs. This is not statistical proof of equal effectiveness, nor a comparison of record frequency between two parameter distributions. Extra-point preparation was excluded from the 12-second budget. The first time each intermediate rank bound was reached was not compared separately.
 
-## Другое эллиптическое расслоение той же поверхности
+## Another elliptic fibration on the same surface
 
-Проверено более существенное изменение: старый параметр T становится координатой внутри новой кривой, а новое семейство задаётся другой рациональной функцией на поверхности.
+A more substantial change was tested: the old parameter T becomes a coordinate within the new curve, and a different rational function on the surface defines the new family.
 
-Конструкция использует сечение P=P₂−P₅ высоты 8 и дивизор O+P. В модели с завершённым квадратом
+The construction uses the section P=P₂−P₅ of height 8 and the divisor O+P. In the model obtained by completing the square,
 
 \[
 Y^2=x^3+A_2x^2+A_4x+A_6
 \]
 
-записано P=(N/l²,M/l³), deg l=2. Выбраны
+write P=(N/l²,M/l³), deg l=2. Choose
 
 \[
 a_0\equiv-M/N\pmod{l^2},\quad c_0=(M+a_0N)/l^2,
@@ -95,58 +95,58 @@ a=a_0+kl^2,\quad c=c_0+kN,
 u=A_2+(N-a^2)/l^2,\quad v=A_4+(2ac+Nu)/l^2.
 \]
 
-Новое семейство - квартика
+The new family is the quartic
 
 \[
 z^2=F(T,k)=\frac{u^2-4v}{l^2}.
 \]
 
-Её связь со старой поверхностью задаётся x=(-u+lz)/2 и Y=(ax-c)/l; обратный новый параметр равен (lY-a₀x+c₀)/(l²x−N). Все 60 использованных рациональных сечений новой квартики проверены точными символическими тождествами. Коэффициенты F и замена нового параметра сохранены в fibration.json.
+Its relation to the old surface is given by x=(-u+lz)/2 and Y=(ax-c)/l; the inverse expression for the new parameter is (lY-a₀x+c₀)/(l²x−N). All 60 rational sections used for the new quartic were checked by exact symbolic identities. The coefficients of F and the change of the new parameter were saved in fibration.json.
 
-У этого расслоения общий ранг **15**. Вычисленные степени c₄,c₆,Δ равны 8,12,22; конечный дискриминант имеет один линейный множитель кратности 2 и квадратсвободный множитель степени 20. c₄ взаимно прост с Δ. Поэтому особые слои - 20 слоёв I₁ и два I₂, один из которых при бесконечности. Рациональные классы компонентов двух I₂ занимают два измерения группы Нерона-Севери. Для исходного расслоения её рациональный ранг равен 17+2=19; формула Шиоды-Тейта для нового даёт 19−2−2=15. На специализациях независимо сертифицированы 15 точек.
+This fibration has generic rank **15**. The computed degrees of c₄,c₆,Δ are 8,12,22; the finite discriminant has one linear factor of multiplicity 2 and a squarefree factor of degree 20. The polynomials c₄ and Δ are coprime. The singular fibers are therefore 20 fibers of type I₁ and two of type I₂, one at infinity. Rational component classes of the two I₂ fibers occupy two dimensions in the Neron-Severi group. For the original fibration, its rational rank is 17+2=19; the Shioda-Tate formula for the new one gives 19−2−2=15. 15 points were independently certified on specializations.
 
-Это действительно выход за пределы старых рациональных специализаций: для нового параметра s=-1/7 уравнение j_old(T)=j_new имеет неприводимый числитель степени 24, а T=∞ тоже не подходит. Следовательно, эта кривая не изоморфна даже над алгебраическим замыканием ни одной старой кривой при рациональном T. Мировая новизна этой кривой не проверялась.
+This goes beyond the old rational specializations: for the new parameter s=-1/7, the equation j_old(T)=j_new has an irreducible numerator of degree 24, and T=∞ does not work either. Thus, this curve is not isomorphic, even over an algebraic closure, to any old curve at rational T. Its novelty relative to all prior work was not checked.
 
-Однако арифметические размеры оказались хуже. В таблице h(E)=log max(|c₄|³,c₆²), инварианты взяты на глобальной минимальной модели. Это показатель размеров, не проводник и не каноническая высота точек.
+However, the arithmetic sizes were worse. In the table, h(E)=log max(|c₄|³,c₆²), with invariants taken on the global minimal model. This is a size measure, not the conductor or the canonical height of points.
 
-| Семейство, 319 параметров высоты ≤16 | Минимум h(E) | Медиана h(E) |
+| Family, 319 parameters of height ≤16 | Minimum h(E) | Median h(E) |
 |---|---:|---:|
-| Исходное, общий ранг 17 | 147,01 | 218,97 |
-| Новое, вариант 0, общий ранг 15 | 194,73 | 304,96 |
-| Ещё один построенный вариант, вариант 2 | 356,51 | 543,75 |
+| Original, generic rank 17 | 147.01 | 218.97 |
+| New, option 0, generic rank 15 | 194.73 | 304.96 |
+| Another constructed variant, option 2 | 356.51 | 543.75 |
 
-Одинаковая высота параметра зависит от выбранных координат. Таблица оценивает конкретные готовые генераторы кривых; она не доказывает, что никакая перепараметризация не улучшит новые варианты.
+Equal parameter height depends on the chosen coordinates. The table assesses these specific curve generators; it does not prove that no reparametrization can improve the new variants.
 
-Четыре разведочных запуска по 15 секунд - два самых малых по h(E) и два лучших по сумме локальных оценок в диапазоне простых 5…4093 - дали:
+Four exploratory runs of 15 seconds each, on the two curves with the smallest h(E) and the two with the best sums of local scores at primes 5…4093, gave:
 
-| Новый s | Стартовая оценка | Итоговая оценка |
+| New s | Initial bound | Final bound |
 |---|---:|---:|
 | -1/7 | 15 | 15 |
 | -2/11 | 14 | 14 |
 | -7/15 | 15 | 16 |
 | 4/9 | 15 | 15 |
 
-Оценка 14 во второй строке не доказывает, что точный ранг этой специализации равен 14. В первоначальном сводном журнале старт был ошибочно записан константой 15; исправлен по исходному сертификату. Сами точки, поиск и итоговый сертификат не изменялись.
+The bound of 14 in the second row does not prove that this specialization has exact rank 14. The initial summary log incorrectly recorded the starting bound as a constant 15; it was corrected using the original certificate. The points, search and final certificate were unchanged.
 
-## Как выбирать следующее улучшение
+## How to choose the next improvement
 
-Предлагаемый критерий - **количество различных кривых с подтверждённой оценкой ≥26 на единицу вычислительного времени**, вместе с высотами кривых и распределением достигнутых оценок. Порог 26 - измеримый промежуточный критерий для нашей истории поисков; он не гарантирует успеха на 32.
+The proposed criterion is **the number of distinct curves with certified bound ≥26 per unit of computing time**, together with curve heights and the distribution of bounds reached. The threshold of 26 is a measurable intermediate criterion for our search history; it does not guarantee success at 32.
 
-Следующий геометрический кандидат имеет смысл сначала отбирать так:
+The next geometric candidate should first be assessed as follows:
 
-1. Сохранить общий ранг 17 либо обосновать, что выигрыш в размерах компенсирует потерю ранга. Построенный вариант 15 эту проверку пока не прошёл.
-2. Оптимизировать параметризацию по размерам минимальных кривых. Дробно-линейная замена T не создаёт новых изоморфных классов, но может существенно улучшить то, какие кривые доступны при ограниченной высоте параметра.
-3. Искать другие расслоения или другие K3-поверхности с явно проверенными 17 сечениями. Произвольное изменение коэффициентов исходной формулы не сохраняет эти сечения.
-4. Сравнивать семейства на сопоставимых диапазонах h(E), с одинаковым общим бюджетом подготовки, сита, поиска и сертификации. Отбор параметров фиксировать до получения результатов; не ограничивать всю выборку покрытиями, исключающими контрольные рекорды.
-5. Проверять, предсказывает ли локальная оценка дополнительный ранг при данных размерах кривой. Большой результат сита без поправки на высоту не следует трактовать как доказательство высокого ранга. Зависимость практической эффективности сита от размеров и проводника обсуждают [Elkies-Klagsbrun](https://arxiv.org/html/2003.00077).
+1. Retain generic rank 17, or justify that smaller arithmetic sizes compensate for the loss of rank. The constructed rank-15 variant has not yet passed this test.
+2. Optimize the parametrization for the sizes of minimal curves. A fractional linear change of T does not create new isomorphism classes, but can substantially change which curves are accessible within a bounded parameter height.
+3. Seek other fibrations or other K3 surfaces with 17 explicitly verified sections. Arbitrary changes to the coefficients of the original formula do not preserve these sections.
+4. Compare families over comparable h(E) ranges, with the same total budget for preparation, sieving, search and certification. Fix parameter selection before obtaining results; do not restrict the entire sample to covers that exclude the record controls.
+5. Check whether the local score predicts additional rank at the given curve sizes. A large sieve score without accounting for height should not be treated as proof of high rank. [Elkies-Klagsbrun](https://arxiv.org/html/2003.00077) discuss how practical sieving efficiency depends on size and conductor.
 
-Существующее семейство уже предельно по одному критерию - общему рангу в классе эллиптических K3 над Q. Его оптимальность по затратам на новый рекорд неизвестна. Выполненная проверка отсекает две конкретные простые гипотезы об улучшении на данных небольших бюджетах; более выгодное семейство пока не найдено.
+The existing family already reaches the limit for one criterion: generic rank among elliptic K3 surfaces over Q. Whether it is optimal in computing cost per new record is unknown. The checks rule out two specific simple improvement hypotheses within these small budgets; a more effective family has not yet been found.
 
-## Проверяемость и воспроизведение
+## Verification and reproduction
 
-Сводные данные - summary.json. audit.py повторно проверяет 488 сертификатов стартовых наборов, 16 результатов парного пилота, вспомогательные эллиптические кривые, 4 результата нового расслоения и его стартовые сертификаты, решёточные данные, хеши исходных материалов и неизменность поискового ядра. Доступы поисков к данным и совпадение хеша входного набора проверены при каждом пилотном запуске.
+The summary data are in summary.json. The audit.py script rechecks 488 initial-set certificates, 16 paired-pilot results, the auxiliary elliptic curves, 4 results from the new fibration and its initial certificates, lattice data, source-material hashes and the unchanged search engine. Search data access and the input-set hash were checked during each pilot run.
 
-Из корня репозитория:
+From the repository root:
 
 ```text
 python runs/family-improvement-20260917/audit.py
@@ -157,4 +157,4 @@ python runs/family-improvement-20260917/auxiliary.py
 python runs/family-improvement-20260917/neighbor.py --option 0 --height 16
 ```
 
-Два пилотных запускателя специально отказываются перезаписывать уже существующий план опыта. Для повторения пилота следует использовать отдельный каталог эксперимента. Полные GP-входы, выходы, модели кривых, точки и сертификаты сохранены рядом. Прототипные файлы не являются самостоятельными итоговыми результатами; итоговые варианты нового расслоения находятся в neighbor/option-0 и neighbor/option-2.
+The two pilot launchers deliberately refuse to overwrite an existing experiment plan. Use a separate experiment directory to repeat a pilot. Full GP inputs, outputs, curve models, points and certificates were saved alongside them. Prototype files are not standalone final results; the final variants of the new fibration are in neighbor/option-0 and neighbor/option-2.

@@ -1,12 +1,12 @@
-# Проверка покрытия малых T и младших рангов
+# Coverage audit for small T and lower ranks
 
-**Параметры до высоты 64 перечислены полностью; поиск дополнительных точек выполнен только для части кривых. Отсутствие дальнейших кандидатов не установлено.**
+**Parameters up to height 64 have been fully enumerated; additional-point searches have been run for only some curves. The absence of further candidates has not been established.**
 
-Высота параметра T=u/v в несократимом виде: H(T)=max(|u|,v), v>0.
+For T=u/v in lowest terms, the parameter height is H(T)=max(|u|,v), with v>0.
 
-## Состояние до этой проверки
+## Status before this audit
 
-| H(T) ≤ | Подготовлено кривых | Есть результат поиска точек | Известен кондуктор |
+| H(T) ≤ | Curves prepared | Point-search result available | Conductor known |
 |---:|---:|---:|---:|
 | 4 | 23 | 23 | 23 |
 | 8 | 87 | 87 | 86 |
@@ -15,15 +15,15 @@
 | 32 | 1295 | 447 | 1042 |
 | 64 | 5039 | 634 | 2865 |
 
-Наличие результата поиска не означает полноты найденной группы. Например, некоторые прежние запуски длились лишь 2-4 секунды. Для H≤64 оставались 4405 параметров без сохранённого результата поиска дополнительных точек.
-За пределами H=64 сохранены отобранные параметры. В прежнем решете до H=2048 просмотрены все 5 102 343 несократимых параметра по локальным баллам; это не полный поиск рациональных точек для всех этих кривых.
-По текущему каталогу сначала было 91 отсутствующих в нём кривых, которым до входа по известным метрикам не хватало одного направления. Это цели поиска, а не утверждения о существовании дополнительных точек.
+A saved search result does not establish completeness of the group found. For example, some earlier runs lasted only 2-4 seconds. For H≤64, 4405 parameters still had no saved result from a search for additional points.
+Beyond H=64, selected parameters have been retained. The earlier sieve up to H=2048 scored all 5 102 343 primitive parameters using local scores; it was not a complete rational-point search on every curve.
+Relative to the catalogue snapshot, there were initially 91 unlisted curves that needed one more independent direction to qualify under the known metrics. These are search targets, not claims that additional points exist.
 
-## Дополнительная проверка
+## Additional checks
 
-Завершено 17 новых поисков. Все использовали неизменённое ядро, режим adaptive, 2048 опор, 8 работников; бюджеты и исходы указаны ниже.
+17 new searches were completed. All used the unchanged engine, adaptive mode, 2048 anchors and 8 workers; budgets and outcomes are listed below.
 
-| T | Было ≥ | Получено ≥ | Бюджет, с |
+| T | Previous bound ≥ | Resulting bound ≥ | Budget, s |
 |---|---:|---:|---:|
 | -8/29 | 17 | 18 | 45 |
 | 8/21 | 17 | 17 | 45 |
@@ -43,19 +43,19 @@
 | 1/10 | 17 | 17 | 60 |
 | 6 | 18 | 18 | 60 |
 
-Дополнительно полностью вычислены 44 кондуктора; предпринято 65 ограниченных попыток, включая повторы с большим бюджетом.
-Готовых новых проходных кривых: **0**. Осталось 91 отсутствующих в каталоге кривых на расстоянии одной точки по известным метрикам.
-Отдельно проверен проективный параметр T=∞=[1:0], не входивший в конечную сетку дробей. Специализация невырожденная; исходные сечения дают границу ≥15. Кондуктор полностью вычислен. При получении ≥17 это был бы топ-10 по кондуктору, а при ≥18 - первое место по кондуктору в соответствующей таблице. Эти дополнительные направления пока не установлены.
+An additional 44 conductors were fully computed, with 65 bounded attempts including retries with larger budgets.
+New curves confirmed to qualify for the leaderboard: **0**. There remained 91 unlisted curves one independent point short of qualification under the known metrics.
+The projective parameter T=∞=[1:0], which is absent from the finite grid of fractions, was checked separately. The specialization is nonsingular; the initial sections give a bound ≥15. Its conductor was fully computed. A bound ≥17 would place it in the top 10 by conductor, and ≥18 would place it first by conductor in the corresponding table. These additional independent directions have not been established.
 
-## Сохранённые данные
+## Retained data
 
-- T=-8/29, ≥18, пока не подтверждён проход: уравнение и точки (historical local artifact).
-- T=-7/27, ≥18, пока не подтверждён проход: уравнение и точки (historical local artifact).
-- T=infinity, ≥15, пока не подтверждён проход: уравнение и точки (historical local artifact).
+- T=-8/29, ≥18, qualification not yet confirmed: equation and points (historical local artifact).
+- T=-7/27, ≥18, qualification not yet confirmed: equation and points (historical local artifact).
+- T=infinity, ≥15, qualification not yet confirmed: equation and points (historical local artifact).
 
-Кандидаты в одном направлении от входа (historical local artifact) · История прежних поисков (historical local artifact) · Полные результаты (historical local artifact)
+Candidates one independent direction short of qualification (historical local artifact) · Earlier search history (historical local artifact) · Full results (historical local artifact)
 
-Каждый новый результат повторно проверен точным сертификатом; проверены происхождение точек, хеши входов и границы чтения данных. Места всех 5040 кривых (5039 конечных параметров и T=∞) проверены независимым расчётом. Для выдаваемых наборов отдельно проверены минимальное уравнение, дискриминант и известные простые плохой редукции.
-Место по неизвестному кондуктору остаётся неизвестным. Неуспешный ограниченный поиск не доказывает верхнюю границу ранга. На ICARM ничего не отправлялось.
-Снимок [каталога ICARM](https://elliptic-rank.icarm.cloud/database.json): 750 кривых, 2026-09-16T21:10:12.117547+00:00.
+Each new result was checked again using an exact certificate; point provenance, input hashes and data-read boundaries were checked. The positions of all 5040 curves (5039 finite parameters and T=∞) were checked by an independent calculation. The minimal equation, discriminant and known primes of bad reduction were separately verified for each exported set.
+A ranking by an unknown conductor remains unknown. An unsuccessful bounded search does not prove an upper rank bound. Nothing was submitted to ICARM.
+[ICARM catalogue](https://elliptic-rank.icarm.cloud/database.json) snapshot: 750 curves, 2026-09-16T21:10:12.117547+00:00.
 Public catalogue maintained by ICARM with support from NSF Grant DMS 2425401.
