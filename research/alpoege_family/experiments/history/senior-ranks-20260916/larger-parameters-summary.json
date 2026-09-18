@@ -1,0 +1,204 @@
+{
+  "results": [
+    {
+      "parameter": "-5037/2518",
+      "id": "-5037_2518",
+      "before": 22,
+      "after": 22,
+      "target": 28,
+      "seconds": 45.25787719999789,
+      "result": "C:\\Users\\Profit77\\Documents\\Git\\elliptic-rank-search\\runs\\senior-ranks-20260916\\curves\\-5037_2518\\larger-parameters-adaptive\\result.json",
+      "mode": "adaptive",
+      "stage": "larger-parameters"
+    },
+    {
+      "parameter": "-9587/9843",
+      "id": "-9587_9843",
+      "before": 18,
+      "after": 18,
+      "target": 28,
+      "seconds": 45.29085350000241,
+      "result": "C:\\Users\\Profit77\\Documents\\Git\\elliptic-rank-search\\runs\\senior-ranks-20260916\\curves\\-9587_9843\\larger-parameters-adaptive\\result.json",
+      "mode": "adaptive",
+      "stage": "larger-parameters"
+    },
+    {
+      "parameter": "-6568/9237",
+      "id": "-6568_9237",
+      "before": 20,
+      "after": 20,
+      "target": 28,
+      "seconds": 45.32772679999471,
+      "result": "C:\\Users\\Profit77\\Documents\\Git\\elliptic-rank-search\\runs\\senior-ranks-20260916\\curves\\-6568_9237\\larger-parameters-adaptive\\result.json",
+      "mode": "adaptive",
+      "stage": "larger-parameters"
+    },
+    {
+      "parameter": "-9687/3953",
+      "id": "-9687_3953",
+      "before": 17,
+      "after": 17,
+      "target": 28,
+      "seconds": 45.241119800004526,
+      "result": "C:\\Users\\Profit77\\Documents\\Git\\elliptic-rank-search\\runs\\senior-ranks-20260916\\curves\\-9687_3953\\larger-parameters-adaptive\\result.json",
+      "mode": "adaptive",
+      "stage": "larger-parameters"
+    },
+    {
+      "parameter": "-6612/2483",
+      "id": "-6612_2483",
+      "before": 17,
+      "after": 17,
+      "target": 28,
+      "seconds": 45.23715620000439,
+      "result": "C:\\Users\\Profit77\\Documents\\Git\\elliptic-rank-search\\runs\\senior-ranks-20260916\\curves\\-6612_2483\\larger-parameters-adaptive\\result.json",
+      "mode": "adaptive",
+      "stage": "larger-parameters"
+    },
+    {
+      "parameter": "5617/3057",
+      "id": "5617_3057",
+      "before": 17,
+      "after": 17,
+      "target": 28,
+      "seconds": 45.285281000004034,
+      "result": "C:\\Users\\Profit77\\Documents\\Git\\elliptic-rank-search\\runs\\senior-ranks-20260916\\curves\\5617_3057\\larger-parameters-adaptive\\result.json",
+      "mode": "adaptive",
+      "stage": "larger-parameters"
+    },
+    {
+      "parameter": "-904/2711",
+      "id": "-904_2711",
+      "before": 17,
+      "after": 18,
+      "target": 28,
+      "seconds": 45.198346000004676,
+      "result": "C:\\Users\\Profit77\\Documents\\Git\\elliptic-rank-search\\runs\\senior-ranks-20260916\\curves\\-904_2711\\larger-parameters-adaptive\\result.json",
+      "mode": "adaptive",
+      "stage": "larger-parameters"
+    },
+    {
+      "parameter": "131/8131",
+      "id": "131_8131",
+      "before": 17,
+      "after": 17,
+      "target": 28,
+      "seconds": 45.208735799998976,
+      "result": "C:\\Users\\Profit77\\Documents\\Git\\elliptic-rank-search\\runs\\senior-ranks-20260916\\curves\\131_8131\\larger-parameters-adaptive\\result.json",
+      "mode": "adaptive",
+      "stage": "larger-parameters"
+    },
+    {
+      "parameter": "7047/2692",
+      "id": "7047_2692",
+      "before": 17,
+      "after": 17,
+      "target": 28,
+      "seconds": 45.22664700000314,
+      "result": "C:\\Users\\Profit77\\Documents\\Git\\elliptic-rank-search\\runs\\senior-ranks-20260916\\curves\\7047_2692\\larger-parameters-adaptive\\result.json",
+      "mode": "adaptive",
+      "stage": "larger-parameters"
+    },
+    {
+      "parameter": "4289/5744",
+      "id": "4289_5744",
+      "before": 17,
+      "after": 17,
+      "target": 28,
+      "seconds": 45.257351799999014,
+      "result": "C:\\Users\\Profit77\\Documents\\Git\\elliptic-rank-search\\runs\\senior-ranks-20260916\\curves\\4289_5744\\larger-parameters-adaptive\\result.json",
+      "mode": "adaptive",
+      "stage": "larger-parameters"
+    },
+    {
+      "parameter": "-4674/5171",
+      "id": "-4674_5171",
+      "before": 18,
+      "after": 18,
+      "target": 28,
+      "seconds": 45.260576200002106,
+      "result": "C:\\Users\\Profit77\\Documents\\Git\\elliptic-rank-search\\runs\\senior-ranks-20260916\\curves\\-4674_5171\\larger-parameters-adaptive\\result.json",
+      "mode": "adaptive",
+      "stage": "larger-parameters"
+    },
+    {
+      "parameter": "19/6934",
+      "id": "19_6934",
+      "before": 17,
+      "after": 17,
+      "target": 28,
+      "seconds": 45.222943400003714,
+      "result": "C:\\Users\\Profit77\\Documents\\Git\\elliptic-rank-search\\runs\\senior-ranks-20260916\\curves\\19_6934\\larger-parameters-adaptive\\result.json",
+      "mode": "adaptive",
+      "stage": "larger-parameters"
+    },
+    {
+      "parameter": "5662/3607",
+      "id": "5662_3607",
+      "before": 17,
+      "after": 17,
+      "target": 28,
+      "seconds": 45.21664130000863,
+      "result": "C:\\Users\\Profit77\\Documents\\Git\\elliptic-rank-search\\runs\\senior-ranks-20260916\\curves\\5662_3607\\larger-parameters-adaptive\\result.json",
+      "mode": "adaptive",
+      "stage": "larger-parameters"
+    },
+    {
+      "parameter": "-8161/1224",
+      "id": "-8161_1224",
+      "before": 17,
+      "after": 17,
+      "target": 28,
+      "seconds": 45.23334370000521,
+      "result": "C:\\Users\\Profit77\\Documents\\Git\\elliptic-rank-search\\runs\\senior-ranks-20260916\\curves\\-8161_1224\\larger-parameters-adaptive\\result.json",
+      "mode": "adaptive",
+      "stage": "larger-parameters"
+    },
+    {
+      "parameter": "6693/7753",
+      "id": "6693_7753",
+      "before": 17,
+      "after": 17,
+      "target": 28,
+      "seconds": 45.20100000000093,
+      "result": "C:\\Users\\Profit77\\Documents\\Git\\elliptic-rank-search\\runs\\senior-ranks-20260916\\curves\\6693_7753\\larger-parameters-adaptive\\result.json",
+      "mode": "adaptive",
+      "stage": "larger-parameters"
+    },
+    {
+      "parameter": "-2318/4357",
+      "id": "-2318_4357",
+      "before": 17,
+      "after": 17,
+      "target": 28,
+      "seconds": 45.181205899993074,
+      "result": "C:\\Users\\Profit77\\Documents\\Git\\elliptic-rank-search\\runs\\senior-ranks-20260916\\curves\\-2318_4357\\larger-parameters-adaptive\\result.json",
+      "mode": "adaptive",
+      "stage": "larger-parameters"
+    },
+    {
+      "parameter": "5021/7276",
+      "id": "5021_7276",
+      "before": 17,
+      "after": 17,
+      "target": 28,
+      "seconds": 45.148912999997265,
+      "result": "C:\\Users\\Profit77\\Documents\\Git\\elliptic-rank-search\\runs\\senior-ranks-20260916\\curves\\5021_7276\\larger-parameters-adaptive\\result.json",
+      "mode": "adaptive",
+      "stage": "larger-parameters"
+    },
+    {
+      "parameter": "6004/9029",
+      "id": "6004_9029",
+      "before": 17,
+      "after": 17,
+      "target": 28,
+      "seconds": 45.17629170000146,
+      "result": "C:\\Users\\Profit77\\Documents\\Git\\elliptic-rank-search\\runs\\senior-ranks-20260916\\curves\\6004_9029\\larger-parameters-adaptive\\result.json",
+      "mode": "adaptive",
+      "stage": "larger-parameters"
+    }
+  ],
+  "errors": [],
+  "seconds": 271.4686761000048
+}

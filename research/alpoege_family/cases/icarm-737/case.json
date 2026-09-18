@@ -1,0 +1,18 @@
+{
+  "id": "icarm-737",
+  "icarm_id": 737,
+  "study": "alpoege_family",
+  "kind": "new_curve",
+  "path": "alpoege_family/cases/icarm-737",
+  "rank_lower_bound": 18,
+  "url": "https://elliptic-rank.icarm.cloud/curve/737",
+  "parameter": "4/17",
+  "rank_is_a_lower_bound": true,
+  "historical_source": {
+    "path": "runs/family-records-20260916/curves/4_17/deepen-unified/result.json",
+    "sha256": "709fb6e667d2e86d8c55995373128ca6a69425cedf210b667424bb7fe69d88af"
+  },
+  "public_catalogue_snapshot_sha256": "2734f65aaac10674a445f2050b491c2b715c2122be22370697cfbfae105d0c6a",
+  "family_credit": "Family identified by wgxli in the commentary to ICARM #302; see study sources",
+  "discovery_source": "runs/family-records-20260916/assessment.json"
+}

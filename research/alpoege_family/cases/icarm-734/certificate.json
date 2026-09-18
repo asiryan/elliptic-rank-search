@@ -1,0 +1,110 @@
+{
+  "format": "local-2-kummer-rank-certificate-v1",
+  "input_sha256": "e4317b51997a7b96e1a2e3538dfda8e08b5e2f741d42f70b3480100f3f793a4a",
+  "points_checked": 18,
+  "matrix_rank": 18,
+  "torsion_2_dimension_upper_bound": 0,
+  "rank_lower_bound": 18,
+  "all_points_independent_modulo_torsion": true,
+  "torsion_witness": {
+    "prime": 7,
+    "roots": [],
+    "dimension_upper_bound": 0
+  },
+  "independent_rows": [
+    {
+      "prime": 11,
+      "root": 10,
+      "bits": "011110110111101101"
+    },
+    {
+      "prime": 19,
+      "root": 10,
+      "bits": "011000000111011110"
+    },
+    {
+      "prime": 31,
+      "root": 26,
+      "bits": "001101100010001000"
+    },
+    {
+      "prime": 47,
+      "root": 42,
+      "bits": "010111110101010000"
+    },
+    {
+      "prime": 53,
+      "root": 22,
+      "bits": "010011101111110100"
+    },
+    {
+      "prime": 59,
+      "root": 12,
+      "bits": "101100000001010110"
+    },
+    {
+      "prime": 61,
+      "root": 42,
+      "bits": "000001000110110011"
+    },
+    {
+      "prime": 67,
+      "root": 50,
+      "bits": "100000111100100000"
+    },
+    {
+      "prime": 73,
+      "root": 25,
+      "bits": "010000010100100000"
+    },
+    {
+      "prime": 73,
+      "root": 54,
+      "bits": "010111000011111101"
+    },
+    {
+      "prime": 83,
+      "root": 65,
+      "bits": "101010000111010010"
+    },
+    {
+      "prime": 97,
+      "root": 93,
+      "bits": "010110100101001000"
+    },
+    {
+      "prime": 107,
+      "root": 57,
+      "bits": "110100011000110101"
+    },
+    {
+      "prime": 113,
+      "root": 38,
+      "bits": "011011000000111101"
+    },
+    {
+      "prime": 131,
+      "root": 9,
+      "bits": "101011000011011101"
+    },
+    {
+      "prime": 137,
+      "root": 121,
+      "bits": "010101000101110011"
+    },
+    {
+      "prime": 157,
+      "root": 103,
+      "bits": "001110010010001101"
+    },
+    {
+      "prime": 163,
+      "root": 67,
+      "bits": "000101100111111111"
+    }
+  ],
+  "good_primes_examined": 33,
+  "largest_prime_examined": 163,
+  "requested_prime_bound": 2000,
+  "conditional_assumptions": []
+}

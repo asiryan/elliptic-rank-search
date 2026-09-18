@@ -1,0 +1,14 @@
+{
+  "ids": [
+    "-311_519",
+    "-332_267",
+    "-265_221",
+    "-303_802"
+  ],
+  "seconds": 240.0,
+  "mode": "parity",
+  "anchors": 512,
+  "target": 32,
+  "parallel_curves": 2,
+  "workers_per_curve": 2
+}

@@ -1,0 +1,69 @@
+{
+  "height": 64,
+  "exact_grid_complete": true,
+  "coverage": [
+    {
+      "height": 4,
+      "prepared": 23,
+      "point_search_results": 23,
+      "known_conductors": 23
+    },
+    {
+      "height": 8,
+      "prepared": 87,
+      "point_search_results": 87,
+      "known_conductors": 86
+    },
+    {
+      "height": 12,
+      "prepared": 183,
+      "point_search_results": 183,
+      "known_conductors": 177
+    },
+    {
+      "height": 16,
+      "prepared": 319,
+      "point_search_results": 242,
+      "known_conductors": 300
+    },
+    {
+      "height": 32,
+      "prepared": 1295,
+      "point_search_results": 447,
+      "known_conductors": 1042
+    },
+    {
+      "height": 64,
+      "prepared": 5039,
+      "point_search_results": 634,
+      "known_conductors": 2865
+    }
+  ],
+  "source_sha256": {
+    "C:\\Users\\Profit77\\Documents\\Git\\elliptic-rank-search\\runs\\rank26-plus-20260916\\final-assessment.json": "0e2265bdca57e5bb6b5295e86a56db6b038f05ff74c379df10cd47607657e35f",
+    "C:\\Users\\Profit77\\Documents\\Git\\elliptic-rank-search\\artifacts\\obsolete\\tools\\RankHunt\\Data\\icarm302-sections.json": "2c6a51b978ff22e8d0a31ce30e5e9f7f571f83804edab8d6ff2e45d4e8b96b90",
+    "C:\\Users\\Profit77\\Documents\\Git\\elliptic-rank-search\\anchor_diversity.py": "bad43c9977b459c3fd6680439dcbccac56e0a49ba8ffb94d1b52c5e581af52b8",
+    "C:\\Users\\Profit77\\Documents\\Git\\elliptic-rank-search\\bootstrap.py": "aecd38a4167df92dded362e53be3e0edc82d5f7c642a26cb468cae120018ec0d",
+    "C:\\Users\\Profit77\\Documents\\Git\\elliptic-rank-search\\bounded_anchor_pool.py": "4b602bb4304f501eadcb3856700660af9cb1ec00f6eb6d8ba5024619e05ed2eb",
+    "C:\\Users\\Profit77\\Documents\\Git\\elliptic-rank-search\\certificate.py": "9e0d0d2562fc53705e92a2eaa9a3f6e7c923f1cd3fd82b14df68b60268f4ad54",
+    "C:\\Users\\Profit77\\Documents\\Git\\elliptic-rank-search\\doctor.py": "8f025942b4016e5193e54cfe98f1ea385c6773f64b8bfb10b2969278e346428a",
+    "C:\\Users\\Profit77\\Documents\\Git\\elliptic-rank-search\\first_cover.py": "91bd9121a28968937ba6135401eaf97401bd37f5690159a9ef1afc01dc38656c",
+    "C:\\Users\\Profit77\\Documents\\Git\\elliptic-rank-search\\first_jet.py": "0ec39eb35e0b1aa264f78ecb81c990074397094be261753c6efb21c03f44965f",
+    "C:\\Users\\Profit77\\Documents\\Git\\elliptic-rank-search\\geometry.py": "0e27c74499f50c16912a6d3384ec585389f57ee08b3acf3b1ff1b4a4b13f44d3",
+    "C:\\Users\\Profit77\\Documents\\Git\\elliptic-rank-search\\lattice.py": "713179d970525769c79a8d6876c8d09e4f755c627805b5879c04410fd1a01cca",
+    "C:\\Users\\Profit77\\Documents\\Git\\elliptic-rank-search\\local_models.py": "8a6815bef8beedbc8429610573298ce8f6f81f31a35871922d0cdc182b64ec5c",
+    "C:\\Users\\Profit77\\Documents\\Git\\elliptic-rank-search\\models.py": "9a8396ad3ccc4960118bc695f870955f8574633291cb31f298df9bc8b87504d8",
+    "C:\\Users\\Profit77\\Documents\\Git\\elliptic-rank-search\\point_arithmetic.py": "175814487c989cb1b64621e73e891e8a02938d9fa8af0c97d18b74971ca6e937",
+    "C:\\Users\\Profit77\\Documents\\Git\\elliptic-rank-search\\point_models.py": "f43ef6a2125a1ba8f5d042739b8cbaccc006afea34dcfc1c1d7bbf0256bf06d6",
+    "C:\\Users\\Profit77\\Documents\\Git\\elliptic-rank-search\\quartic.py": "adada375a6af890cf9903e628abe1dab1d20cb818891b1d7343f098e8065da73",
+    "C:\\Users\\Profit77\\Documents\\Git\\elliptic-rank-search\\reproduce.py": "d239c98d517b526886bc26bd6393ed9155bc02f30c5231de17e878f3a549e9af",
+    "C:\\Users\\Profit77\\Documents\\Git\\elliptic-rank-search\\run.py": "4e0b70ff643f02f3426d8eb034078b44b4e4ff8972f8a19864d3d9fe1edbed28",
+    "C:\\Users\\Profit77\\Documents\\Git\\elliptic-rank-search\\runtime.py": "aaf158269b8efd02c91ba3b06629808d1bb44e121fd204cbcac65ffab61f2229",
+    "C:\\Users\\Profit77\\Documents\\Git\\elliptic-rank-search\\search_policy.py": "8f9cefeb29b71082943377cdd7aeb9139e1cdc5647206618e02c1e68d74b31ec",
+    "C:\\Users\\Profit77\\Documents\\Git\\elliptic-rank-search\\seeded.py": "fddb759618310e1475612a799e550138ba68d1cf65b2ac10b950b53cff92a2d9",
+    "C:\\Users\\Profit77\\Documents\\Git\\elliptic-rank-search\\torsion_certificate.py": "bc6e8b58163bbd45a9098a061aaa7012df4a994171b13d22f824ffab9ec16d54",
+    "C:\\Users\\Profit77\\Documents\\Git\\elliptic-rank-search\\unified.py": "f8e6ae331fb8369101bbba7bb31818622c4d58b6f3d031ab09f786bdae1e16fb",
+    "C:\\Users\\Profit77\\Documents\\Git\\elliptic-rank-search\\verify.py": "29be84bf79f20fcd09b0d70350317511465ca229dacebd3daf08d0efd4b703b2"
+  },
+  "public_points_used": false
+}

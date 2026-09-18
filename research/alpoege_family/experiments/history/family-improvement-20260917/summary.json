@@ -1,0 +1,229 @@
+{
+  "source_hashes_verified": true,
+  "search_core_unchanged": true,
+  "prepared_parameters": 244,
+  "seed_certificates_replayed": 488,
+  "parameters_with_improved_geometric_certificate": 112,
+  "geometric_seed_bound_histogram": {
+    "14": 1,
+    "15": 4,
+    "16": 26,
+    "17": 105,
+    "18": 106,
+    "19": 2
+  },
+  "scan": {
+    "height": 128,
+    "parameters_tested": 20087,
+    "unique_covers": 126,
+    "parameters_on_covers": 244,
+    "cover_multiplicity": {
+      "1": 241,
+      "2": 3
+    },
+    "seconds": 0.6105133999953978,
+    "square_condition_is_not_an_independence_certificate": true
+  },
+  "quadratic_sampling": {
+    "input_height": 16,
+    "covers": 126,
+    "evaluations": 40320,
+    "unique_parameters_height_le_2000000": 2915,
+    "median_output_height": 7763655297,
+    "minimum_output_height": 6,
+    "seconds": 0.09537060000002384
+  },
+  "paired_searches": [
+    {
+      "id": "22_87",
+      "baseline": 20,
+      "geometric": 20
+    },
+    {
+      "id": "34_125",
+      "baseline": 20,
+      "geometric": 20
+    },
+    {
+      "id": "4_3",
+      "baseline": 19,
+      "geometric": 19
+    },
+    {
+      "id": "3_31",
+      "baseline": 19,
+      "geometric": 19
+    },
+    {
+      "id": "6_1",
+      "baseline": 18,
+      "geometric": 18
+    },
+    {
+      "id": "-35_33",
+      "baseline": 18,
+      "geometric": 18
+    },
+    {
+      "id": "-17_35",
+      "baseline": 20,
+      "geometric": 20
+    },
+    {
+      "id": "2_35",
+      "baseline": 19,
+      "geometric": 19
+    }
+  ],
+  "paired_geometric_wins": 0,
+  "paired_geometric_losses": 0,
+  "known_parameters_on_checked_covers": {
+    "164518/924945": [],
+    "-311/519": [],
+    "-6486/7309": [],
+    "936/811": []
+  },
+  "auxiliary": [
+    {
+      "parameter_seed": "22/87",
+      "pair": [
+        235,
+        251
+      ],
+      "auxiliary_ainvs": [
+        "1",
+        "-1",
+        "1",
+        "-63485289914481859411120054823122798169440488167",
+        "6156838065612911925290121761743779985989279596745373581187660379449759"
+      ],
+      "auxiliary_rank_lower_bound_certified": 2,
+      "pari_auxiliary_bounds_diagnostic": [
+        2,
+        4
+      ],
+      "seconds": 0.3131735000060871,
+      "emitted": 1,
+      "smallest": [
+        {
+          "u": 22,
+          "v": 87,
+          "height": 87,
+          "cover_ids": [
+            235,
+            251
+          ],
+          "auxiliary_pair": [
+            235,
+            251
+          ]
+        }
+      ],
+      "quartic_squarefree": true,
+      "family_rank_lower_bound": 19,
+      "reason": "The 19 rational sections over the smooth double-cover intersection specialize to 19 certified independent rational points at the seed."
+    },
+    {
+      "parameter_seed": "34/125",
+      "pair": [
+        126,
+        146
+      ],
+      "auxiliary_ainvs": [
+        "1",
+        "0",
+        "0",
+        "-70071123076736780236489626583870983046655",
+        "6773671990184171075753451480982832055633220157851004041088025"
+      ],
+      "auxiliary_rank_lower_bound_certified": 3,
+      "pari_auxiliary_bounds_diagnostic": [
+        3,
+        3
+      ],
+      "seconds": 0.18254729999171104,
+      "emitted": 1,
+      "smallest": [
+        {
+          "u": 34,
+          "v": 125,
+          "height": 125,
+          "cover_ids": [
+            126,
+            146
+          ],
+          "auxiliary_pair": [
+            126,
+            146
+          ]
+        }
+      ],
+      "quartic_squarefree": true,
+      "family_rank_lower_bound": 19,
+      "reason": "The 19 rational sections over the smooth double-cover intersection specialize to 19 certified independent rational points at the seed."
+    }
+  ],
+  "neighbor_pilot": [
+    {
+      "id": "-1_7",
+      "initial_bound": 15,
+      "final_bound": 15,
+      "seconds": 15.20401810000476,
+      "certificate_verified": true,
+      "data_access_verified": true,
+      "result": "C:\\Users\\Profit77\\Documents\\Git\\elliptic-rank-search\\runs\\family-improvement-20260917\\neighbor\\option-0\\curves\\-1_7\\search\\result.json"
+    },
+    {
+      "id": "-2_11",
+      "initial_bound": 14,
+      "final_bound": 14,
+      "seconds": 15.258270200007246,
+      "certificate_verified": true,
+      "data_access_verified": true,
+      "result": "C:\\Users\\Profit77\\Documents\\Git\\elliptic-rank-search\\runs\\family-improvement-20260917\\neighbor\\option-0\\curves\\-2_11\\search\\result.json"
+    },
+    {
+      "id": "-7_15",
+      "initial_bound": 15,
+      "final_bound": 16,
+      "seconds": 15.203557799992268,
+      "certificate_verified": true,
+      "data_access_verified": true,
+      "result": "C:\\Users\\Profit77\\Documents\\Git\\elliptic-rank-search\\runs\\family-improvement-20260917\\neighbor\\option-0\\curves\\-7_15\\search\\result.json"
+    },
+    {
+      "id": "4_9",
+      "initial_bound": 15,
+      "final_bound": 15,
+      "seconds": 15.173460600010003,
+      "certificate_verified": true,
+      "data_access_verified": true,
+      "result": "C:\\Users\\Profit77\\Documents\\Git\\elliptic-rank-search\\runs\\family-improvement-20260917\\neighbor\\option-0\\curves\\4_9\\search\\result.json"
+    }
+  ],
+  "height_comparison": {
+    "original_height16": {
+      "count": 319,
+      "minimum": 147.00963939689834,
+      "median": 218.96929239866373,
+      "maximum": 244.0493480154893,
+      "smallest_parameter": "0"
+    },
+    "neighbor_option0_height16": {
+      "count": 319,
+      "minimum": 194.73075599065663,
+      "median": 304.96170102301943,
+      "maximum": 343.1522951168244,
+      "smallest_parameter": "-1/7"
+    },
+    "neighbor_option2_height16": {
+      "count": 319,
+      "minimum": 356.51286883584555,
+      "median": 543.7462579769781,
+      "maximum": 596.0253445143653,
+      "smallest_parameter": "-2/3"
+    }
+  },
+  "scope": "Finite pilot; neither a record search nor evidence of global optimality. All ranks in finite-curve tables are certified lower bounds.",
+  "reporting_correction": "The exploratory pilot initially logged a hard-coded initial bound 15 for -2/11. Corrected to its certified bound 14; the search result and certificate were unchanged."
+}

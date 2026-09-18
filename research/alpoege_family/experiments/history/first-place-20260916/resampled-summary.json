@@ -1,0 +1,39 @@
+{
+  "results": [
+    {
+      "id": "-43_75",
+      "parameter": "-43/75",
+      "before": 23,
+      "after": 23,
+      "target": 24,
+      "seconds": 180.24350419999973,
+      "result": "C:\\Users\\Profit77\\Documents\\Git\\elliptic-rank-search\\runs\\first-place-20260916\\curves\\-43_75\\resampled-adaptive\\result.json",
+      "mode": "adaptive with a new anchor sample",
+      "stage": "resampled"
+    },
+    {
+      "id": "1_4",
+      "parameter": "1/4",
+      "before": 18,
+      "after": 18,
+      "target": 19,
+      "seconds": 180.30077190000156,
+      "result": "C:\\Users\\Profit77\\Documents\\Git\\elliptic-rank-search\\runs\\first-place-20260916\\curves\\1_4\\resampled-adaptive\\result.json",
+      "mode": "adaptive with a new anchor sample",
+      "stage": "resampled"
+    },
+    {
+      "id": "4_17",
+      "parameter": "4/17",
+      "before": 18,
+      "after": 18,
+      "target": 19,
+      "seconds": 180.35341809999954,
+      "result": "C:\\Users\\Profit77\\Documents\\Git\\elliptic-rank-search\\runs\\first-place-20260916\\curves\\4_17\\resampled-adaptive\\result.json",
+      "mode": "adaptive with a new anchor sample",
+      "stage": "resampled"
+    }
+  ],
+  "errors": [],
+  "seconds": 180.36185259999183
+}

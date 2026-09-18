@@ -1,0 +1,24 @@
+[
+  {
+    "parameter": "1/4",
+    "id": "1_4",
+    "before": 18,
+    "after": 18,
+    "target": 19,
+    "seconds": 120.57404680000036,
+    "result": "C:\\Users\\Profit77\\Documents\\Git\\elliptic-rank-search\\runs\\family-records-20260916\\curves\\1_4\\record-focus-unified\\result.json",
+    "mode": "unified",
+    "stage": "record-focus"
+  },
+  {
+    "parameter": "-12/31",
+    "id": "-12_31",
+    "before": 20,
+    "after": 20,
+    "target": 22,
+    "seconds": 120.26267739999457,
+    "result": "C:\\Users\\Profit77\\Documents\\Git\\elliptic-rank-search\\runs\\family-records-20260916\\curves\\-12_31\\record-focus-unified\\result.json",
+    "mode": "unified",
+    "stage": "record-focus"
+  }
+]

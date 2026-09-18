@@ -1,0 +1,13 @@
+{
+  "kind": "sample",
+  "samples": 6000000,
+  "height": 2000000,
+  "keep": 2048,
+  "refine_keep": 1024,
+  "final_keep": 128,
+  "prime_bound": 65521,
+  "workers": 6,
+  "seed": 202609162,
+  "selection": "crt",
+  "sampling_with_replacement": true
+}

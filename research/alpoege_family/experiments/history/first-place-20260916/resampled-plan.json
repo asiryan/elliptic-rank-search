@@ -1,0 +1,13 @@
+{
+  "seconds": 180,
+  "mode": "resampled adaptive",
+  "anchors": 512,
+  "parallel_curves": 3,
+  "workers_per_curve": 2,
+  "seed": 2026091623,
+  "ids": [
+    "-43_75",
+    "1_4",
+    "4_17"
+  ]
+}

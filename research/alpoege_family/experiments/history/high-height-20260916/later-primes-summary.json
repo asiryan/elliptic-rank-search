@@ -1,0 +1,64 @@
+{
+  "results": [
+    {
+      "parameter": "-556632/920393",
+      "id": "-556632_920393",
+      "before": 17,
+      "after": 17,
+      "target": 32,
+      "seconds": 300.684545600001,
+      "search_seconds": 300.0373339999933,
+      "workers": 8,
+      "anchors": 2048,
+      "result": "C:\\Users\\Profit77\\Documents\\Git\\elliptic-rank-search\\runs\\high-height-20260916\\curves\\-556632_920393\\later-primes-adaptive\\result.json",
+      "mode": "adaptive",
+      "stage": "later-primes",
+      "audit": {
+        "path": "curves\\-556632_920393\\later-primes-adaptive\\result.json",
+        "parameter": "-556632/920393",
+        "verification": {
+          "points_checked": 17,
+          "matrix_rank": 17,
+          "torsion_2_dimension_upper_bound": 0,
+          "rank_lower_bound": 17,
+          "all_points_independent_modulo_torsion": true,
+          "conditional_assumptions": []
+        },
+        "source_and_origin_hashes_verified": true,
+        "data_reads_verified": true,
+        "seed_or_discovered_points_only": true
+      }
+    },
+    {
+      "parameter": "327291/708941",
+      "id": "327291_708941",
+      "before": 17,
+      "after": 17,
+      "target": 32,
+      "seconds": 300.5617851999996,
+      "search_seconds": 300.03138440000475,
+      "workers": 8,
+      "anchors": 2048,
+      "result": "C:\\Users\\Profit77\\Documents\\Git\\elliptic-rank-search\\runs\\high-height-20260916\\curves\\327291_708941\\later-primes-adaptive\\result.json",
+      "mode": "adaptive",
+      "stage": "later-primes",
+      "audit": {
+        "path": "curves\\327291_708941\\later-primes-adaptive\\result.json",
+        "parameter": "327291/708941",
+        "verification": {
+          "points_checked": 17,
+          "matrix_rank": 17,
+          "torsion_2_dimension_upper_bound": 0,
+          "rank_lower_bound": 17,
+          "all_points_independent_modulo_torsion": true,
+          "conditional_assumptions": []
+        },
+        "source_and_origin_hashes_verified": true,
+        "data_reads_verified": true,
+        "seed_or_discovered_points_only": true
+      }
+    }
+  ],
+  "errors": [],
+  "seconds": 601.2689017000084
+}

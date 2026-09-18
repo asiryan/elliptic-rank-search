@@ -1,0 +1,14 @@
+{
+  "ids": [
+    "-8_29",
+    "8_21",
+    "-14_17",
+    "-7_27"
+  ],
+  "seconds": 45.0,
+  "mode": "adaptive",
+  "anchors": 2048,
+  "target": 28,
+  "parallel_curves": 1,
+  "workers_per_curve": 8
+}

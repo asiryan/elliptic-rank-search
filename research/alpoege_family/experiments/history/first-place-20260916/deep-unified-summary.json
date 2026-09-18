@@ -1,0 +1,39 @@
+{
+  "results": [
+    {
+      "parameter": "-43/75",
+      "id": "-43_75",
+      "before": 23,
+      "after": 23,
+      "target": 24,
+      "seconds": 300.3986212000018,
+      "result": "C:\\Users\\Profit77\\Documents\\Git\\elliptic-rank-search\\runs\\first-place-20260916\\curves\\-43_75\\deep-unified-unified\\result.json",
+      "mode": "unified",
+      "stage": "deep-unified"
+    },
+    {
+      "parameter": "1/4",
+      "id": "1_4",
+      "before": 18,
+      "after": 18,
+      "target": 19,
+      "seconds": 300.4230760999926,
+      "result": "C:\\Users\\Profit77\\Documents\\Git\\elliptic-rank-search\\runs\\first-place-20260916\\curves\\1_4\\deep-unified-unified\\result.json",
+      "mode": "unified",
+      "stage": "deep-unified"
+    },
+    {
+      "parameter": "4/17",
+      "id": "4_17",
+      "before": 18,
+      "after": 18,
+      "target": 19,
+      "seconds": 300.5710504999879,
+      "result": "C:\\Users\\Profit77\\Documents\\Git\\elliptic-rank-search\\runs\\first-place-20260916\\curves\\4_17\\deep-unified-unified\\result.json",
+      "mode": "unified",
+      "stage": "deep-unified"
+    }
+  ],
+  "errors": [],
+  "seconds": 300.57584810000844
+}

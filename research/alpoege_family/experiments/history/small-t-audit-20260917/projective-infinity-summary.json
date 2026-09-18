@@ -1,0 +1,35 @@
+{
+  "results": [
+    {
+      "parameter": "infinity",
+      "id": "1_0",
+      "before": 15,
+      "after": 15,
+      "target": 28,
+      "seconds": 61.01973879999423,
+      "search_seconds": 59.99150010000449,
+      "workers": 8,
+      "anchors": 2048,
+      "result": "C:\\Users\\Profit77\\Documents\\Git\\elliptic-rank-search\\runs\\small-t-audit-20260917\\curves\\1_0\\projective-infinity-adaptive\\result.json",
+      "mode": "adaptive",
+      "stage": "projective-infinity",
+      "audit": {
+        "path": "curves\\1_0\\projective-infinity-adaptive\\result.json",
+        "parameter": "infinity",
+        "verification": {
+          "points_checked": 15,
+          "matrix_rank": 15,
+          "torsion_2_dimension_upper_bound": 0,
+          "rank_lower_bound": 15,
+          "all_points_independent_modulo_torsion": true,
+          "conditional_assumptions": []
+        },
+        "source_and_origin_hashes_verified": true,
+        "data_reads_verified": true,
+        "seed_or_discovered_points_only": true
+      }
+    }
+  ],
+  "errors": [],
+  "seconds": 61.02481970000372
+}

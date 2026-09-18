@@ -1,0 +1,16 @@
+{
+  "ids": [
+    "-344_541",
+    "-503_991",
+    "-5037_2518",
+    "936_811",
+    "517_1382",
+    "1611_1516"
+  ],
+  "seconds": 150.0,
+  "mode": "adaptive",
+  "anchors": 256,
+  "target": 32,
+  "parallel_curves": 3,
+  "workers_per_curve": 2
+}

@@ -1,0 +1,168 @@
+{
+  "parameter_height_limit": 10000,
+  "primitive_parameters_screened": 121589943,
+  "prepared": 534,
+  "point_search_invocations": 548,
+  "point_searched_parameters": 534,
+  "improved_parameters": 301,
+  "max_certified_lower_bound": 25,
+  "complete_conductors": 153,
+  "new_qualifiers": [
+    {
+      "parameter": "-43/75",
+      "id": "-43_75",
+      "lower_bound": 23,
+      "placement": {
+        "naive": 2,
+        "disc": 2,
+        "faltings": 2,
+        "conductor": 9
+      }
+    },
+    {
+      "parameter": "-47/80",
+      "id": "-47_80",
+      "lower_bound": 23,
+      "placement": {
+        "naive": 5,
+        "disc": 7,
+        "faltings": 6,
+        "conductor": 10
+      }
+    },
+    {
+      "parameter": "-61/126",
+      "id": "-61_126",
+      "lower_bound": 23,
+      "placement": {
+        "naive": 10,
+        "disc": 8,
+        "faltings": 9,
+        "conductor": 19
+      }
+    },
+    {
+      "parameter": "57/85",
+      "id": "57_85",
+      "lower_bound": 23,
+      "placement": {
+        "naive": 9,
+        "disc": 8,
+        "faltings": 8
+      }
+    },
+    {
+      "parameter": "-41/94",
+      "id": "-41_94",
+      "lower_bound": 22,
+      "placement": {
+        "naive": 16,
+        "disc": 15,
+        "faltings": 16,
+        "conductor": 9
+      }
+    },
+    {
+      "parameter": "-19/74",
+      "id": "-19_74",
+      "lower_bound": 21,
+      "placement": {
+        "naive": 21,
+        "disc": 21,
+        "faltings": 21,
+        "conductor": 6
+      }
+    },
+    {
+      "parameter": "17/106",
+      "id": "17_106",
+      "lower_bound": 21,
+      "placement": {
+        "naive": 35,
+        "disc": 32,
+        "faltings": 34,
+        "conductor": 8
+      }
+    }
+  ],
+  "new_first_places": [],
+  "all_new_candidates_qualify_together": false,
+  "qualify_after_all_submissions": 6,
+  "valid_submission_order": [
+    {
+      "id": "-61_126",
+      "parameter": "-61/126",
+      "placement_at_submission": {
+        "naive": 10,
+        "disc": 8,
+        "faltings": 9,
+        "conductor": 19
+      }
+    },
+    {
+      "id": "57_85",
+      "parameter": "57/85",
+      "placement_at_submission": {
+        "naive": 9,
+        "disc": 8,
+        "faltings": 8
+      }
+    },
+    {
+      "id": "-41_94",
+      "parameter": "-41/94",
+      "placement_at_submission": {
+        "naive": 16,
+        "disc": 15,
+        "faltings": 16,
+        "conductor": 9
+      }
+    },
+    {
+      "id": "17_106",
+      "parameter": "17/106",
+      "placement_at_submission": {
+        "naive": 36,
+        "disc": 32,
+        "faltings": 35,
+        "conductor": 8
+      }
+    },
+    {
+      "id": "-47_80",
+      "parameter": "-47/80",
+      "placement_at_submission": {
+        "naive": 5,
+        "disc": 7,
+        "faltings": 6,
+        "conductor": 10
+      }
+    },
+    {
+      "id": "-19_74",
+      "parameter": "-19/74",
+      "placement_at_submission": {
+        "naive": 21,
+        "disc": 21,
+        "faltings": 21,
+        "conductor": 6
+      }
+    },
+    {
+      "id": "-43_75",
+      "parameter": "-43/75",
+      "placement_at_submission": {
+        "naive": 2,
+        "disc": 2,
+        "faltings": 2,
+        "conductor": 9
+      }
+    }
+  ],
+  "catalogue_count": 740,
+  "catalogue_sha256": "3e9e2c3f48b94f0d9204e1263ba95453d67d5af8777296107ee9819e488e02fa",
+  "submitted": false,
+  "public_points_used": false,
+  "engine_modified": false,
+  "search_errors": {}
+}

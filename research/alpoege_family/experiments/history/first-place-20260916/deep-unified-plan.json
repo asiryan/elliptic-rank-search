@@ -1,0 +1,21 @@
+{
+  "seconds": 300.0,
+  "mode": "unified",
+  "anchors": 128,
+  "parallel_curves": 3,
+  "workers_per_curve": 2,
+  "choices": [
+    {
+      "id": "-43_75",
+      "target": 24
+    },
+    {
+      "id": "1_4",
+      "target": 19
+    },
+    {
+      "id": "4_17",
+      "target": 19
+    }
+  ]
+}

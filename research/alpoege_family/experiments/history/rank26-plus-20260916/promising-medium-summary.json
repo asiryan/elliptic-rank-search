@@ -1,0 +1,72 @@
+{
+  "results": [
+    {
+      "parameter": "-344/541",
+      "id": "-344_541",
+      "before": 23,
+      "after": 24,
+      "target": 32,
+      "seconds": 150.2600883999985,
+      "result": "C:\\Users\\Profit77\\Documents\\Git\\elliptic-rank-search\\runs\\rank26-plus-20260916\\curves\\-344_541\\promising-medium-adaptive\\result.json",
+      "mode": "adaptive",
+      "stage": "promising-medium"
+    },
+    {
+      "parameter": "-5037/2518",
+      "id": "-5037_2518",
+      "before": 22,
+      "after": 22,
+      "target": 32,
+      "seconds": 150.28620089999458,
+      "result": "C:\\Users\\Profit77\\Documents\\Git\\elliptic-rank-search\\runs\\rank26-plus-20260916\\curves\\-5037_2518\\promising-medium-adaptive\\result.json",
+      "mode": "adaptive",
+      "stage": "promising-medium"
+    },
+    {
+      "parameter": "-503/991",
+      "id": "-503_991",
+      "before": 22,
+      "after": 23,
+      "target": 32,
+      "seconds": 150.29162760000327,
+      "result": "C:\\Users\\Profit77\\Documents\\Git\\elliptic-rank-search\\runs\\rank26-plus-20260916\\curves\\-503_991\\promising-medium-adaptive\\result.json",
+      "mode": "adaptive",
+      "stage": "promising-medium"
+    },
+    {
+      "parameter": "1611/1516",
+      "id": "1611_1516",
+      "before": 17,
+      "after": 19,
+      "target": 32,
+      "seconds": 150.16648400000122,
+      "result": "C:\\Users\\Profit77\\Documents\\Git\\elliptic-rank-search\\runs\\rank26-plus-20260916\\curves\\1611_1516\\promising-medium-adaptive\\result.json",
+      "mode": "adaptive",
+      "stage": "promising-medium"
+    },
+    {
+      "parameter": "936/811",
+      "id": "936_811",
+      "before": 19,
+      "after": 25,
+      "target": 32,
+      "seconds": 150.2061900999979,
+      "result": "C:\\Users\\Profit77\\Documents\\Git\\elliptic-rank-search\\runs\\rank26-plus-20260916\\curves\\936_811\\promising-medium-adaptive\\result.json",
+      "mode": "adaptive",
+      "stage": "promising-medium"
+    },
+    {
+      "parameter": "517/1382",
+      "id": "517_1382",
+      "before": 18,
+      "after": 24,
+      "target": 32,
+      "seconds": 150.2586636000051,
+      "result": "C:\\Users\\Profit77\\Documents\\Git\\elliptic-rank-search\\runs\\rank26-plus-20260916\\curves\\517_1382\\promising-medium-adaptive\\result.json",
+      "mode": "adaptive",
+      "stage": "promising-medium"
+    }
+  ],
+  "errors": [],
+  "seconds": 300.56327549999696
+}

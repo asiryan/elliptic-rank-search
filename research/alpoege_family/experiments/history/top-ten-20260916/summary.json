@@ -1,0 +1,55 @@
+{
+  "assessed": 1295,
+  "catalogue_count": 732,
+  "complete_conductors": 226,
+  "verified_new_searches": 22,
+  "improved_parameters": [],
+  "qualifiers": [
+    {
+      "parameter": "-7/12",
+      "id": "-7_12",
+      "lower_bound": 20,
+      "placement": {
+        "naive": 8,
+        "disc": 9,
+        "faltings": 9,
+        "conductor": 9
+      }
+    },
+    {
+      "parameter": "1/4",
+      "id": "1_4",
+      "lower_bound": 18,
+      "placement": {
+        "naive": 23,
+        "disc": 22,
+        "faltings": 23,
+        "conductor": 8
+      }
+    },
+    {
+      "parameter": "-12/31",
+      "id": "-12_31",
+      "lower_bound": 20,
+      "placement": {
+        "naive": 27,
+        "disc": 28,
+        "faltings": 28,
+        "conductor": 6
+      }
+    },
+    {
+      "parameter": "4/3",
+      "id": "4_3",
+      "lower_bound": 19,
+      "placement": {
+        "naive": 33,
+        "disc": 30,
+        "faltings": 32,
+        "conductor": 10
+      }
+    }
+  ],
+  "local_archive": "runs/local-curve-archive/icarm302-T-minus25-rank22",
+  "submitted": false
+}

@@ -1,0 +1,481 @@
+{
+  "purpose": "Index of historical observations and original source paths; never search inputs",
+  "files": [
+    {
+      "path": "alpoege_family/experiments/history/family-improvement-20260917/auxiliary-summary.json",
+      "historical_source": "runs/family-improvement-20260917/auxiliary-summary.json"
+    },
+    {
+      "path": "alpoege_family/experiments/history/family-improvement-20260917/comparison-plan.json",
+      "historical_source": "runs/family-improvement-20260917/comparison-plan.json"
+    },
+    {
+      "path": "alpoege_family/experiments/history/family-improvement-20260917/summary.json",
+      "historical_source": "runs/family-improvement-20260917/summary.json"
+    },
+    {
+      "path": "alpoege_family/experiments/history/family-records-20260916/assessment-summary.json",
+      "historical_source": "runs/family-records-20260916/assessment-summary.json"
+    },
+    {
+      "path": "alpoege_family/experiments/history/family-records-20260916/compact-plan.json",
+      "historical_source": "runs/family-records-20260916/compact-plan.json"
+    },
+    {
+      "path": "alpoege_family/experiments/history/family-records-20260916/compact-summary.json",
+      "historical_source": "runs/family-records-20260916/compact-summary.json"
+    },
+    {
+      "path": "alpoege_family/experiments/history/family-records-20260916/deepen-plan.json",
+      "historical_source": "runs/family-records-20260916/deepen-plan.json"
+    },
+    {
+      "path": "alpoege_family/experiments/history/family-records-20260916/deepen-summary.json",
+      "historical_source": "runs/family-records-20260916/deepen-summary.json"
+    },
+    {
+      "path": "alpoege_family/experiments/history/family-records-20260916/existing-factor-summary.json",
+      "historical_source": "runs/family-records-20260916/existing-factor-summary.json"
+    },
+    {
+      "path": "alpoege_family/experiments/history/family-records-20260916/expanded-factor-summary.json",
+      "historical_source": "runs/family-records-20260916/expanded-factor-summary.json"
+    },
+    {
+      "path": "alpoege_family/experiments/history/family-records-20260916/leaders-plan.json",
+      "historical_source": "runs/family-records-20260916/leaders-plan.json"
+    },
+    {
+      "path": "alpoege_family/experiments/history/family-records-20260916/leaders-summary.json",
+      "historical_source": "runs/family-records-20260916/leaders-summary.json"
+    },
+    {
+      "path": "alpoege_family/experiments/history/family-records-20260916/preparation-summary.json",
+      "historical_source": "runs/family-records-20260916/preparation-summary.json"
+    },
+    {
+      "path": "alpoege_family/experiments/history/family-records-20260916/record-focus-plan.json",
+      "historical_source": "runs/family-records-20260916/record-focus-plan.json"
+    },
+    {
+      "path": "alpoege_family/experiments/history/family-records-20260916/record-focus-summary.json",
+      "historical_source": "runs/family-records-20260916/record-focus-summary.json"
+    },
+    {
+      "path": "alpoege_family/experiments/history/family-records-20260916/screen-plan.json",
+      "historical_source": "runs/family-records-20260916/screen-plan.json"
+    },
+    {
+      "path": "alpoege_family/experiments/history/family-records-20260916/screen-summary.json",
+      "historical_source": "runs/family-records-20260916/screen-summary.json"
+    },
+    {
+      "path": "alpoege_family/experiments/history/family-records-20260916/summary.json",
+      "historical_source": "runs/family-records-20260916/summary.json"
+    },
+    {
+      "path": "alpoege_family/experiments/history/family-recovery-check-20260916/plan.json",
+      "historical_source": "runs/family-recovery-check-20260916/plan.json"
+    },
+    {
+      "path": "alpoege_family/experiments/history/family-recovery-check-20260916/summary.json",
+      "historical_source": "runs/family-recovery-check-20260916/summary.json"
+    },
+    {
+      "path": "alpoege_family/experiments/history/first-place-20260916/assessment-summary.json",
+      "historical_source": "runs/first-place-20260916/assessment-summary.json"
+    },
+    {
+      "path": "alpoege_family/experiments/history/first-place-20260916/compact-screen-plan.json",
+      "historical_source": "runs/first-place-20260916/compact-screen-plan.json"
+    },
+    {
+      "path": "alpoege_family/experiments/history/first-place-20260916/compact-screen-summary.json",
+      "historical_source": "runs/first-place-20260916/compact-screen-summary.json"
+    },
+    {
+      "path": "alpoege_family/experiments/history/first-place-20260916/deep-unified-plan.json",
+      "historical_source": "runs/first-place-20260916/deep-unified-plan.json"
+    },
+    {
+      "path": "alpoege_family/experiments/history/first-place-20260916/deep-unified-summary.json",
+      "historical_source": "runs/first-place-20260916/deep-unified-summary.json"
+    },
+    {
+      "path": "alpoege_family/experiments/history/first-place-20260916/initialisation.json",
+      "historical_source": "runs/first-place-20260916/initialisation.json"
+    },
+    {
+      "path": "alpoege_family/experiments/history/first-place-20260916/rank22-screen-plan.json",
+      "historical_source": "runs/first-place-20260916/rank22-screen-plan.json"
+    },
+    {
+      "path": "alpoege_family/experiments/history/first-place-20260916/rank22-screen-summary.json",
+      "historical_source": "runs/first-place-20260916/rank22-screen-summary.json"
+    },
+    {
+      "path": "alpoege_family/experiments/history/first-place-20260916/resampled-plan.json",
+      "historical_source": "runs/first-place-20260916/resampled-plan.json"
+    },
+    {
+      "path": "alpoege_family/experiments/history/first-place-20260916/resampled-summary.json",
+      "historical_source": "runs/first-place-20260916/resampled-summary.json"
+    },
+    {
+      "path": "alpoege_family/experiments/history/first-place-20260916/secondary-deep-plan.json",
+      "historical_source": "runs/first-place-20260916/secondary-deep-plan.json"
+    },
+    {
+      "path": "alpoege_family/experiments/history/first-place-20260916/secondary-deep-summary.json",
+      "historical_source": "runs/first-place-20260916/secondary-deep-summary.json"
+    },
+    {
+      "path": "alpoege_family/experiments/history/first-place-20260916/summary.json",
+      "historical_source": "runs/first-place-20260916/summary.json"
+    },
+    {
+      "path": "alpoege_family/experiments/history/first-place-20260916/wide-parity-plan.json",
+      "historical_source": "runs/first-place-20260916/wide-parity-plan.json"
+    },
+    {
+      "path": "alpoege_family/experiments/history/first-place-20260916/wide-parity-summary.json",
+      "historical_source": "runs/first-place-20260916/wide-parity-summary.json"
+    },
+    {
+      "path": "alpoege_family/experiments/history/high-height-20260916/above-million-plan.json",
+      "historical_source": "runs/high-height-20260916/above-million-plan.json"
+    },
+    {
+      "path": "alpoege_family/experiments/history/high-height-20260916/above-million-summary.json",
+      "historical_source": "runs/high-height-20260916/above-million-summary.json"
+    },
+    {
+      "path": "alpoege_family/experiments/history/high-height-20260916/assessment-summary.json",
+      "historical_source": "runs/high-height-20260916/assessment-summary.json"
+    },
+    {
+      "path": "alpoege_family/experiments/history/high-height-20260916/calibrated-plan.json",
+      "historical_source": "runs/high-height-20260916/calibrated-plan.json"
+    },
+    {
+      "path": "alpoege_family/experiments/history/high-height-20260916/calibrated-summary.json",
+      "historical_source": "runs/high-height-20260916/calibrated-summary.json"
+    },
+    {
+      "path": "alpoege_family/experiments/history/high-height-20260916/initialisation.json",
+      "historical_source": "runs/high-height-20260916/initialisation.json"
+    },
+    {
+      "path": "alpoege_family/experiments/history/high-height-20260916/later-primes-plan.json",
+      "historical_source": "runs/high-height-20260916/later-primes-plan.json"
+    },
+    {
+      "path": "alpoege_family/experiments/history/high-height-20260916/later-primes-summary.json",
+      "historical_source": "runs/high-height-20260916/later-primes-summary.json"
+    },
+    {
+      "path": "alpoege_family/experiments/history/high-height-20260916/score-and-height-plan.json",
+      "historical_source": "runs/high-height-20260916/score-and-height-plan.json"
+    },
+    {
+      "path": "alpoege_family/experiments/history/high-height-20260916/score-and-height-summary.json",
+      "historical_source": "runs/high-height-20260916/score-and-height-summary.json"
+    },
+    {
+      "path": "alpoege_family/experiments/history/high-height-20260916/summary.json",
+      "historical_source": "runs/high-height-20260916/summary.json"
+    },
+    {
+      "path": "alpoege_family/experiments/history/larger-t-20260916/assessment-summary.json",
+      "historical_source": "runs/larger-t-20260916/assessment-summary.json"
+    },
+    {
+      "path": "alpoege_family/experiments/history/larger-t-20260916/final-factor-summary.json",
+      "historical_source": "runs/larger-t-20260916/final-factor-summary.json"
+    },
+    {
+      "path": "alpoege_family/experiments/history/larger-t-20260916/final-focus-plan.json",
+      "historical_source": "runs/larger-t-20260916/final-focus-plan.json"
+    },
+    {
+      "path": "alpoege_family/experiments/history/larger-t-20260916/final-focus-summary.json",
+      "historical_source": "runs/larger-t-20260916/final-focus-summary.json"
+    },
+    {
+      "path": "alpoege_family/experiments/history/larger-t-20260916/focus-factor-summary.json",
+      "historical_source": "runs/larger-t-20260916/focus-factor-summary.json"
+    },
+    {
+      "path": "alpoege_family/experiments/history/larger-t-20260916/focus1-plan.json",
+      "historical_source": "runs/larger-t-20260916/focus1-plan.json"
+    },
+    {
+      "path": "alpoege_family/experiments/history/larger-t-20260916/focus1-summary.json",
+      "historical_source": "runs/larger-t-20260916/focus1-summary.json"
+    },
+    {
+      "path": "alpoege_family/experiments/history/larger-t-20260916/large-focus-plan.json",
+      "historical_source": "runs/larger-t-20260916/large-focus-plan.json"
+    },
+    {
+      "path": "alpoege_family/experiments/history/larger-t-20260916/large-focus-summary.json",
+      "historical_source": "runs/larger-t-20260916/large-focus-summary.json"
+    },
+    {
+      "path": "alpoege_family/experiments/history/larger-t-20260916/middle-factor-summary.json",
+      "historical_source": "runs/larger-t-20260916/middle-factor-summary.json"
+    },
+    {
+      "path": "alpoege_family/experiments/history/larger-t-20260916/middle-plan.json",
+      "historical_source": "runs/larger-t-20260916/middle-plan.json"
+    },
+    {
+      "path": "alpoege_family/experiments/history/larger-t-20260916/middle-summary.json",
+      "historical_source": "runs/larger-t-20260916/middle-summary.json"
+    },
+    {
+      "path": "alpoege_family/experiments/history/larger-t-20260916/preparation-summary.json",
+      "historical_source": "runs/larger-t-20260916/preparation-summary.json"
+    },
+    {
+      "path": "alpoege_family/experiments/history/larger-t-20260916/screen-factor-summary.json",
+      "historical_source": "runs/larger-t-20260916/screen-factor-summary.json"
+    },
+    {
+      "path": "alpoege_family/experiments/history/larger-t-20260916/screen-plan.json",
+      "historical_source": "runs/larger-t-20260916/screen-plan.json"
+    },
+    {
+      "path": "alpoege_family/experiments/history/larger-t-20260916/screen-summary.json",
+      "historical_source": "runs/larger-t-20260916/screen-summary.json"
+    },
+    {
+      "path": "alpoege_family/experiments/history/larger-t-20260916/summary.json",
+      "historical_source": "runs/larger-t-20260916/summary.json"
+    },
+    {
+      "path": "alpoege_family/experiments/history/published-final-20260917/before-recovery-summary.json",
+      "historical_source": "runs/published-final-20260917/before-recovery-summary.json"
+    },
+    {
+      "path": "alpoege_family/experiments/history/published-final-20260917/plan.json",
+      "historical_source": "runs/published-final-20260917/plan.json"
+    },
+    {
+      "path": "alpoege_family/experiments/history/published-final-20260917/summary.json",
+      "historical_source": "runs/published-final-20260917/summary.json"
+    },
+    {
+      "path": "alpoege_family/experiments/history/rank26-plus-20260916/alternative-anchors-plan.json",
+      "historical_source": "runs/rank26-plus-20260916/alternative-anchors-plan.json"
+    },
+    {
+      "path": "alpoege_family/experiments/history/rank26-plus-20260916/alternative-anchors-summary.json",
+      "historical_source": "runs/rank26-plus-20260916/alternative-anchors-summary.json"
+    },
+    {
+      "path": "alpoege_family/experiments/history/rank26-plus-20260916/assessment-summary.json",
+      "historical_source": "runs/rank26-plus-20260916/assessment-summary.json"
+    },
+    {
+      "path": "alpoege_family/experiments/history/rank26-plus-20260916/final-wide-anchors-plan.json",
+      "historical_source": "runs/rank26-plus-20260916/final-wide-anchors-plan.json"
+    },
+    {
+      "path": "alpoege_family/experiments/history/rank26-plus-20260916/final-wide-anchors-summary.json",
+      "historical_source": "runs/rank26-plus-20260916/final-wide-anchors-summary.json"
+    },
+    {
+      "path": "alpoege_family/experiments/history/rank26-plus-20260916/initialisation.json",
+      "historical_source": "runs/rank26-plus-20260916/initialisation.json"
+    },
+    {
+      "path": "alpoege_family/experiments/history/rank26-plus-20260916/leaders-unified-plan.json",
+      "historical_source": "runs/rank26-plus-20260916/leaders-unified-plan.json"
+    },
+    {
+      "path": "alpoege_family/experiments/history/rank26-plus-20260916/leaders-unified-summary.json",
+      "historical_source": "runs/rank26-plus-20260916/leaders-unified-summary.json"
+    },
+    {
+      "path": "alpoege_family/experiments/history/rank26-plus-20260916/middle-extension-plan.json",
+      "historical_source": "runs/rank26-plus-20260916/middle-extension-plan.json"
+    },
+    {
+      "path": "alpoege_family/experiments/history/rank26-plus-20260916/middle-extension-summary.json",
+      "historical_source": "runs/rank26-plus-20260916/middle-extension-summary.json"
+    },
+    {
+      "path": "alpoege_family/experiments/history/rank26-plus-20260916/million-screen-plan.json",
+      "historical_source": "runs/rank26-plus-20260916/million-screen-plan.json"
+    },
+    {
+      "path": "alpoege_family/experiments/history/rank26-plus-20260916/million-screen-summary.json",
+      "historical_source": "runs/rank26-plus-20260916/million-screen-summary.json"
+    },
+    {
+      "path": "alpoege_family/experiments/history/rank26-plus-20260916/promising-medium-plan.json",
+      "historical_source": "runs/rank26-plus-20260916/promising-medium-plan.json"
+    },
+    {
+      "path": "alpoege_family/experiments/history/rank26-plus-20260916/promising-medium-summary.json",
+      "historical_source": "runs/rank26-plus-20260916/promising-medium-summary.json"
+    },
+    {
+      "path": "alpoege_family/experiments/history/rank26-plus-20260916/summary.json",
+      "historical_source": "runs/rank26-plus-20260916/summary.json"
+    },
+    {
+      "path": "alpoege_family/experiments/history/rank26-plus-20260916/wide-screen-plan.json",
+      "historical_source": "runs/rank26-plus-20260916/wide-screen-plan.json"
+    },
+    {
+      "path": "alpoege_family/experiments/history/rank26-plus-20260916/wide-screen-summary.json",
+      "historical_source": "runs/rank26-plus-20260916/wide-screen-summary.json"
+    },
+    {
+      "path": "alpoege_family/experiments/history/senior-ranks-20260916/assessment-summary.json",
+      "historical_source": "runs/senior-ranks-20260916/assessment-summary.json"
+    },
+    {
+      "path": "alpoege_family/experiments/history/senior-ranks-20260916/challengers-plan.json",
+      "historical_source": "runs/senior-ranks-20260916/challengers-plan.json"
+    },
+    {
+      "path": "alpoege_family/experiments/history/senior-ranks-20260916/challengers-summary.json",
+      "historical_source": "runs/senior-ranks-20260916/challengers-summary.json"
+    },
+    {
+      "path": "alpoege_family/experiments/history/senior-ranks-20260916/final-push-plan.json",
+      "historical_source": "runs/senior-ranks-20260916/final-push-plan.json"
+    },
+    {
+      "path": "alpoege_family/experiments/history/senior-ranks-20260916/final-push-summary.json",
+      "historical_source": "runs/senior-ranks-20260916/final-push-summary.json"
+    },
+    {
+      "path": "alpoege_family/experiments/history/senior-ranks-20260916/grid-screen-plan.json",
+      "historical_source": "runs/senior-ranks-20260916/grid-screen-plan.json"
+    },
+    {
+      "path": "alpoege_family/experiments/history/senior-ranks-20260916/grid-screen-summary.json",
+      "historical_source": "runs/senior-ranks-20260916/grid-screen-summary.json"
+    },
+    {
+      "path": "alpoege_family/experiments/history/senior-ranks-20260916/initialisation.json",
+      "historical_source": "runs/senior-ranks-20260916/initialisation.json"
+    },
+    {
+      "path": "alpoege_family/experiments/history/senior-ranks-20260916/larger-parameters-plan.json",
+      "historical_source": "runs/senior-ranks-20260916/larger-parameters-plan.json"
+    },
+    {
+      "path": "alpoege_family/experiments/history/senior-ranks-20260916/larger-parameters-summary.json",
+      "historical_source": "runs/senior-ranks-20260916/larger-parameters-summary.json"
+    },
+    {
+      "path": "alpoege_family/experiments/history/senior-ranks-20260916/leaders-plan.json",
+      "historical_source": "runs/senior-ranks-20260916/leaders-plan.json"
+    },
+    {
+      "path": "alpoege_family/experiments/history/senior-ranks-20260916/leaders-summary.json",
+      "historical_source": "runs/senior-ranks-20260916/leaders-summary.json"
+    },
+    {
+      "path": "alpoege_family/experiments/history/senior-ranks-20260916/preparation-summary.json",
+      "historical_source": "runs/senior-ranks-20260916/preparation-summary.json"
+    },
+    {
+      "path": "alpoege_family/experiments/history/senior-ranks-20260916/summary.json",
+      "historical_source": "runs/senior-ranks-20260916/summary.json"
+    },
+    {
+      "path": "alpoege_family/experiments/history/small-t-20260916/deeper-plan.json",
+      "historical_source": "runs/small-t-20260916/deeper-plan.json"
+    },
+    {
+      "path": "alpoege_family/experiments/history/small-t-20260916/deeper-summary.json",
+      "historical_source": "runs/small-t-20260916/deeper-summary.json"
+    },
+    {
+      "path": "alpoege_family/experiments/history/small-t-20260916/summary.json",
+      "historical_source": "runs/small-t-20260916/summary.json"
+    },
+    {
+      "path": "alpoege_family/experiments/history/small-t-20260916/sweep-plan.json",
+      "historical_source": "runs/small-t-20260916/sweep-plan.json"
+    },
+    {
+      "path": "alpoege_family/experiments/history/small-t-20260916/sweep-summary.json",
+      "historical_source": "runs/small-t-20260916/sweep-summary.json"
+    },
+    {
+      "path": "alpoege_family/experiments/history/small-t-20260916/wide-plan.json",
+      "historical_source": "runs/small-t-20260916/wide-plan.json"
+    },
+    {
+      "path": "alpoege_family/experiments/history/small-t-20260916/wide-summary.json",
+      "historical_source": "runs/small-t-20260916/wide-summary.json"
+    },
+    {
+      "path": "alpoege_family/experiments/history/small-t-20260916/wider-plan.json",
+      "historical_source": "runs/small-t-20260916/wider-plan.json"
+    },
+    {
+      "path": "alpoege_family/experiments/history/small-t-20260916/wider-summary.json",
+      "historical_source": "runs/small-t-20260916/wider-summary.json"
+    },
+    {
+      "path": "alpoege_family/experiments/history/small-t-audit-20260917/assessment-summary.json",
+      "historical_source": "runs/small-t-audit-20260917/assessment-summary.json"
+    },
+    {
+      "path": "alpoege_family/experiments/history/small-t-audit-20260917/initialisation.json",
+      "historical_source": "runs/small-t-audit-20260917/initialisation.json"
+    },
+    {
+      "path": "alpoege_family/experiments/history/small-t-audit-20260917/previously-unsearched-plan.json",
+      "historical_source": "runs/small-t-audit-20260917/previously-unsearched-plan.json"
+    },
+    {
+      "path": "alpoege_family/experiments/history/small-t-audit-20260917/previously-unsearched-summary.json",
+      "historical_source": "runs/small-t-audit-20260917/previously-unsearched-summary.json"
+    },
+    {
+      "path": "alpoege_family/experiments/history/small-t-audit-20260917/projective-infinity-plan.json",
+      "historical_source": "runs/small-t-audit-20260917/projective-infinity-plan.json"
+    },
+    {
+      "path": "alpoege_family/experiments/history/small-t-audit-20260917/projective-infinity-summary.json",
+      "historical_source": "runs/small-t-audit-20260917/projective-infinity-summary.json"
+    },
+    {
+      "path": "alpoege_family/experiments/history/small-t-audit-20260917/short-runs-revisited-plan.json",
+      "historical_source": "runs/small-t-audit-20260917/short-runs-revisited-plan.json"
+    },
+    {
+      "path": "alpoege_family/experiments/history/small-t-audit-20260917/short-runs-revisited-summary.json",
+      "historical_source": "runs/small-t-audit-20260917/short-runs-revisited-summary.json"
+    },
+    {
+      "path": "alpoege_family/experiments/history/small-t-audit-20260917/summary.json",
+      "historical_source": "runs/small-t-audit-20260917/summary.json"
+    },
+    {
+      "path": "alpoege_family/experiments/history/top-ten-20260916/factor-shortlist-summary.json",
+      "historical_source": "runs/top-ten-20260916/factor-shortlist-summary.json"
+    },
+    {
+      "path": "alpoege_family/experiments/history/top-ten-20260916/round1-adaptive-plan.json",
+      "historical_source": "runs/top-ten-20260916/round1-adaptive-plan.json"
+    },
+    {
+      "path": "alpoege_family/experiments/history/top-ten-20260916/round1-adaptive-summary.json",
+      "historical_source": "runs/top-ten-20260916/round1-adaptive-summary.json"
+    },
+    {
+      "path": "alpoege_family/experiments/history/top-ten-20260916/summary.json",
+      "historical_source": "runs/top-ten-20260916/summary.json"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "kind": "grid",
+  "height": 8,
+  "keep": 8,
+  "refine_keep": 4,
+  "final_keep": 2,
+  "prime_bound": 16382,
+  "workers": 2,
+  "scope": "Bounded installation check, not a historical research campaign"
+}

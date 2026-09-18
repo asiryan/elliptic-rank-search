@@ -1,0 +1,102 @@
+{
+  "prepared": 534,
+  "errors": [],
+  "seconds": 1.8240804999950342,
+  "parameter_sources": [
+    {
+      "directory": "grid128",
+      "sha256": "50ef4d7bd1f9412ec38eead818e322caeb1acc1d24c8cb189623983214759bd8",
+      "run": {
+        "options": {
+          "Height": 128,
+          "Keep": 2048,
+          "RefineKeep": 512,
+          "FinalKeep": 256,
+          "PrimeBound": 32749,
+          "Workers": 4
+        },
+        "PrimitiveCount": 20087,
+        "resumed_grid": false,
+        "seconds_this_session": 20.1658281,
+        "record_retained_by_grid": false,
+        "validation_primes_start_exclusive": 16381,
+        "scores_are_rank_bounds": false,
+        "candidate_sections": "icarm302 recovered 17 sections; specialized bounds recomputed"
+      }
+    },
+    {
+      "directory": "grid256",
+      "sha256": "d5ff0aa3aa723ab11ec60ad0760c733a9f57b2b62ce8ba0135c3eadb69543b3e",
+      "run": {
+        "options": {
+          "Height": 256,
+          "Keep": 2048,
+          "RefineKeep": 256,
+          "FinalKeep": 128,
+          "PrimeBound": 32749,
+          "Workers": 6
+        },
+        "PrimitiveCount": 79791,
+        "resumed_grid": false,
+        "seconds_this_session": 4.1669873,
+        "record_retained_by_grid": false,
+        "validation_primes_start_exclusive": 16381,
+        "scores_are_rank_bounds": false,
+        "candidate_sections": "icarm302 recovered 17 sections; specialized bounds recomputed"
+      }
+    },
+    {
+      "directory": "grid2048",
+      "sha256": "bfc41726f012515990503d935876e3d8d232fd8bce2a4049045665e88147d8dc",
+      "run": {
+        "options": {
+          "Height": 2048,
+          "Keep": 4096,
+          "RefineKeep": 384,
+          "FinalKeep": 128,
+          "PrimeBound": 32749,
+          "Workers": 6
+        },
+        "PrimitiveCount": 5102343,
+        "resumed_grid": false,
+        "seconds_this_session": 6.2963337,
+        "record_retained_by_grid": false,
+        "validation_primes_start_exclusive": 16381,
+        "scores_are_rank_bounds": false,
+        "candidate_sections": "icarm302 recovered 17 sections; specialized bounds recomputed"
+      }
+    },
+    {
+      "directory": "grid10000",
+      "sha256": "524125e3a9153eed47d20e83a02e5bb46f704682d495df0908edd8e11132919a",
+      "run": {
+        "options": {
+          "Height": 10000,
+          "Keep": 8192,
+          "RefineKeep": 512,
+          "FinalKeep": 128,
+          "PrimeBound": 65521,
+          "Workers": 6
+        },
+        "PrimitiveCount": 121589943,
+        "resumed_grid": false,
+        "seconds_this_session": 33.5739484,
+        "record_retained_by_grid": false,
+        "validation_primes_start_exclusive": 16381,
+        "scores_are_rank_bounds": false,
+        "candidate_sections": "icarm302 recovered 17 sections; specialized bounds recomputed"
+      }
+    }
+  ],
+  "source_hashes": {
+    "obsolete\\tools\\RankHunt\\bin\\Release\\net8.0\\RankHunt.dll": "c24bc69920d21647c126beea7bee314dc4abd957323376fb80d054620fc543b5",
+    "obsolete\\tools\\RankHunt\\bin\\Release\\net8.0\\EllipticCurves.dll": "56c434bfd9c5d7c2a4fd8ee7fa620363369d9017f97265026f6ea13bacff0900",
+    "obsolete\\tools\\RankHunt\\Hunt.cs": "816e04e70581a39dfbfd9779bf5d61ed240ce4739ea3207e03fa209ef07eefd6",
+    "obsolete\\tools\\RankPackageAudit\\Local302.cs": "6e34807c467bd46304f772033e03e23127c0b09ac33b4d1a0382c0174b1c49a5",
+    "obsolete\\tools\\RankHunt\\Data\\icarm302-sections.json": "2c6a51b978ff22e8d0a31ce30e5e9f7f571f83804edab8d6ff2e45d4e8b96b90"
+  },
+  "point_seeds": "fresh evaluations of 17 stored generic sections, independently minimized and certified",
+  "published_control_excluded": true,
+  "excluded_height_at_most": 64,
+  "scores_are_rank_bounds": false
+}

@@ -3,13 +3,14 @@ from fractions import Fraction as Q
 import json
 from pathlib import Path
 import sys
+sys.path.insert(0, str(Path(__file__).resolve().parents[1] / 'src'))
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 import unittest
 from unittest.mock import patch
 
-from point_arithmetic import add, multiply
-from point_models import refine_observed,prepare_covers
-from torsion_certificate import select_basis, verify_certificate
+from elliptic_rank_search.arithmetic.point_arithmetic import add, multiply
+from elliptic_rank_search.search.point_models import refine_observed,prepare_covers
+from elliptic_rank_search.certificates.torsion_certificate import select_basis, verify_certificate
 
 
 class ObservedRefinementTests(unittest.TestCase):
@@ -27,11 +28,11 @@ class ObservedRefinementTests(unittest.TestCase):
         for step in stats['steps']:
             a=list(map(Q,data['ainvs']));source=tuple(map(Q,step['positive']))
             for raw in step['negative']:
-                from point_arithmetic import negate
+                from elliptic_rank_search.arithmetic.point_arithmetic import negate
                 source=add(a,source,negate(a,tuple(map(Q,raw))))
             self.assertEqual(source,tuple(map(Q,step['source'])))
             self.assertEqual(multiply(a,tuple(map(Q,step['point'])),2),source)
-        with patch('point_models.gp',side_effect=AssertionError('Completed relation was repeated')):
+        with patch('elliptic_rank_search.search.point_models.gp',side_effect=AssertionError('Completed relation was repeated')):
             repeated,second=refine_observed(data,1,cache)
         self.assertEqual(repeated['points'],[])
         self.assertGreater(second['cache_hits'],0)
@@ -40,7 +41,7 @@ class ObservedRefinementTests(unittest.TestCase):
         data={'ainvs':['0','0','0','-25','4'],'points':[['0','2'],['5','2']],'basis_size':1}
         # Deliberately weak local information: the exact division check must
         # reject the candidate difference between these independent points.
-        with patch('certificate.build_certificate',return_value={'independent_rows':[{'bits':'11'}]}):
+        with patch('elliptic_rank_search.certificates.certificate.build_certificate',return_value={'independent_rows':[{'bits':'11'}]}):
             extra,stats=refine_observed(data,1,{})
         self.assertEqual(stats['tested_relations'],1)
         self.assertEqual(extra['points'],[])
@@ -61,7 +62,7 @@ class ObservedRefinementTests(unittest.TestCase):
     def test_interrupted_relation_remains_retryable(self):
         data={'ainvs':['0','0','0','-25','4'],'points':[['0','2'],['4/25','-8/125']]}
         cache={}
-        with patch('point_models.gp',return_value=('',{'timed_out':True,'script_sha256':'interrupted'})):
+        with patch('elliptic_rank_search.search.point_models.gp',return_value=('',{'timed_out':True,'script_sha256':'interrupted'})):
             extra,stats=refine_observed(data,1,cache)
         self.assertEqual(extra['points'],[])
         self.assertEqual(cache['observed_refinement'],{})
@@ -75,7 +76,7 @@ class ObservedRefinementTests(unittest.TestCase):
         second=['24','1',True,['1152','0','72','0','1'],['0','0','0'],transform]
         def output(rows,complete=False):
             return ''.join('COVER '+json.dumps(r)+'\n' for r in rows)+('COVERS_END\n' if complete else '')
-        with patch('point_models.gp',side_effect=[
+        with patch('elliptic_rank_search.search.point_models.gp',side_effect=[
                 (output([first]),{'timed_out':True}),('',{'timed_out':True}),
                 (output([second],True),{'timed_out':False}),
                 (output([first,second],True),{'timed_out':False})]) as native:

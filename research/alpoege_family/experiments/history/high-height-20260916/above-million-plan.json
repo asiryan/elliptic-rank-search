@@ -1,0 +1,12 @@
+{
+  "ids": [
+    "1962574_688659",
+    "1159069_1681844"
+  ],
+  "seconds": 300.0,
+  "mode": "adaptive",
+  "anchors": 2048,
+  "target": 32,
+  "parallel_curves": 2,
+  "workers_per_curve": 8
+}

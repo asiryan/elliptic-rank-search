@@ -1,0 +1,88 @@
+{
+  "catalogue_count": 747,
+  "catalogue_downloaded_at": "2026-09-16T18:22:52.742358+00:00",
+  "catalogue_sha256": "502bc1d3c8929f4bd281dd93f78c65012e35d119897630b9863b9391713c5c57",
+  "point_search_invocations": 194,
+  "distinct_parameters_searched": 188,
+  "improved_lower_bounds": 123,
+  "new_first_places": [],
+  "leaders": [
+    {
+      "parameter": "-43/75",
+      "lower_bound": 23,
+      "record_target": 24,
+      "placement": {
+        "naive": 2,
+        "disc": 2,
+        "faltings": 2,
+        "conductor": 9
+      }
+    },
+    {
+      "parameter": "1/4",
+      "lower_bound": 18,
+      "record_target": 19,
+      "placement": {
+        "naive": 23,
+        "disc": 22,
+        "faltings": 23,
+        "conductor": 8
+      }
+    },
+    {
+      "parameter": "4/17",
+      "lower_bound": 18,
+      "record_target": 19,
+      "placement": {
+        "naive": 83,
+        "disc": 80,
+        "faltings": 82,
+        "conductor": 10
+      }
+    }
+  ],
+  "stages": {
+    "compact-screen": {
+      "runs": 83,
+      "budget_seconds_per_run": 12.0,
+      "mode": "adaptive",
+      "anchors": 512
+    },
+    "deep-unified": {
+      "runs": 3,
+      "budget_seconds_per_run": 300.0,
+      "mode": "unified",
+      "anchors": 128
+    },
+    "rank22-screen": {
+      "runs": 96,
+      "budget_seconds_per_run": 10.0,
+      "mode": "adaptive",
+      "anchors": 512
+    },
+    "resampled": {
+      "runs": 3,
+      "budget_seconds_per_run": 180,
+      "mode": "resampled adaptive",
+      "anchors": 512
+    },
+    "secondary-deep": {
+      "runs": 6,
+      "budget_seconds_per_run": 180.0,
+      "mode": "adaptive",
+      "anchors": 256
+    },
+    "wide-parity": {
+      "runs": 3,
+      "budget_seconds_per_run": 300.0,
+      "mode": "parity",
+      "anchors": 4096
+    }
+  },
+  "public_points_used": false,
+  "core_files_modified": false,
+  "alternate_selector": "resampled.py; source hash in every affected checkpoint",
+  "errors": {},
+  "exact_upper_bounds_computed": false,
+  "submitted": false
+}

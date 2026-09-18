@@ -1,0 +1,508 @@
+{
+  "catalogue_count": 750,
+  "catalogue_downloaded_at": "2026-09-16T21:02:35.557423+00:00",
+  "catalogue_sha256": "2734f65aaac10674a445f2050b491c2b715c2122be22370697cfbfae105d0c6a",
+  "new_primitive_draws_with_replacement": 6000000,
+  "parameter_height_cap": 2000000,
+  "new_finalists": 128,
+  "total_finalists": 224,
+  "search_invocations": 10,
+  "distinct_parameters_searched": 10,
+  "results": [
+    {
+      "parameter": "1159069/1681844",
+      "id": "1159069_1681844",
+      "before": 17,
+      "after": 17,
+      "target": 32,
+      "seconds": 300.5181134000013,
+      "search_seconds": 300.0233329999901,
+      "workers": 8,
+      "anchors": 2048,
+      "result": "C:\\Users\\Profit77\\Documents\\Git\\elliptic-rank-search\\runs\\high-height-20260916\\curves\\1159069_1681844\\above-million-adaptive\\result.json",
+      "mode": "adaptive",
+      "stage": "above-million",
+      "audit": {
+        "path": "curves\\1159069_1681844\\above-million-adaptive\\result.json",
+        "parameter": "1159069/1681844",
+        "verification": {
+          "points_checked": 17,
+          "matrix_rank": 17,
+          "torsion_2_dimension_upper_bound": 0,
+          "rank_lower_bound": 17,
+          "all_points_independent_modulo_torsion": true,
+          "conditional_assumptions": []
+        },
+        "source_and_origin_hashes_verified": true,
+        "data_reads_verified": true,
+        "seed_or_discovered_points_only": true
+      },
+      "placement": {
+        "naive": 352,
+        "disc": 352,
+        "faltings": 352
+      },
+      "entry_target": 30,
+      "record_target": 32,
+      "parameter_height": 1681844,
+      "catalogue_match": null,
+      "published_lower_bound": null,
+      "conductor_status": "not_attempted"
+    },
+    {
+      "parameter": "1962574/688659",
+      "id": "1962574_688659",
+      "before": 17,
+      "after": 17,
+      "target": 32,
+      "seconds": 300.5607137999905,
+      "search_seconds": 300.0380390999926,
+      "workers": 8,
+      "anchors": 2048,
+      "result": "C:\\Users\\Profit77\\Documents\\Git\\elliptic-rank-search\\runs\\high-height-20260916\\curves\\1962574_688659\\above-million-adaptive\\result.json",
+      "mode": "adaptive",
+      "stage": "above-million",
+      "audit": {
+        "path": "curves\\1962574_688659\\above-million-adaptive\\result.json",
+        "parameter": "1962574/688659",
+        "verification": {
+          "points_checked": 17,
+          "matrix_rank": 17,
+          "torsion_2_dimension_upper_bound": 0,
+          "rank_lower_bound": 17,
+          "all_points_independent_modulo_torsion": true,
+          "conditional_assumptions": []
+        },
+        "source_and_origin_hashes_verified": true,
+        "data_reads_verified": true,
+        "seed_or_discovered_points_only": true
+      },
+      "placement": {
+        "naive": 352,
+        "disc": 352,
+        "faltings": 352
+      },
+      "entry_target": 30,
+      "record_target": 32,
+      "parameter_height": 1962574,
+      "catalogue_match": null,
+      "published_lower_bound": null,
+      "conductor_status": "not_attempted"
+    },
+    {
+      "parameter": "-499517/723273",
+      "id": "-499517_723273",
+      "before": 17,
+      "after": 17,
+      "target": 32,
+      "seconds": 300.5693198999943,
+      "search_seconds": 300.0281746999972,
+      "workers": 8,
+      "anchors": 2048,
+      "result": "C:\\Users\\Profit77\\Documents\\Git\\elliptic-rank-search\\runs\\high-height-20260916\\curves\\-499517_723273\\calibrated-adaptive\\result.json",
+      "mode": "adaptive",
+      "stage": "calibrated",
+      "audit": {
+        "path": "curves\\-499517_723273\\calibrated-adaptive\\result.json",
+        "parameter": "-499517/723273",
+        "verification": {
+          "points_checked": 17,
+          "matrix_rank": 17,
+          "torsion_2_dimension_upper_bound": 0,
+          "rank_lower_bound": 17,
+          "all_points_independent_modulo_torsion": true,
+          "conditional_assumptions": []
+        },
+        "source_and_origin_hashes_verified": true,
+        "data_reads_verified": true,
+        "seed_or_discovered_points_only": true
+      },
+      "placement": {
+        "naive": 351,
+        "disc": 351,
+        "faltings": 351
+      },
+      "entry_target": 30,
+      "record_target": 32,
+      "parameter_height": 723273,
+      "catalogue_match": null,
+      "published_lower_bound": null,
+      "conductor_status": "not_attempted"
+    },
+    {
+      "parameter": "-145973/661007",
+      "id": "-145973_661007",
+      "before": 17,
+      "after": 17,
+      "target": 32,
+      "seconds": 300.5684351000091,
+      "search_seconds": 300.0279090999975,
+      "workers": 8,
+      "anchors": 2048,
+      "result": "C:\\Users\\Profit77\\Documents\\Git\\elliptic-rank-search\\runs\\high-height-20260916\\curves\\-145973_661007\\calibrated-adaptive\\result.json",
+      "mode": "adaptive",
+      "stage": "calibrated",
+      "audit": {
+        "path": "curves\\-145973_661007\\calibrated-adaptive\\result.json",
+        "parameter": "-145973/661007",
+        "verification": {
+          "points_checked": 17,
+          "matrix_rank": 17,
+          "torsion_2_dimension_upper_bound": 0,
+          "rank_lower_bound": 17,
+          "all_points_independent_modulo_torsion": true,
+          "conditional_assumptions": []
+        },
+        "source_and_origin_hashes_verified": true,
+        "data_reads_verified": true,
+        "seed_or_discovered_points_only": true
+      },
+      "placement": {
+        "naive": 348,
+        "disc": 349,
+        "faltings": 348
+      },
+      "entry_target": 30,
+      "record_target": 31,
+      "parameter_height": 661007,
+      "catalogue_match": null,
+      "published_lower_bound": null,
+      "conductor_status": "not_attempted"
+    },
+    {
+      "parameter": "564787/938759",
+      "id": "564787_938759",
+      "before": 17,
+      "after": 17,
+      "target": 32,
+      "seconds": 300.41677179999533,
+      "search_seconds": 300.0282181000075,
+      "workers": 8,
+      "anchors": 2048,
+      "result": "C:\\Users\\Profit77\\Documents\\Git\\elliptic-rank-search\\runs\\high-height-20260916\\curves\\564787_938759\\calibrated-adaptive\\result.json",
+      "mode": "adaptive",
+      "stage": "calibrated",
+      "audit": {
+        "path": "curves\\564787_938759\\calibrated-adaptive\\result.json",
+        "parameter": "564787/938759",
+        "verification": {
+          "points_checked": 17,
+          "matrix_rank": 17,
+          "torsion_2_dimension_upper_bound": 0,
+          "rank_lower_bound": 17,
+          "all_points_independent_modulo_torsion": true,
+          "conditional_assumptions": []
+        },
+        "source_and_origin_hashes_verified": true,
+        "data_reads_verified": true,
+        "seed_or_discovered_points_only": true
+      },
+      "placement": {
+        "naive": 352,
+        "disc": 352,
+        "faltings": 352
+      },
+      "entry_target": 30,
+      "record_target": 32,
+      "parameter_height": 938759,
+      "catalogue_match": null,
+      "published_lower_bound": null,
+      "conductor_status": "not_attempted"
+    },
+    {
+      "parameter": "48417/188047",
+      "id": "48417_188047",
+      "before": 17,
+      "after": 17,
+      "target": 32,
+      "seconds": 300.64984850000474,
+      "search_seconds": 300.2054649000056,
+      "workers": 8,
+      "anchors": 2048,
+      "result": "C:\\Users\\Profit77\\Documents\\Git\\elliptic-rank-search\\runs\\high-height-20260916\\curves\\48417_188047\\calibrated-adaptive\\result.json",
+      "mode": "adaptive",
+      "stage": "calibrated",
+      "audit": {
+        "path": "curves\\48417_188047\\calibrated-adaptive\\result.json",
+        "parameter": "48417/188047",
+        "verification": {
+          "points_checked": 17,
+          "matrix_rank": 17,
+          "torsion_2_dimension_upper_bound": 0,
+          "rank_lower_bound": 17,
+          "all_points_independent_modulo_torsion": true,
+          "conditional_assumptions": []
+        },
+        "source_and_origin_hashes_verified": true,
+        "data_reads_verified": true,
+        "seed_or_discovered_points_only": true
+      },
+      "placement": {
+        "naive": 345,
+        "disc": 345,
+        "faltings": 345
+      },
+      "entry_target": 30,
+      "record_target": 31,
+      "parameter_height": 188047,
+      "catalogue_match": null,
+      "published_lower_bound": null,
+      "conductor_status": "not_attempted"
+    },
+    {
+      "parameter": "-556632/920393",
+      "id": "-556632_920393",
+      "before": 17,
+      "after": 17,
+      "target": 32,
+      "seconds": 300.684545600001,
+      "search_seconds": 300.0373339999933,
+      "workers": 8,
+      "anchors": 2048,
+      "result": "C:\\Users\\Profit77\\Documents\\Git\\elliptic-rank-search\\runs\\high-height-20260916\\curves\\-556632_920393\\later-primes-adaptive\\result.json",
+      "mode": "adaptive",
+      "stage": "later-primes",
+      "audit": {
+        "path": "curves\\-556632_920393\\later-primes-adaptive\\result.json",
+        "parameter": "-556632/920393",
+        "verification": {
+          "points_checked": 17,
+          "matrix_rank": 17,
+          "torsion_2_dimension_upper_bound": 0,
+          "rank_lower_bound": 17,
+          "all_points_independent_modulo_torsion": true,
+          "conditional_assumptions": []
+        },
+        "source_and_origin_hashes_verified": true,
+        "data_reads_verified": true,
+        "seed_or_discovered_points_only": true
+      },
+      "placement": {
+        "naive": 352,
+        "disc": 352,
+        "faltings": 352
+      },
+      "entry_target": 30,
+      "record_target": 32,
+      "parameter_height": 920393,
+      "catalogue_match": null,
+      "published_lower_bound": null,
+      "conductor_status": "not_attempted"
+    },
+    {
+      "parameter": "327291/708941",
+      "id": "327291_708941",
+      "before": 17,
+      "after": 17,
+      "target": 32,
+      "seconds": 300.5617851999996,
+      "search_seconds": 300.03138440000475,
+      "workers": 8,
+      "anchors": 2048,
+      "result": "C:\\Users\\Profit77\\Documents\\Git\\elliptic-rank-search\\runs\\high-height-20260916\\curves\\327291_708941\\later-primes-adaptive\\result.json",
+      "mode": "adaptive",
+      "stage": "later-primes",
+      "audit": {
+        "path": "curves\\327291_708941\\later-primes-adaptive\\result.json",
+        "parameter": "327291/708941",
+        "verification": {
+          "points_checked": 17,
+          "matrix_rank": 17,
+          "torsion_2_dimension_upper_bound": 0,
+          "rank_lower_bound": 17,
+          "all_points_independent_modulo_torsion": true,
+          "conditional_assumptions": []
+        },
+        "source_and_origin_hashes_verified": true,
+        "data_reads_verified": true,
+        "seed_or_discovered_points_only": true
+      },
+      "placement": {
+        "naive": 352,
+        "disc": 352,
+        "faltings": 352
+      },
+      "entry_target": 30,
+      "record_target": 32,
+      "parameter_height": 708941,
+      "catalogue_match": null,
+      "published_lower_bound": null,
+      "conductor_status": "not_attempted"
+    },
+    {
+      "parameter": "139941/325751",
+      "id": "139941_325751",
+      "before": 17,
+      "after": 17,
+      "target": 32,
+      "seconds": 300.8984574999922,
+      "search_seconds": 300.0684548999998,
+      "workers": 8,
+      "anchors": 2048,
+      "result": "C:\\Users\\Profit77\\Documents\\Git\\elliptic-rank-search\\runs\\high-height-20260916\\curves\\139941_325751\\score-and-height-adaptive\\result.json",
+      "mode": "adaptive",
+      "stage": "score-and-height",
+      "audit": {
+        "path": "curves\\139941_325751\\score-and-height-adaptive\\result.json",
+        "parameter": "139941/325751",
+        "verification": {
+          "points_checked": 17,
+          "matrix_rank": 17,
+          "torsion_2_dimension_upper_bound": 0,
+          "rank_lower_bound": 17,
+          "all_points_independent_modulo_torsion": true,
+          "conditional_assumptions": []
+        },
+        "source_and_origin_hashes_verified": true,
+        "data_reads_verified": true,
+        "seed_or_discovered_points_only": true
+      },
+      "placement": {
+        "naive": 350,
+        "disc": 351,
+        "faltings": 350
+      },
+      "entry_target": 30,
+      "record_target": 32,
+      "parameter_height": 325751,
+      "catalogue_match": null,
+      "published_lower_bound": null,
+      "conductor_status": "not_attempted"
+    },
+    {
+      "parameter": "95083/512532",
+      "id": "95083_512532",
+      "before": 17,
+      "after": 18,
+      "target": 32,
+      "seconds": 301.1250433999958,
+      "search_seconds": 300.0497582000098,
+      "workers": 8,
+      "anchors": 2048,
+      "result": "C:\\Users\\Profit77\\Documents\\Git\\elliptic-rank-search\\runs\\high-height-20260916\\curves\\95083_512532\\score-and-height-adaptive\\result.json",
+      "mode": "adaptive",
+      "stage": "score-and-height",
+      "audit": {
+        "path": "curves\\95083_512532\\score-and-height-adaptive\\result.json",
+        "parameter": "95083/512532",
+        "verification": {
+          "points_checked": 18,
+          "matrix_rank": 18,
+          "torsion_2_dimension_upper_bound": 0,
+          "rank_lower_bound": 18,
+          "all_points_independent_modulo_torsion": true,
+          "conditional_assumptions": []
+        },
+        "source_and_origin_hashes_verified": true,
+        "data_reads_verified": true,
+        "seed_or_discovered_points_only": true
+      },
+      "placement": {
+        "naive": 298,
+        "disc": 297,
+        "faltings": 298
+      },
+      "entry_target": 30,
+      "record_target": 31,
+      "parameter_height": 512532,
+      "catalogue_match": null,
+      "published_lower_bound": null,
+      "conductor_status": "incomplete"
+    }
+  ],
+  "errors": [],
+  "improved_ids": [
+    "95083_512532"
+  ],
+  "confirmed_qualifiers": [],
+  "new_at_least_26": [],
+  "submission_checks": [
+    {
+      "parameter": "95083/512532",
+      "minimal_equation_checked": true,
+      "certificate_checked": true,
+      "prime_support_and_conductor_checked": false,
+      "placement_checked_independently": true,
+      "submission_sha256": "66920de36606fb8c545c02f66d3f12fb61df1f3c8697b4a5e4950aa6f8d8648c"
+    }
+  ],
+  "unchanged_source_hashes": {
+    "C:\\Users\\Profit77\\Documents\\Git\\elliptic-rank-search\\runs\\rank26-plus-20260916\\final-assessment.json": true,
+    "C:\\Users\\Profit77\\Documents\\Git\\elliptic-rank-search\\runs\\rank26-plus-20260916\\sample-million\\candidates.json": true,
+    "C:\\Users\\Profit77\\Documents\\Git\\elliptic-rank-search\\artifacts\\obsolete\\tools\\RankHunt\\Data\\icarm302-sections.json": true,
+    "C:\\Users\\Profit77\\Documents\\Git\\elliptic-rank-search\\anchor_diversity.py": true,
+    "C:\\Users\\Profit77\\Documents\\Git\\elliptic-rank-search\\bootstrap.py": true,
+    "C:\\Users\\Profit77\\Documents\\Git\\elliptic-rank-search\\bounded_anchor_pool.py": true,
+    "C:\\Users\\Profit77\\Documents\\Git\\elliptic-rank-search\\certificate.py": true,
+    "C:\\Users\\Profit77\\Documents\\Git\\elliptic-rank-search\\doctor.py": true,
+    "C:\\Users\\Profit77\\Documents\\Git\\elliptic-rank-search\\first_cover.py": true,
+    "C:\\Users\\Profit77\\Documents\\Git\\elliptic-rank-search\\first_jet.py": true,
+    "C:\\Users\\Profit77\\Documents\\Git\\elliptic-rank-search\\geometry.py": true,
+    "C:\\Users\\Profit77\\Documents\\Git\\elliptic-rank-search\\lattice.py": true,
+    "C:\\Users\\Profit77\\Documents\\Git\\elliptic-rank-search\\local_models.py": true,
+    "C:\\Users\\Profit77\\Documents\\Git\\elliptic-rank-search\\models.py": true,
+    "C:\\Users\\Profit77\\Documents\\Git\\elliptic-rank-search\\point_arithmetic.py": true,
+    "C:\\Users\\Profit77\\Documents\\Git\\elliptic-rank-search\\point_models.py": true,
+    "C:\\Users\\Profit77\\Documents\\Git\\elliptic-rank-search\\quartic.py": true,
+    "C:\\Users\\Profit77\\Documents\\Git\\elliptic-rank-search\\reproduce.py": true,
+    "C:\\Users\\Profit77\\Documents\\Git\\elliptic-rank-search\\run.py": true,
+    "C:\\Users\\Profit77\\Documents\\Git\\elliptic-rank-search\\runtime.py": true,
+    "C:\\Users\\Profit77\\Documents\\Git\\elliptic-rank-search\\search_policy.py": true,
+    "C:\\Users\\Profit77\\Documents\\Git\\elliptic-rank-search\\seeded.py": true,
+    "C:\\Users\\Profit77\\Documents\\Git\\elliptic-rank-search\\torsion_certificate.py": true,
+    "C:\\Users\\Profit77\\Documents\\Git\\elliptic-rank-search\\unified.py": true,
+    "C:\\Users\\Profit77\\Documents\\Git\\elliptic-rank-search\\verify.py": true
+  },
+  "submitted": false,
+  "published_family_matches_at_least_26": [
+    {
+      "icarm_id": 302,
+      "published_lower_bound": 31,
+      "rational_parameters_with_same_j": [
+        {
+          "parameter": "164518/924945",
+          "u": 164518,
+          "v": 924945,
+          "parameter_height": 924945,
+          "same_rational_curve": true,
+          "minimal_model": [
+            "1",
+            "1",
+            "1",
+            "-1284727764113567728281797636015784768866707681415849262157224232063",
+            "560368321454261339256859338901915312332769858684945406858043869199456710681989058863306170127006181"
+          ]
+        }
+      ],
+      "source_url": "https://elliptic-rank.icarm.cloud/curve/302",
+      "parameter_at_infinity_has_same_j": false,
+      "search_seconds": 0.03189349999593105
+    },
+    {
+      "icarm_id": 727,
+      "published_lower_bound": 26,
+      "rational_parameters_with_same_j": [
+        {
+          "parameter": "-311/519",
+          "u": -311,
+          "v": 519,
+          "parameter_height": 519,
+          "same_rational_curve": true,
+          "minimal_model": [
+            "0",
+            "-1",
+            "0",
+            "-54464655817391902854967509221724105157905",
+            "5530967500672460442450920841909843725925195007329680094248661"
+          ]
+        }
+      ],
+      "source_url": "https://elliptic-rank.icarm.cloud/curve/727",
+      "parameter_at_infinity_has_same_j": false,
+      "search_seconds": 0.033470199996372685
+    }
+  ],
+  "public_points_used": false,
+  "heuristic_scores_are_not_rank_bounds": true,
+  "missing_conductors_not_excluded_as_potential_qualifiers": true
+}

@@ -1,0 +1,62 @@
+{
+  "parameter_height_limit": 64,
+  "prepared": 5039,
+  "new_parameters": 3744,
+  "point_search_invocations": 217,
+  "point_searched_parameters": 211,
+  "improved_parameters": 155,
+  "max_certified_lower_bound": 23,
+  "complete_conductors": 2865,
+  "new_qualifiers": [
+    {
+      "parameter": "-47/23",
+      "id": "-47_23",
+      "lower_bound": 23,
+      "placement": {
+        "naive": 5,
+        "disc": 5,
+        "faltings": 5
+      }
+    },
+    {
+      "parameter": "-27/47",
+      "id": "-27_47",
+      "lower_bound": 22,
+      "placement": {
+        "naive": 13,
+        "disc": 13,
+        "faltings": 13,
+        "conductor": 8
+      }
+    },
+    {
+      "parameter": "-13/47",
+      "id": "-13_47",
+      "lower_bound": 21,
+      "placement": {
+        "naive": 5,
+        "disc": 5,
+        "faltings": 5,
+        "conductor": 5
+      }
+    },
+    {
+      "parameter": "4/17",
+      "id": "4_17",
+      "lower_bound": 18,
+      "placement": {
+        "naive": 82,
+        "disc": 80,
+        "faltings": 82,
+        "conductor": 10
+      }
+    }
+  ],
+  "new_first_places": [],
+  "all_new_candidates_qualify_together": true,
+  "catalogue_count": 736,
+  "catalogue_sha256": "60f227d0eb3eda016a687a3e3ae47a78ab0a438ab22fd3ac73049743d56d5934",
+  "submitted": false,
+  "public_points_used": false,
+  "engine_modified": false
+}

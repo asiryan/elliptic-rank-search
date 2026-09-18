@@ -1,0 +1,39 @@
+{
+  "results": [
+    {
+      "parameter": "-332/267",
+      "id": "-332_267",
+      "before": 25,
+      "after": 25,
+      "target": 26,
+      "seconds": 240.25187340000411,
+      "result": "C:\\Users\\Profit77\\Documents\\Git\\elliptic-rank-search\\runs\\senior-ranks-20260916\\curves\\-332_267\\challengers-adaptive\\result.json",
+      "mode": "adaptive",
+      "stage": "challengers"
+    },
+    {
+      "parameter": "-311/519",
+      "id": "-311_519",
+      "before": 26,
+      "after": 26,
+      "target": 27,
+      "seconds": 240.260423300002,
+      "result": "C:\\Users\\Profit77\\Documents\\Git\\elliptic-rank-search\\runs\\senior-ranks-20260916\\curves\\-311_519\\challengers-adaptive\\result.json",
+      "mode": "adaptive",
+      "stage": "challengers"
+    },
+    {
+      "parameter": "-83/111",
+      "id": "-83_111",
+      "before": 24,
+      "after": 24,
+      "target": 25,
+      "seconds": 240.31698730000062,
+      "result": "C:\\Users\\Profit77\\Documents\\Git\\elliptic-rank-search\\runs\\senior-ranks-20260916\\curves\\-83_111\\challengers-adaptive\\result.json",
+      "mode": "adaptive",
+      "stage": "challengers"
+    }
+  ],
+  "errors": [],
+  "seconds": 240.32722170000488
+}

@@ -1,0 +1,50 @@
+{
+  "results": [
+    {
+      "parameter": "-332/267",
+      "id": "-332_267",
+      "before": 25,
+      "after": 25,
+      "target": 32,
+      "seconds": 240.41094790000352,
+      "result": "C:\\Users\\Profit77\\Documents\\Git\\elliptic-rank-search\\runs\\rank26-plus-20260916\\curves\\-332_267\\alternative-anchors-parity\\result.json",
+      "mode": "parity",
+      "stage": "alternative-anchors"
+    },
+    {
+      "parameter": "-311/519",
+      "id": "-311_519",
+      "before": 26,
+      "after": 26,
+      "target": 32,
+      "seconds": 240.44027520000236,
+      "result": "C:\\Users\\Profit77\\Documents\\Git\\elliptic-rank-search\\runs\\rank26-plus-20260916\\curves\\-311_519\\alternative-anchors-parity\\result.json",
+      "mode": "parity",
+      "stage": "alternative-anchors"
+    },
+    {
+      "parameter": "-265/221",
+      "id": "-265_221",
+      "before": 25,
+      "after": 25,
+      "target": 32,
+      "seconds": 240.26299109999673,
+      "result": "C:\\Users\\Profit77\\Documents\\Git\\elliptic-rank-search\\runs\\rank26-plus-20260916\\curves\\-265_221\\alternative-anchors-parity\\result.json",
+      "mode": "parity",
+      "stage": "alternative-anchors"
+    },
+    {
+      "parameter": "-303/802",
+      "id": "-303_802",
+      "before": 25,
+      "after": 25,
+      "target": 32,
+      "seconds": 240.25768090000201,
+      "result": "C:\\Users\\Profit77\\Documents\\Git\\elliptic-rank-search\\runs\\rank26-plus-20260916\\curves\\-303_802\\alternative-anchors-parity\\result.json",
+      "mode": "parity",
+      "stage": "alternative-anchors"
+    }
+  ],
+  "errors": [],
+  "seconds": 480.70907579999766
+}

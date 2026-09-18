@@ -1,0 +1,72 @@
+{
+  "results": [
+    {
+      "parameter": "5/68",
+      "id": "5_68",
+      "before": 22,
+      "after": 22,
+      "target": 24,
+      "seconds": 180.2278185000032,
+      "result": "C:\\Users\\Profit77\\Documents\\Git\\elliptic-rank-search\\runs\\first-place-20260916\\curves\\5_68\\secondary-deep-adaptive\\result.json",
+      "mode": "adaptive",
+      "stage": "secondary-deep"
+    },
+    {
+      "parameter": "17/106",
+      "id": "17_106",
+      "before": 21,
+      "after": 21,
+      "target": 23,
+      "seconds": 180.231761499992,
+      "result": "C:\\Users\\Profit77\\Documents\\Git\\elliptic-rank-search\\runs\\first-place-20260916\\curves\\17_106\\secondary-deep-adaptive\\result.json",
+      "mode": "adaptive",
+      "stage": "secondary-deep"
+    },
+    {
+      "parameter": "-74/159",
+      "id": "-74_159",
+      "before": 22,
+      "after": 22,
+      "target": 24,
+      "seconds": 180.2509022000013,
+      "result": "C:\\Users\\Profit77\\Documents\\Git\\elliptic-rank-search\\runs\\first-place-20260916\\curves\\-74_159\\secondary-deep-adaptive\\result.json",
+      "mode": "adaptive",
+      "stage": "secondary-deep"
+    },
+    {
+      "parameter": "-43/81",
+      "id": "-43_81",
+      "before": 22,
+      "after": 22,
+      "target": 24,
+      "seconds": 180.25798249999934,
+      "result": "C:\\Users\\Profit77\\Documents\\Git\\elliptic-rank-search\\runs\\first-place-20260916\\curves\\-43_81\\secondary-deep-adaptive\\result.json",
+      "mode": "adaptive",
+      "stage": "secondary-deep"
+    },
+    {
+      "parameter": "-19/74",
+      "id": "-19_74",
+      "before": 21,
+      "after": 21,
+      "target": 23,
+      "seconds": 180.29137830001127,
+      "result": "C:\\Users\\Profit77\\Documents\\Git\\elliptic-rank-search\\runs\\first-place-20260916\\curves\\-19_74\\secondary-deep-adaptive\\result.json",
+      "mode": "adaptive",
+      "stage": "secondary-deep"
+    },
+    {
+      "parameter": "-41/94",
+      "id": "-41_94",
+      "before": 22,
+      "after": 22,
+      "target": 24,
+      "seconds": 180.30625249999866,
+      "result": "C:\\Users\\Profit77\\Documents\\Git\\elliptic-rank-search\\runs\\first-place-20260916\\curves\\-41_94\\secondary-deep-adaptive\\result.json",
+      "mode": "adaptive",
+      "stage": "secondary-deep"
+    }
+  ],
+  "errors": [],
+  "seconds": 180.31971019999764
+}

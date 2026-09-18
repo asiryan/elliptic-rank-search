@@ -1,0 +1,14 @@
+{
+  "sources": [
+    {
+      "file": "C:\\Users\\Profit77\\Documents\\Git\\elliptic-rank-search\\runs\\family-records-20260916\\assessment.json",
+      "sha256": "82c70e3964ba5d9170774fc023735d4781332d361d8ea295ce3b95bb0006ecda"
+    },
+    {
+      "file": "C:\\Users\\Profit77\\Documents\\Git\\elliptic-rank-search\\runs\\larger-t-20260916\\assessment.json",
+      "sha256": "37c68848a1ca46dad8a7d0006c806d835caef0503cb59a27498bbec6eac23690"
+    }
+  ],
+  "curves": 5573,
+  "public_points_used": false
+}

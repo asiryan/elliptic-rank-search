@@ -1,0 +1,39 @@
+{
+  "results": [
+    {
+      "parameter": "-43/75",
+      "id": "-43_75",
+      "before": 23,
+      "after": 23,
+      "target": 24,
+      "seconds": 300.66329179999593,
+      "result": "C:\\Users\\Profit77\\Documents\\Git\\elliptic-rank-search\\runs\\first-place-20260916\\curves\\-43_75\\wide-parity-parity\\result.json",
+      "mode": "parity",
+      "stage": "wide-parity"
+    },
+    {
+      "parameter": "1/4",
+      "id": "1_4",
+      "before": 18,
+      "after": 18,
+      "target": 19,
+      "seconds": 300.728391800003,
+      "result": "C:\\Users\\Profit77\\Documents\\Git\\elliptic-rank-search\\runs\\first-place-20260916\\curves\\1_4\\wide-parity-parity\\result.json",
+      "mode": "parity",
+      "stage": "wide-parity"
+    },
+    {
+      "parameter": "4/17",
+      "id": "4_17",
+      "before": 18,
+      "after": 18,
+      "target": 19,
+      "seconds": 300.8391597000009,
+      "result": "C:\\Users\\Profit77\\Documents\\Git\\elliptic-rank-search\\runs\\first-place-20260916\\curves\\4_17\\wide-parity-parity\\result.json",
+      "mode": "parity",
+      "stage": "wide-parity"
+    }
+  ],
+  "errors": [],
+  "seconds": 300.84414599998854
+}

@@ -1,0 +1,50 @@
+{
+  "results": [
+    {
+      "parameter": "-5037/2518",
+      "id": "-5037_2518",
+      "before": 19,
+      "after": 22,
+      "target": 28,
+      "seconds": 90.33831249999639,
+      "result": "C:\\Users\\Profit77\\Documents\\Git\\elliptic-rank-search\\runs\\larger-t-20260916\\curves\\-5037_2518\\large-focus-adaptive\\result.json",
+      "mode": "adaptive",
+      "stage": "large-focus"
+    },
+    {
+      "parameter": "-9587/9843",
+      "id": "-9587_9843",
+      "before": 18,
+      "after": 18,
+      "target": 28,
+      "seconds": 90.35272379999515,
+      "result": "C:\\Users\\Profit77\\Documents\\Git\\elliptic-rank-search\\runs\\larger-t-20260916\\curves\\-9587_9843\\large-focus-adaptive\\result.json",
+      "mode": "adaptive",
+      "stage": "large-focus"
+    },
+    {
+      "parameter": "-6568/9237",
+      "id": "-6568_9237",
+      "before": 18,
+      "after": 20,
+      "target": 28,
+      "seconds": 90.45860189999803,
+      "result": "C:\\Users\\Profit77\\Documents\\Git\\elliptic-rank-search\\runs\\larger-t-20260916\\curves\\-6568_9237\\large-focus-adaptive\\result.json",
+      "mode": "adaptive",
+      "stage": "large-focus"
+    },
+    {
+      "parameter": "-303/802",
+      "id": "-303_802",
+      "before": 21,
+      "after": 25,
+      "target": 26,
+      "seconds": 90.46456079999916,
+      "result": "C:\\Users\\Profit77\\Documents\\Git\\elliptic-rank-search\\runs\\larger-t-20260916\\curves\\-303_802\\large-focus-adaptive\\result.json",
+      "mode": "adaptive",
+      "stage": "large-focus"
+    }
+  ],
+  "errors": [],
+  "seconds": 90.47381950001
+}

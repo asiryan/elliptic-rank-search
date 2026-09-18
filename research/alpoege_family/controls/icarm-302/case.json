@@ -1,0 +1,17 @@
+{
+  "id": "icarm-302",
+  "icarm_id": 302,
+  "study": "alpoege_family",
+  "kind": "control",
+  "path": "alpoege_family/controls/icarm-302",
+  "rank_lower_bound": 31,
+  "url": "https://elliptic-rank.icarm.cloud/curve/302",
+  "parameter": "164518/924945",
+  "rank_is_a_lower_bound": true,
+  "historical_source": {
+    "path": "runs/family-recovery-check-20260916/curves/164518_924945/fresh-adaptive/result.json",
+    "sha256": "c908682e78c3b2b1d49219e5f5ebfd216f3c5374633915e9b8d4be4ccce352c8"
+  },
+  "public_catalogue_snapshot_sha256": "2734f65aaac10674a445f2050b491c2b715c2122be22370697cfbfae105d0c6a",
+  "role": "Reproduction of a previously published bound; not one of our discoveries"
+}

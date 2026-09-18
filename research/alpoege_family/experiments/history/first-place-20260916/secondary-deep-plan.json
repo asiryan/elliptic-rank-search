@@ -1,0 +1,33 @@
+{
+  "seconds": 180.0,
+  "mode": "adaptive",
+  "anchors": 256,
+  "parallel_curves": 6,
+  "workers_per_curve": 2,
+  "choices": [
+    {
+      "id": "-41_94",
+      "target": 24
+    },
+    {
+      "id": "-19_74",
+      "target": 23
+    },
+    {
+      "id": "17_106",
+      "target": 23
+    },
+    {
+      "id": "-74_159",
+      "target": 24
+    },
+    {
+      "id": "5_68",
+      "target": 24
+    },
+    {
+      "id": "-43_81",
+      "target": 24
+    }
+  ]
+}

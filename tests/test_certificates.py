@@ -3,18 +3,19 @@ import copy
 import json
 from pathlib import Path
 import sys
+sys.path.insert(0, str(Path(__file__).resolve().parents[1] / 'src'))
 import unittest
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
-from torsion_certificate import verify_certificate
-from verify import verify_examples
+from elliptic_rank_search.certificates.torsion_certificate import verify_certificate
+from research.common.catalogue import verify_examples
 
 ROOT = Path(__file__).resolve().parents[1]
 
 
 class PublishedCertificateTests(unittest.TestCase):
     def setUp(self):
-        folder = ROOT / 'examples/icarm-199'
+        folder = ROOT / 'research/known_curve_improvements/cases/icarm-199'
         self.data = json.loads((folder / 'points.json').read_text())
         self.cert = json.loads((folder / 'certificate.json').read_text())
 
@@ -46,9 +47,9 @@ class PublishedCertificateTests(unittest.TestCase):
         from fractions import Fraction as Q
         import tempfile
         from unittest.mock import patch
-        from point_arithmetic import multiply
-        from torsion_certificate import certify
-        from seeded import independent_result
+        from elliptic_rank_search.arithmetic.point_arithmetic import multiply
+        from elliptic_rank_search.certificates.torsion_certificate import certify
+        from elliptic_rank_search.search.seeded import independent_result
         a = [0, 0, 0, -25, 4]
         twice = multiply(a, (Q(0), Q(2)), 2)
         data = {'ainvs': list(map(str, a)), 'points': [list(map(str, twice))]}
