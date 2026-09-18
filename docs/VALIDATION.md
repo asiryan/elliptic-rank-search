@@ -56,6 +56,6 @@ Each child had its own declared input and output directory. The coordinator repl
 
 The historical 18-curve, 300-second-per-curve continuation and the full million-parameter campaigns were **not repeated** during reorganization. Their configurations and original summaries are retained separately. Only the local Windows checks are reported as executed here.
 
-[validation-20260917.json](validation-20260917.json) contains per-case results, settings, audit outcomes and metric values. Code history is maintained in Git. The earlier [three-curve extraction report](../research/known_curve_improvements/experiments/extraction-20260915.md) remains historical documentation.
+[validation-20260917.json](../research/reports/validation-20260917.json) contains per-case results, settings, audit outcomes and metric values. Code history is maintained in Git. The earlier [three-curve extraction report](../research/known_curve_improvements/experiments/extraction-20260915.md) remains historical documentation.
 
 These results establish the stated lower bounds and the portability of the packaged workflow. They do not establish exact ranks, saturation, completeness of rational-point groups or priority over every prior publication.

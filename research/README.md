@@ -12,6 +12,8 @@ This directory contains the reproducible mathematical inputs, proof witnesses an
 
 Use the [reproducibility guide](../docs/REPRODUCIBILITY.md) for proof replay, fresh search, metric verification, parameter selection and the separate final continuation experiment.
 
+[reports/validation-20260917.json](reports/validation-20260917.json) records the validation results for all 23 curves across both studies. See the [validation report](../docs/VALIDATION.md) for the procedure and interpretation.
+
 `data/icarm-20260917.json` contains the frozen public catalogue metadata, source URL and download timestamp. Each case records its public curve URL and source credits. Old paths in `experiments/history/` identify historical local records; no executable recipe reads those paths. Machine-independent recipes live outside that history directory.
 
 We acknowledge the Institute for Computer-Aided Reasoning in Mathematics (ICARM), NSF Grant DMS 2425401, and the original curve and section authors.

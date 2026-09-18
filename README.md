@@ -65,6 +65,7 @@ research/
     experiments/                  Configurations and historical summaries
     reports/                      Research narrative and final continuation
   data/                           Frozen ICARM catalogue metadata
+  reports/                        Validation results across studies
 examples/toy/                     Small functional inputs
 tests/                            Mathematical and search regressions
 docs/                             Algorithm, usage and reproducibility
