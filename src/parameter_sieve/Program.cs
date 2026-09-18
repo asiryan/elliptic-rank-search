@@ -66,6 +66,6 @@ try
 catch (OperationCanceledException) { Console.WriteLine("Stopped. Completed grid batches are checkpointed; rerun with the same options."); }
 catch (Exception error)
 {
-    Console.Error.WriteLine($"RankHunt failed: {error.Message}");
+    Console.Error.WriteLine($"ParameterSieve failed: {error.Message}");
     Environment.ExitCode = 1;
 }

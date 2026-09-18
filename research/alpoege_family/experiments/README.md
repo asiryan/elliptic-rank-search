@@ -4,7 +4,7 @@
 |---|---|---|
 | [grid-smoke.json](grid-smoke.json) | Small installation check at H=8 | Family equation, modular scores |
 | [grid-2048.json](grid-2048.json) | Historical exhaustive parameter grid: 5,102,343 primitive pairs | Family equation; 16,384 retained, 1,024 refined, 384 finalists |
-| [sample-two-million.json](sample-two-million.json) | Six million draws at H=2,000,000, fixed seed 202609162 | Independent scoring bands, random reservoir and CRT sampling |
+| [sample-two-million.json](sample-two-million.json) | Six million primitive parameter draws at H=2,000,000, fixed seed 202609162 | Independent scoring bands, random reservoir and CRT sampling |
 | [final-300s.json](final-300s.json) | Eighteen final continuation searches | Published complete witness sets, 300 seconds each |
 | Each case's `reproduction.json` | Fresh recovery of a published lower bound | Generic section formulas or one declared public seed |
 
