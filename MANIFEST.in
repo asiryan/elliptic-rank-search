@@ -3,7 +3,7 @@ recursive-include docs *.md
 recursive-include examples *.json *.md
 recursive-include gp *.gp
 recursive-include tests *.py
-recursive-include src/parameter_sieve *.cs *.csproj *.json *.md
+recursive-include src/parameter_sieve *.cs *.csproj *.md
 prune src/parameter_sieve/bin
 prune src/parameter_sieve/obj
 recursive-include research *.json *.md

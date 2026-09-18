@@ -21,42 +21,6 @@
   "generic_section_identities_checked": 17,
   "regression_tests_passed": 65,
   "regression_tests_failed": 0,
-  "historical_summaries_hash_checked": 119,
-  "independent_v1_verifier_sha256": "9e0d0d2562fc53705e92a2eaa9a3f6e7c923f1cd3fd82b14df68b60268f4ad54",
-  "code_sha256": {
-    "__init__.py": "91b15e8a17d3e932a7ba2b64fa99dc5b1ffe9b43d7ae22f796ae9b7495dbc994",
-    "__main__.py": "128d18bc0e429223cc9231a0dd5d4f7f1be28208ac07c189507504bd7c10d01b",
-    "arithmetic/__init__.py": "30212e23c2cb8da11ac4b5d380c75b1b9fa0ecc358ae33569fd29374f3ff23e9",
-    "arithmetic/geometry.py": "53ad64c589cef382b4a090fd69976a5bf68126832e25a9d2fbe129805964f8cb",
-    "arithmetic/lattice.py": "031e27a638b4469292c89f4eca991555a42e360d90c588cae353511d06ac214e",
-    "arithmetic/point_arithmetic.py": "175814487c989cb1b64621e73e891e8a02938d9fa8af0c97d18b74971ca6e937",
-    "arithmetic/quartic.py": "adada375a6af890cf9903e628abe1dab1d20cb818891b1d7343f098e8065da73",
-    "certificates/__init__.py": "9577109f882bef42c6d0ae671ee8466ae3d4a63c8ea2d8508711fb01e25894bf",
-    "certificates/certificate.py": "9e0d0d2562fc53705e92a2eaa9a3f6e7c923f1cd3fd82b14df68b60268f4ad54",
-    "certificates/torsion_certificate.py": "f88e0fb19de5cd2dda2004cdd49e252f9a96bced7594c9befb50b3c8ade9aeab",
-    "cli/__init__.py": "d36bd7d9f35586c9dc8a68073ba244fa3efd847a56eea9deb66b3ee080fc2d0e",
-    "cli/doctor.py": "705456a589cd5313f008c84a98aba30a9989b480ef519d8a34d16df1fd53d2b7",
-    "cli/main.py": "ea11c866029617ae2b7b9badc3cdbad97f7651241a7812b27e798e2ccbad9c7c",
-    "cli/run.py": "b4c3ffcffc4f6a10febd2d61e8c7192becb69f0607827da7605af193a6b1b8ad",
-    "cli/verify.py": "23b029793dc991426639cfc9fa8cd64085a4f8e5b67abfe48a9318c4aca9fe74",
-    "runtime.py": "3b43d022556f5e11043fefbdefddafa6c8655c71f99aa2a6d288e6d9a1f5d70e",
-    "search/__init__.py": "9f8567051666dcce4895721d48b3161222bf4813d2710d2af6cea17cad81f03c",
-    "search/anchor_diversity.py": "85ef9d77b1139b3b7ae2109a02fe50067abb0be8f51332dc438ba12a217fb655",
-    "search/bootstrap.py": "fc8a7a8f3324f141799f1a8a1f7268ed496308b66b4b5fb07f6c043eec500e6c",
-    "search/bounded_anchor_pool.py": "a47a4e555270e80281313e91dabc5fee30fb8bd2d911dfe3279377e6fcaa1ffc",
-    "search/first_cover.py": "041ccde7116945881cd432c5d4580fd5a1184fd939d33d40eac236da8af7ead1",
-    "search/first_jet.py": "36efdd20fb39524624143858527fa81a7e684548dde2fe7828a7ee516321bae3",
-    "search/local_models.py": "7472b5d76c5158bc5233e88927cff4e5e1c6045bb8079d2cc360970399059431",
-    "search/models.py": "b0c0da15abf4b3517ac8972c3ee354865ba30586e74ba5b4ba11f579e51d6229",
-    "search/point_models.py": "76625da97481cbdaa3c2e977045b21473dce2879ee1b861d2b48b105d903fb63",
-    "search/search_policy.py": "4677ec5e6ea7d8817ba896d15164cd392ed7666eecc2b871afe0f40731221e14",
-    "search/seeded.py": "8fba7de2b2db66fa60a41b27c0a8b37d268a8a4f73c8af6860111fb9250e6319",
-    "search/unified.py": "dd83a94d2086f16dd6b06e2607cc81ff623fdb619ed05191bf507d6e45e82f9f"
-  },
-  "source_reports": {
-    "reproduction_summary_sha256": "16a5b8ddbfa17b8798faf9ee01ef99c47f1cb8988b51a1be9b58ffb19eeba8b3",
-    "test_output_sha256": "b2c20b9a4d699eef03608e817a753013dd0e2895fa60a37377a584e303e0a1d3"
-  },
   "results": [
     {
       "id": "icarm-199",
@@ -81,8 +45,7 @@
           "search_seconds": 0.77460770000107,
           "status": "target_reached",
           "data_boundary_checked": true,
-          "point_origins_checked": true,
-          "input_sha256": "76f2f782a8596668ffa9207391f31680a28958a467a2c4aa8f7c7daa758c377a"
+          "point_origins_checked": true
         }
       ],
       "verification": {
@@ -117,8 +80,7 @@
           "search_seconds": 0.8427697999995871,
           "status": "target_reached",
           "data_boundary_checked": true,
-          "point_origins_checked": true,
-          "input_sha256": "c5758f3c9dfc9bd3723b142d8f7df24ae5936d5e5a8b3f03c41acba536c2e698"
+          "point_origins_checked": true
         }
       ],
       "verification": {
@@ -153,8 +115,7 @@
           "search_seconds": 0.7194537999985187,
           "status": "target_reached",
           "data_boundary_checked": true,
-          "point_origins_checked": true,
-          "input_sha256": "10a60a1aedc4ac74ba4321eaa1024e9977922dad96e02e0e328c8ebd03a2b27f"
+          "point_origins_checked": true
         }
       ],
       "verification": {
@@ -189,8 +150,7 @@
           "search_seconds": 147.86668529999952,
           "status": "target_reached",
           "data_boundary_checked": true,
-          "point_origins_checked": true,
-          "input_sha256": "c91948194c734c81b0e3d6e5c51036871725f408ff9c29874154f256170eb75e"
+          "point_origins_checked": true
         }
       ],
       "verification": {
@@ -225,8 +185,7 @@
           "search_seconds": 14.064675600000555,
           "status": "target_reached",
           "data_boundary_checked": true,
-          "point_origins_checked": true,
-          "input_sha256": "d31ae59bfb3b38f700e6852c00e38f228388bb574cec57cee58de08d8402fd7b"
+          "point_origins_checked": true
         }
       ],
       "verification": {
@@ -261,8 +220,7 @@
           "search_seconds": 1.8086782999998832,
           "status": "target_reached",
           "data_boundary_checked": true,
-          "point_origins_checked": true,
-          "input_sha256": "e8114a4f01a771ea65aa51570b0e9752dbfb51a70235063d11bf38654249e99a"
+          "point_origins_checked": true
         }
       ],
       "verification": {
@@ -297,8 +255,7 @@
           "search_seconds": 1.8191346999992675,
           "status": "target_reached",
           "data_boundary_checked": true,
-          "point_origins_checked": true,
-          "input_sha256": "1205ebae6a6a7a5e80314f8d7a674bb6706d21da767679f7de9a5286ae1bb282"
+          "point_origins_checked": true
         }
       ],
       "verification": {
@@ -333,8 +290,7 @@
           "search_seconds": 1.7351607000000513,
           "status": "target_reached",
           "data_boundary_checked": true,
-          "point_origins_checked": true,
-          "input_sha256": "0e957053359a300f09b912eb4619b606f541e7425d64d8d4b0c77e95955607c7"
+          "point_origins_checked": true
         }
       ],
       "verification": {
@@ -369,8 +325,7 @@
           "search_seconds": 1.8045908000003692,
           "status": "target_reached",
           "data_boundary_checked": true,
-          "point_origins_checked": true,
-          "input_sha256": "7d8e867b3749bd44259b1af85e66509fc6339e77e20896649e09192fc2a03ff1"
+          "point_origins_checked": true
         }
       ],
       "verification": {
@@ -405,8 +360,7 @@
           "search_seconds": 1.6897308000006888,
           "status": "target_reached",
           "data_boundary_checked": true,
-          "point_origins_checked": true,
-          "input_sha256": "7850be731a632ce4280656ffc8b94e7ade09b6404ef553de2f5daf52a6d5b5c1"
+          "point_origins_checked": true
         }
       ],
       "verification": {
@@ -441,8 +395,7 @@
           "search_seconds": 1.7462288000006083,
           "status": "target_reached",
           "data_boundary_checked": true,
-          "point_origins_checked": true,
-          "input_sha256": "74cdcdeb904c66144d43caf829dde33d7fb3af620a931c3c76cdb6eb0d7817b8"
+          "point_origins_checked": true
         }
       ],
       "verification": {
@@ -477,8 +430,7 @@
           "search_seconds": 3.211631899999702,
           "status": "target_reached",
           "data_boundary_checked": true,
-          "point_origins_checked": true,
-          "input_sha256": "54dba5a7c9abae4129dce71c38f7da190ed2c74fc1adcd1a7ee9ee143a2fe5dc"
+          "point_origins_checked": true
         }
       ],
       "verification": {
@@ -513,8 +465,7 @@
           "search_seconds": 9.443682400000398,
           "status": "target_reached",
           "data_boundary_checked": true,
-          "point_origins_checked": true,
-          "input_sha256": "ee58ba38f12797b1d85eb8da585cc1b5f51c81ee8e2348cf257f75e09af9d3dd"
+          "point_origins_checked": true
         }
       ],
       "verification": {
@@ -549,8 +500,7 @@
           "search_seconds": 9.456984200000079,
           "status": "target_reached",
           "data_boundary_checked": true,
-          "point_origins_checked": true,
-          "input_sha256": "f38f3adba9f17a53af1981612da6c68e48f193f5c2a42b1d7b44fe151225f7b2"
+          "point_origins_checked": true
         }
       ],
       "verification": {
@@ -585,8 +535,7 @@
           "search_seconds": 1.8411673000009614,
           "status": "target_reached",
           "data_boundary_checked": true,
-          "point_origins_checked": true,
-          "input_sha256": "07abe06b2fb4b8b7c3f113da5e9ced0799f05071cb9596dcc6009e138c87cdaa"
+          "point_origins_checked": true
         }
       ],
       "verification": {
@@ -621,8 +570,7 @@
           "search_seconds": 1.7304353999988962,
           "status": "target_reached",
           "data_boundary_checked": true,
-          "point_origins_checked": true,
-          "input_sha256": "18e051a055e7091bdb092886332a2f2bab5af46a8269d245a61735af95420d63"
+          "point_origins_checked": true
         }
       ],
       "verification": {
@@ -657,8 +605,7 @@
           "search_seconds": 6.831991100001687,
           "status": "target_reached",
           "data_boundary_checked": true,
-          "point_origins_checked": true,
-          "input_sha256": "574657174ef3e02b0027abc4da6d750029f92bfdd00cd9821257e840b7e39069"
+          "point_origins_checked": true
         }
       ],
       "verification": {
@@ -693,8 +640,7 @@
           "search_seconds": 8.977281299999959,
           "status": "target_reached",
           "data_boundary_checked": true,
-          "point_origins_checked": true,
-          "input_sha256": "c09355a5f4050c244073b235caccbba388ca312fa88cc8a79800ef8e86c4d60b"
+          "point_origins_checked": true
         }
       ],
       "verification": {
@@ -729,8 +675,7 @@
           "search_seconds": 9.880224099999396,
           "status": "target_reached",
           "data_boundary_checked": true,
-          "point_origins_checked": true,
-          "input_sha256": "2bd10f8d319e77ebf49b4c3282945d9bff42883998cc559cec491f085c2837a9"
+          "point_origins_checked": true
         }
       ],
       "verification": {
@@ -765,8 +710,7 @@
           "search_seconds": 5.155273100001068,
           "status": "target_reached",
           "data_boundary_checked": true,
-          "point_origins_checked": true,
-          "input_sha256": "847ed957eecc51c90f6746785a37433f5721c2d849482af06859bce1be0f333a"
+          "point_origins_checked": true
         }
       ],
       "verification": {
@@ -801,8 +745,7 @@
           "search_seconds": 14.963617900000827,
           "status": "target_reached",
           "data_boundary_checked": true,
-          "point_origins_checked": true,
-          "input_sha256": "d6010349e4b28e2991a65b4793dbba735c183642e0448d631813c799afde89eb"
+          "point_origins_checked": true
         }
       ],
       "verification": {
@@ -837,8 +780,7 @@
           "search_seconds": 16.273424499999237,
           "status": "target_reached",
           "data_boundary_checked": true,
-          "point_origins_checked": true,
-          "input_sha256": "43625f86102f233ee4ca6fce29716b06d06087ce715810313c2c45e6770193f9"
+          "point_origins_checked": true
         }
       ],
       "verification": {
@@ -873,8 +815,7 @@
           "search_seconds": 7.68620490000103,
           "status": "target_reached",
           "data_boundary_checked": true,
-          "point_origins_checked": true,
-          "input_sha256": "40a332e0bec6c5ad319f4aad4253c123f894b45c3010139afa36614d845c50a1"
+          "point_origins_checked": true
         }
       ],
       "verification": {

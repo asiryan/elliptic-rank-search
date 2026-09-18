@@ -8,11 +8,5 @@
   "url": "https://elliptic-rank.icarm.cloud/curve/736",
   "parameter": "4/3",
   "rank_is_a_lower_bound": true,
-  "historical_source": {
-    "path": "runs/small-t-20260916/curves/4_3/search/result.json",
-    "sha256": "c9437a184b32b8388ba9271b02358ac7daae3bc116e220fb7cf78c4976d40cf6"
-  },
-  "public_catalogue_snapshot_sha256": "2734f65aaac10674a445f2050b491c2b715c2122be22370697cfbfae105d0c6a",
-  "family_credit": "Family identified by wgxli in the commentary to ICARM #302; see study sources",
-  "discovery_source": "runs/family-records-20260916/assessment.json"
+  "family_credit": "Family identified by wgxli in the commentary to ICARM #302; see study sources"
 }

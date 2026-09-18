@@ -6,7 +6,7 @@ The general engine accepts a Weierstrass equation and optionally known rational 
 
 ## Published results
 
-All **21 contributions** recorded on [Valery Asiryan's ICARM profile](https://elliptic-rank.icarm.cloud/user/89) are included with equations, rational points, exact certificates, provenance and fresh-search recipes.
+All **21 contributions** recorded on [Valery Asiryan's ICARM profile](https://elliptic-rank.icarm.cloud/user/89) are included with equations, rational points, exact certificates, source credits and fresh-search recipes.
 
 | Study | Results | Fresh input |
 |---|---|---|
@@ -65,7 +65,7 @@ research/
     experiments/                  Configurations and historical summaries
     reports/                      Research narrative and final continuation
   data/                           Frozen ICARM catalogue metadata
-  provenance/                     Migration and validation records
+  reports/                        Validation results across studies
 examples/toy/                     Small functional inputs
 tests/                            Mathematical and search regressions
 docs/                             Algorithm, usage and reproducibility

@@ -31,7 +31,7 @@ The formulas are mathematical inputs to this study. `ers-research sections` veri
 
 ## Evidence and reproduction
 
-Each `cases/icarm-N/` directory has separate equation, points, certificate, metric, recipe and provenance files. `case.json` records the parameter, credits and provenance; `reproduction.json` declares the input and bounded search settings. See [the reproduction guide](../../docs/REPRODUCIBILITY.md).
+Each `cases/icarm-N/` directory has separate equation, points, certificate, metric, recipe and case metadata files. `case.json` records the parameter, certified bound and source credits; `reproduction.json` declares the input and bounded search settings. See [the reproduction guide](../../docs/REPRODUCIBILITY.md).
 
 The [controls](controls/) contain #302 (`164518/924945`, bound 31) and #727 (`-311/519`, bound 26). They were known curves used to calibrate the search. They are not counted among the eighteen new publications and are excluded from default batches.
 

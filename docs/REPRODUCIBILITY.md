@@ -12,7 +12,7 @@ ers-research sections
 
 The first command verifies all **21 published contributions**: 18 family curves and three improved existing curves. `--controls` also includes #302 and #727. The third command checks the 17 section identities over the rational polynomial ring. These commands need Python only. Rank fields in JSON are not accepted as proofs; the verifier recomputes curve membership, modular character rows, matrix rank and the torsion correction.
 
-`research/catalogue.json` is the canonical index. Each case separates the equation, witness points, certificate, invariants, reproduction recipe and provenance. All rationals in mathematical data are exact strings. Proof replay checks the mathematical contents directly, so JSON formatting and line endings do not affect verification. Recipes and metric records are checked by their respective reproduction and metric commands.
+`research/catalogue.json` is the canonical index. Each case separates the equation, witness points, certificate, invariants, reproduction recipe and case metadata. All rationals in mathematical data are exact strings. Proof replay checks the mathematical contents directly, so JSON formatting and line endings do not affect verification. Recipes and metric records are checked by their respective reproduction and metric commands.
 
 ## 2. Rediscover the lower bounds from declared inputs
 
@@ -54,7 +54,7 @@ dotnet build src/parameter_sieve/ParameterSieve.csproj -c Release
 ers-research campaign --config research/alpoege_family/experiments/grid-smoke.json --sieve src/parameter_sieve/bin/Release/net8.0/ParameterSieve.dll --output runs/sieve-check
 ```
 
-Replace the configuration with `grid-2048.json` or `sample-two-million.json` for the archived broad campaigns. The latter requests six million draws with replacement up to parameter height two million; it does not enumerate every parameter. The grid config enumerates primitive pairs `|u| <= 2048`, `1 <= v <= 2048` and separately scores the known record control. See the [experiment index](../research/alpoege_family/experiments/README.md).
+Replace the configuration with `grid-2048.json` or `sample-two-million.json` for the archived broad campaigns. The latter requests six million primitive parameter draws with replacement up to parameter height two million; it does not enumerate every parameter. The grid config enumerates primitive pairs `|u| <= 2048`, `1 <= v <= 2048` and separately scores the known record control. See the [experiment index](../research/alpoege_family/experiments/README.md).
 
 Outputs contain scored parameters and freshly generated section inputs. Feed a generated seed to `ers seeded` for a chosen target and budget. A sieve score is not a rank certificate, and j-invariant deduplication is not a complete novelty check. The generic model can have bad reduction at a prime even if its minimal model does not; the historical scorer assigns zero at those singular model reductions. The port retains this convention.
 
