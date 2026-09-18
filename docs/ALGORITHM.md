@@ -119,4 +119,3 @@ The implemented search is bounded and heuristic. It does not compute a complete 
 - [ICARM's verifier](https://github.com/icarm/elliptic-rank/blob/main/src/verify.ts): related implementation of the local-character method. The included Python verifier is separately implemented.
 
 We acknowledge the NSF Institute for Computer-Aided Reasoning in Mathematics (ICARM) and NSF Grant DMS 2425401 for the source data and leaderboard infrastructure. Original curve construction and seed-point credit remain with their authors; this project supplies the additional search and lower-bound evidence.
-
